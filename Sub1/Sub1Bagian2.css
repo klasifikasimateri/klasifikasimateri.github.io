@@ -693,10 +693,10 @@ hr{
         width: 150px !important;
     }
     #op1, #op2, #op3, #op4{
-        width: 70px;
+        width: 100px;
         line-height: 1.5;
         position: relative;
-        text-align: center;
+        text-align: justify;
         top: -25px;
         margin-top: 25px;
         margin-left: 20px;
