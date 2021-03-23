@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Klasifikasi Materi </title>
+    <link rel="stylesheet" href="Pertanyaan5.css">
+</head>
+<body>
+    <div class="semua">
+
+        <!-- Header -->
+        <div class="atas">
+            <div class="tb" onclick="tbsidebar()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+          <center><h2>Klasifikasi Materi dan Perubahannya</h2></center>
+        <div class="nk"><a href="../index.html"><img src="Gambar/Home.png" alt="Home" style="height: 60px; width: 60px;"></a></div>
+        </div>
+
+        <!-- Sidebar -->
+        <div id="sidebar">
+            <ol type="A" class="A"><li> Klasifikasi Materi </li></ol>
+            <ol start="1" style="list-style-position: inside;">
+                <a href="../Sub1/Sub1Bagian1.html"><li class="B"> Materi </li></a>
+                <a href="../Sub1/Sub1Bagian4.html"><li class="B"> Unsur, senyawa, dan campuran </li></a>
+                <a href="../Sub1/Kuis.html"><li class="B" style="list-style: none;"> Kuis 1 </li></a>
+            </ol>
+            <ol type="A" start="2" class="A"><li>Perubahan materi</li></ol>
+            <ol start="1" style="list-style-position: inside;">
+                <a href="../Sub2/Sub2Bagian1.html"><li class="B"> Perubahan fisika </li></a>
+                <a href="../Sub2/Sub2Bagian3.html"><li class="B"> Perubahan kimia  </li></a>
+                <a href="../Sub2/Kuis2.html"><li class="B" style="list-style: none;"> Kuis 2 </li></a>
+            </ol>
+            <ol type="A" start="3" class="A hidup"><li>Pemisahan campuran</li></ol>
+            <ol start="1" style="list-style-position: inside;">
+                <a href="../Sub3/Sub3Bagian1.html"><li class="B hidup"> Filtrasi       </li></a>
+                <a href="../Sub3/Sub3Bagian2.html"><li class="B"> Distilasi      </li></a>
+                <a href="../Sub3/Sub3Bagian3.html"><li class="B"> Kromatografi   </li></a>
+                <a href="../Sub3/Sub3Bagian4.html"><li class="B"> Sublimasi      </li></a>
+                <a href="../Sub3/Kuis3.html"> <li class="B" style="list-style: none;"> Kuis 3         </li></a>
+            </ol>
+            <ol style="list-style: none;" class="A"><a href="../Latihan akhir/Latihan.html"><li> Latihan </li></a></ol>
+        </div>
+
+        <!-- Judul -->
+        <div class="judul" id="judul">
+            <center><h2> Pemisahan campuran </h2></center>
+        </div>
+
+        <!-- Isi -->
+        <div class="konten" id="konten"><br>
+            <h3> Pertanyaan </h3>
+            
+            <!-- Pertanyaan -->
+            <div class="pertanyaan">
+
+                <!-- Petunjuk -->
+            <div class="kliksaya">
+                <nav class="tujuanP">
+                        <p> Petunjuk (Klik saya) </p>
+                </nav>
+                <div class="atasa">
+                    <ol class="tujuan">
+                        <li>Jawablah pertanyaan berikut ini!</li>
+                        <li>Pertanyaan ini terdiri dari 4 soal</li>
+                        <li>Setiap pertanyaan memiliki data yang disajikan</li>
+                        <li>Anda diminta memilih jawaban yang benar diantara pilihan jawaban</li>
+                        <li>Jika jawaban anda benar, maka akan tampil pembahasan dan keterangan jawaban benar</li>
+                        <li>Jika jawaban anda salah, maka akan tampil pembahasan dan keterangan jawaban salah</li>
+                        <li>Jika ingin mengulang menjawab pertanyaan, silahkan tekan tombol 'Ulang'</li>
+                        <li>Jika ingin melanjutkan menjawab pertanyaan, silahkan tekan tombol 'Selanjutnya' pada nomor soal</li>
+                        <li>Jika ingin kembali ke pertanyaan sebelumnya, silahkan tekan tombol 'Sebelumnya' pada nomor soal</li>
+                    </ol>
+                </div>
+            </div>
+            <br>
+            <hr class="Gperta">
+            <br>
+
+            <!-- Soal 1 -->
+            <div class="perta">
+                <ol>
+                    <li class="ket1"> Perhatikan gambar di bawah ini! </li>
+                </ol>
+                <img src="Gambar/Pertanyaan5/Larutan garam.jpg" class="Kayu">
+                <img src="Gambar/Pertanyaan5/Larutan kopi.jpg" class="Kayu">
+                <img src="Gambar/Pertanyaan5/Larutan teh.jpg" class="Kayu">
+                <img src="Gambar/Pertanyaan5/Larutan tanah.jpg" class="Kayu"><br>
+                <span class="larutanG"> (Larutan garam) </span> <span class="larutanK"> (Larutan kopi) </span> <span class="larutanT"> (Larutan teh) </span> <span class="larutant"> (Larutan tanah) </span>
+                <p class="soalku"> Berdasarkan gambar di atas, campuran yang dapat dipisahkan menggunakan metode filtrasi diantaranya adalah ... </p>
+                <div class="pilihan">
+                    <ol type="a" id="ul">
+                        <li id="op1" onclick="salah(1)"> Larutan garam dan larutan kopi </li>
+                        <li id="op2" onclick="salah(2)"> Larutan kopi dan larutan teh </li>
+                        <li id="op3" onclick="benar(1)"> Larutan tanah dan larutan kopi </li>
+                        <li id="op4" onclick="salah(3)"> Larutan teh dan larutan garam </li>
+                    </ol>
+                </div>
+                <div class="tombol hilang">
+                    <button class="ulang"> Ulang </button>
+                </div>
+                <div class="pembahasan ukuran hilang">
+                    <span class="jbbenar"> Jawaban anda benar </span><br> 
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Campuran yang dapat dipisahkan dengan menggunakan metode filtrasi adalah larutan tanah dan larutan kopi karena campuran tersebut memiliki endapan.
+                    </p>
+                </div>
+                <div class="pembahasan ukuran1 hilang">
+                    <span class="jbsalah"> Jawaban anda belum benar. </span> 
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Silahkan tekan tombol ulang & pilih kembali jawaban yang benar.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Soal 2 -->
+            <div class="perta">
+                <ol start="2">
+                    <li class="ket1"> Perhatikan langkah - langkah pembuatan santan kelapa berikut ini! </li>
+                </ol>
+                <ol type="a" class="dataF">
+                    <li> Kupas kulit buah kelapa sampai bersih dan sisakan daging kelapa. </li>
+                    <li> Parutlah daging kelapa yang sebelumnya telah dibersihkan. </li>
+                    <li> Tempatkan daging kelapa yang telah diparut ke dalam wadah lalu tambahkan sedikit air. </li>
+                    <li> Tempatkan daging kelapa yang telah bercampur dengan air ke dalam saringan. </li>
+                    <li> Remas-remas daging kelapa sampai keluar santan kelapa. </li>
+                </ol>
+                <p class="soala"> Berdasarkan langkah-langkah pembuatan santan kelapa di atas, langkah yang menunjukkan pemisahan campuran metode filtrasi adalah ... </p>
+                <div class="pilihan">
+                    <ol type="a" id="ul">
+                        <li id="op5" onclick="salah(4)"> Mengupas buah kelapa </li>
+                        <li id="op6" onclick="salah(5)"> Memarut daging kelapa </li>
+                        <li id="op7" onclick="benar(2)"> Menyaring daging kelapa</li>
+                        <li id="op8" onclick="salah(6)"> Meremas daging kelapa </li>
+                    </ol>
+                </div>
+                <div class="tombol hilang">
+                    <button class="ulang"> Ulang </button>
+                </div>
+                <div class="pembahasan ukuran hilang">
+                    <span class="jbbenar"> Jawaban anda benar </span><br> 
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Berdasarkan langkah-langkah pembuatan santan kelapa di atas, langkah yang menunjukkan pemisahan campuran metode filtrasi adalah menyaring daging kelapa.
+                    </p>
+                </div>
+                <div class="pembahasan ukuran1 hilang">
+                    <span class="jbsalah"> Jawaban anda belum benar. </span>
+                    <p> <b><u> Petunjuk: </u></b><br>
+                        Silahkan tekan tombol ulang & pilih kembali jawaban yang benar.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Soal 3 -->
+            <div class="perta">
+                <ol start="3">
+                    <li class="soal"> Di bawah ini yang menjadi faktor yang mempengaruhi pemisahan campuran metode filtrasi adalah ... <br> (silahkan pilih 2 pilihan) </li>
+                </ol>
+                <div class="pil">
+                   <label class="pilihan">
+                       <table>
+                           <tr>
+                               <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan" onclick="return cekbox(1)"> a. </td>
+                               <td class="ket"> <span class="nav_pilihan"></span> Debit air </td>
+                           </tr>
+                       </table>
+                   </label>
+                   <label class="pilihan">
+                       <table>
+                           <tr>
+                               <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan" onclick="return cekbox(1)"> b. </td>
+                               <td class="ket"> <span class="nav_pilihan"></span> Rambatan air </td>
+                           </tr>
+                       </table>
+                    </label>
+                    <label class="pilihan">
+                        <table>
+                            <tr>
+                                <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan" onclick="return cekbox(1)"> c. </td>
+                                <td class="ket"> <span class="nav_pilihan"></span> Banyaknya endapan </td>
+                            </tr>
+                        </table>
+                    </label>
+                    <label class="pilihan">
+                        <table>
+                            <tr>
+                                <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan" onclick="return cekbox(1)"> d. </td>
+                                <td class="ket"> <span class="nav_pilihan"></span> Besarnya penyaring </td>
+                            </tr>
+                        </table>
+                    </label>
+                    <label class="pilihan">
+                        <table>
+                            <tr>
+                                <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan" onclick="return cekbox(1)"> e. </td>
+                                <td class="ket"> <span class="nav_pilihan"></span> Diameter rongga penyaring </td>
+                            </tr>
+                        </table>
+                    </label>
+                </div><br>
+
+                <button class="cekJb" onclick="cekjawab(1)"> Cek jawaban </button>
+               
+                <div class="pembahasan ukuran4 hilang">
+                    <span class="jbbenar"> Jawaban anda benar </span><br> 
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Faktor yang mempengaruhi pemisahan campuran metode filtrasi adalah debit air dan diameter rongga penyaring.
+                    </p>
+                </div>
+                <div class="pembahasan ukuran4 hilang">
+                    <span class="jbsalah"> Jawaban anda belum benar. </span> Silahkan tekan tombol ulang
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Faktor yang mempengaruhi pemisahan campuran metode filtrasi ada tiga faktor, dua diantaranya ada dalam data di atas.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Soal 4 -->
+            <div class="perta">
+                <ol start="4">
+                    <li class="ket1"> Perhatikan gambar di bawah ini! </li>
+                </ol>
+                <img src="Gambar/Alat lab/Corong.jpg" class="Kayu">
+                <img src="Gambar/Alat lab/Labu erlenmeyer.jpg" class="Kayu">
+                <img src="Gambar/Pertanyaan5/Kondensor.jpg" class="Kayu">
+                <img src="Gambar/Pertanyaan5/kaca arloji.jpg" class="Kayu"><br>
+                <span class="CK"> (Corong kaca) </span> <span class="LE"> (Labu Erlenmeyer) </span> <span class="K"> (Kondensor) </span> <span class="KA"> (Kaca arloji) </span>
+                <p class="soalku kecil">Pada gambar di atas, peralatan yang dapat digunakan dalam pemisahan campuran metode filtrasi diantaranya adalah ... </p>
+                <div class="pilihan">
+                    <ol type="a" id="ul">
+                        <li id="op9" onclick="salah(7)"> Corong kaca dan kondensor </li>
+                        <li id="op10" onclick="benar(3)"> Labu erlenmeyer dan corong kaca </li>
+                        <li id="op11" onclick="salah(8)"> Kondensor dan kaca arloji </li>
+                        <li id="op12" onclick="salah(9)"> Kaca arloji dan labu erlenmeyer </li>
+                    </ol>
+                </div>
+                <div class="tombol hilang">
+                    <button class="ulang"> Ulang </button>
+                </div>
+                <div class="pembahasan ukuran2 hilang">
+                    <span class="jbbenar"> Jawaban anda benar </span><br> 
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Alat yang dapat digunakan dalam pemisahan campuran metode filtrasi adalah labu erlenmeyer dan corong kaca.
+                    </p>
+                </div>
+                <div class="pembahasan ukuran3 hilang">
+                    <span class="jbsalah"> Jawaban anda belum benar. </span> Silahkan tekan tombol ulang
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Silahkan tekan tombol ulang & pilih kembali jawaban yang benar.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Navigasi soal -->
+            <div class="Nav-soal"> Nomor soal: <br>
+                <div class="sebelumnya" onclick="SoalT(-1)"> Sebelumnya </div>
+                <div class="soal1 aktif" onclick="NomorSoal(1)">1</div>
+                <div class="soal1" onclick="NomorSoal(2)">2</div>
+                <div class="soal1" onclick="NomorSoal(3)">3</div>
+                <div class="soal1" onclick="NomorSoal(4)">4</div>
+                <div class="selanjutnya" onclick="SoalT(1)"> Selanjutnya </div>
+            </div>
+            </div><br>
+        </div>
+
+        <!-- Navbottom -->
+        <div class="Nav-Lanjut" id="navigasi">
+            <a href="Sub3Bagian1.html"><div class="Lanjut"> Sebelumnya </div></a>
+            <a href="Sub3Bagian1.html"><div class="Lanjut">1</div></a>
+            <a href="Pertanyaan5.html"><div class="Lanjut aktif_konten">2</div></a>
+            <a href="Sub3Bagian2.html"><div class="Lanjut"> Selanjutnya </div></a>
+        </div>
+    </div>
+    
+    <script src="Pertanyaan5.js"></script>
+</body>
+</html>

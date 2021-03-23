@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="KontrolMedia.css">
+    <title> Kontrol media </title>
+</head>
+<body onload="aktif()">
+    <div class="semua">
+        <!-- Atas -->
+        <div class="atas">
+            <center><h1> Klasifikasi materi dan perubahannya </h1></center>
+            <div class="nk"><a href="Indexnew.html"><img src="Gambar/Home.png" alt="Home" style="height: 90px; width: 90px;"></a></div>
+         </div>
+ 
+         <!-- Pencarian -->
+         <div class="cari"><center>
+             <a href="TampilData.html"> <div class="NilaiSiswa"> <p>Nilai siswa</p> </div> </a>
+             <a href="TampilData1.html"> <div class="jawabanSiswa"> <p>Jawaban siswa</p> </div> </a>
+             <a href="KontrolMedia.html"> <div class="kontrol aktif"> <p>Kunci materi</p> </div> </a>
+         </div></center>
+
+         <!-- Isi -->
+         <center>
+         <div class="KontrolMedia">
+            <div class="kuis1">
+                <p> Kunci kuis 1</p> <button class="btnkunci"> Terkunci </button> <button class="btntkunci"> Tidak terkunci </button>
+            </div>
+            <div class="kuis2">
+                <p> Kunci kuis 2</p> <button class="btnkunci1"> Terkunci </button> <button class="btntkunci1"> Tidak terkunci </button>
+            </div>
+            <div class="kuis2">
+                <p> Kunci kuis 3</p> <button class="btnkunci2"> Terkunci </button> <button class="btntkunci2"> Tidak terkunci </button>
+            </div>
+         </div>
+        </center>
+    </div>
+    
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-database.js"></script>
+    <script src="Kontrolmedia.js"></script>
+</body>
+</html>

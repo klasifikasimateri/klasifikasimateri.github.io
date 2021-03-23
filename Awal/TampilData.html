@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TampilData.css">
+    <title> Tampil jawaban siswa </title>
+</head>
+<body>
+    <div class="semua">
+        <!-- Atas -->
+        <div class="atas">
+           <center><h1> Klasifikasi materi dan perubahannya </h1></center>
+           <div class="nk"><a href="Indexnew.html"><img src="Gambar/Home.png" alt="Home" style="height: 90px; width: 90px;"></a></div>
+        </div>
+
+        <!-- Pencarian -->
+        <div class="cari"><center>
+            <div class="NilaiSiswa aktif"> <p>Nilai siswa</p> </div>
+            <a href="TampilData1.html"> <div class="jawabanSiswa"> <p>Jawaban siswa</p> </div> </a>
+            <a href="KontrolMedia.html"> <div class="kontrol"> <p>Kunci materi</p> </div> </a>
+        </div></center>
+        <div class="pilihan">
+            <center><label for="Kuisku" class="kuis">
+                <select name="Kuis" id="SelectKuis" aria-placeholder="- Pilih Kuis -">
+                    <option value="0"> - Pilih Kuis - </option>
+                    <option value="1"> Kuis 1 </option>
+                    <option value="2"> Kuis 2 </option>
+                    <option value="3"> Kuis 3 </option>
+                </select>
+            </label></center>
+            <div class="bawahPil">
+                <div class="sekolah">
+                    <label for="sekolah"> Sekolah:
+                        <select name="Sekolah" id="SelectSekolah" aria-placeholder="- Pilih Sekolah -">
+                            <option value="0"> - Pilih Sekolah - </option>
+                            <option value="1"> SMP Mantap </option>
+                            <option value="2"> SMP Sukses </option>
+                        </select>
+                    </label>
+                </div>
+                <div class="kelas">
+                    <label for="Kelas"> Kelas:
+                        <select name="Kelas" id="SelectKelas" aria-placeholder="- Pilih Kelas -">
+                            <option value="0"> - Pilih Kelas - </option>
+                            <option value="1"> VII A </option>
+                            <option value="2"> VII B </option>
+                        </select>
+                    </label>
+                </div>
+                <div class="pilCari" onclick="readlah()"><p> Cari </p></div>
+                <div class="pilDownload"><p> Download </p></div>
+            </div><br><br>
+            <table class="Isi1">
+               <thead>
+                <tr>
+                    <th class="ukr1"> Sekolah </th>
+                    <th class="ukr3"> Kelas </th>
+                    <th class="ukr1"> Nama </th>
+                    <th class="ukr3"> Nilai </th>
+                    <th class="ukr2"> Hari </th>
+                    <th class="ukr2"> Waktu </th>
+                    <th class="ukr4"> Hapus </th>
+                </tr>
+               </thead>
+               <tbody id="IsiKuis">
+
+               </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-database.js"></script>
+
+    <script src="TampilData.js"></script>
+</body>
+</html>

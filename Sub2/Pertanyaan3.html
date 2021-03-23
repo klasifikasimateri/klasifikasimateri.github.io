@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Klasifikasi Materi </title>
+    <link rel="stylesheet" href="Pertanyaan3.css">
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+        });
+    </script>
+    <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+</head>
+<body>
+    <div class="semua">
+
+        <!-- Header -->
+        <div class="atas">
+            <div class="tb" onclick="tbsidebar()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+          <center><h2>Klasifikasi Materi dan Perubahannya</h2></center>
+        <div class="nk"><a href="../index.html"><img src="Gambar/Home.png" alt="Home" style="height: 60px; width: 60px;"></a></div>
+        </div>
+
+        <!-- Sidebar -->
+        <div id="sidebar">
+            <ol type="A" class="A"><li> Klasifikasi Materi </li></ol>
+            <ol start="1" style="list-style-position: inside;">
+                <a href="../Sub1/Sub1Bagian1.html"><li class="B"> Materi </li></a>
+                <a href="../Sub1/Sub1Bagian4.html"><li class="B"> Unsur, senyawa, dan campuran </li></a>
+                <a href="../Sub1/Kuis.html"><li class="B" style="list-style: none;"> Kuis 1 </li></a>
+            </ol>
+            <ol type="A" start="2" class="A hidup"><li>Perubahan materi</li></ol>
+            <ol start="1" style="list-style-position: inside;">
+                <a href="../Sub2/Sub2Bagian1.html"><li class="B hidup"> Perubahan fisika </li></a>
+                <a href="../Sub2/Sub2Bagian3.html"><li class="B"> Perubahan kimia  </li></a>
+                <a href="../Sub2/Kuis2.html"><li class="B" style="list-style: none;"> Kuis 2 </li></a>
+            </ol>
+            <ol type="A" start="3" class="A"><li>Pemisahan campuran</li></ol>
+            <ol start="1" style="list-style-position: inside;">
+                <a href="../Sub3/Sub3Bagian1.html"><li class="B"> Filtrasi       </li></a>
+                <a href="../Sub3/Sub3Bagian2.html"><li class="B"> Distilasi      </li></a>
+                <a href="../Sub3/Sub3Bagian3.html"><li class="B"> Kromatografi   </li></a>
+                <a href="../Sub3/Sub3Bagian4.html"><li class="B"> Sublimasi      </li></a>
+                <a href="../Sub3/Kuis3.html"> <li class="B" style="list-style: none;"> Kuis 3         </li></a>
+            </ol>
+            <ol style="list-style: none;" class="A"><a href="../Latihan akhir/Latihan.html"><li> Latihan </li></a></ol>
+        </div>
+
+        <!-- Judul -->
+        <div class="judul" id="judul">
+            <center><h2> Perubahan materi </h2></center>
+        </div>
+
+        <!-- Isi -->
+        <div class="konten" id="konten"><br>
+            <h3> Pertanyaan </h3>
+            
+            <!-- Pertanyaan -->
+            <div class="pertanyaan">
+
+                <!-- Petunjuk -->
+            <div class="kliksaya">
+                <nav class="tujuanP">
+                        <p> Petunjuk (Klik saya) </p>
+                </nav>
+                <div class="atasa">
+                    <ol class="tujuan">
+                        <li>Jawablah pertanyaan berikut ini!</li>
+                        <li>Pertanyaan ini terdiri dari 5 soal</li>
+                        <li>Setiap pertanyaan memiliki data yang disajikan</li>
+                        <li>Anda diminta memilih jawaban yang benar diantara pilihan jawaban</li>
+                        <li>Jika jawaban anda benar, maka akan tampil pembahasan dan keterangan jawaban benar</li>
+                        <li>Jika jawaban anda salah, maka akan tampil pembahasan dan keterangan jawaban salah</li>
+                        <li>Jika ingin mengulang menjawab pertanyaan, silahkan tekan tombol 'Ulang'</li>
+                        <li>Jika ingin melanjutkan menjawab pertanyaan, silahkan tekan tombol 'Selanjutnya' pada nomor soal</li>
+                        <li>Jika ingin kembali ke pertanyaan sebelumnya, silahkan tekan tombol 'Sebelumnya' pada nomor soal</li>
+                    </ol>
+                </div>
+            </div>
+            <br>
+            <hr class="Gperta">
+            <br>
+
+            <!-- Soal 1 -->
+            <div class="perta">
+                <ol>
+                    <li class="soal"> Di bawah ini yang menjadi karakteristik dari perubahan fisika adalah ... <br> (silahkan pilih 2 pilihan) </li>
+                </ol>
+                <div class="pil">
+                   <label class="pilihan">
+                       <table>
+                           <tr>
+                               <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan" onclick="return cekbox()"> a. </td>
+                               <td class="ket"> <span class="nav_pilihan"></span> Perubahan yang terjadi tidak dapat merubah materi ke bentuk semula </td>
+                           </tr>
+                       </table>
+                   </label><br>
+                   <label class="pilihan">
+                       <table>
+                           <tr>
+                               <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan" onclick="return cekbox()"> b. </td>
+                               <td class="ket"> <span class="nav_pilihan"></span> Perubahan yang terjadi hanya berupa perubahan wujud pada zat </td>
+                           </tr>
+                       </table>
+                    </label><br>
+                    <label class="pilihan">
+                        <table>
+                            <tr>
+                                <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan" onclick="return cekbox()"> c. </td>
+                                <td class="ket"> <span class="nav_pilihan"></span> Perubahan yang terjadi menghasilkan warna baru </td>
+                            </tr>
+                        </table>
+                    </label><br>
+                    <label class="pilihan">
+                        <table>
+                            <tr>
+                                <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan" onclick="return cekbox()"> d. </td>
+                                <td class="ket"> <span class="nav_pilihan"></span> Hasil dari reaksi berupa terbentuknya gas baru </td>
+                            </tr>
+                        </table>
+                    </label><br>
+                    <label class="pilihan">
+                        <table>
+                            <tr>
+                                <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan" onclick="return cekbox()"> e. </td>
+                                <td class="ket"> <span class="nav_pilihan"></span> Tidak menghasilkan atau membentuk zat baru </td>
+                            </tr>
+                        </table>
+                    </label>
+                </div>
+
+                <button class="cekJb" onclick="cekjawab()"> Cek jawaban </button>
+                
+                <div class="pembahasan hilang">
+                    <span class="jbbenar"> Jawaban anda benar </span><br> 
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Karakteristik yang dimiliki oleh perubahan fisika diantaranya adalah perubahan yang terjadi hanya berupa perubahan wujud pada zat dan tidak menghasilkan atau membentuk zat baru.
+                    </p>
+                </div>
+                <div class="pembahasan hilang">
+                    <span class="jbsalah"> Jawaban anda belum benar. </span> 
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Silahkan pilih kembali jawaban yang benar
+                    </p>
+                </div>
+            </div>
+
+            <!-- Soal 2 -->
+            <div class="perta">
+                <ol start="2">
+                    <li class="ket1"> Perhatikan gambar di bawah ini! </li>
+                </ol>
+                <img src="Gambar/Jemuran.jpg" class="Benda">
+                <br>
+                <p class="soala"> Berdasarkan gambar di atas, jenis perubahan fisika yang terjadi ketika baju basah di jemur di bawah sinar matahari dan berubah menjadi kering adalah ... </p>
+                <div class="pilihan">
+                    <ol type="a" id="ul">
+                        <li id="op1" onclick="salah(1)"> Mencair </li>
+                        <li id="op2" onclick="salah(2)"> Mengembun </li>
+                        <li id="op3" onclick="benar(1)"> Menguap </li>
+                        <li id="op4" onclick="salah(3)"> Membeku </li>
+                    </ol>
+                </div>
+                <div class="tombol hilang">
+                    <button class="ulang"> Ulang </button>
+                </div>
+                <div class="pembahasan ukuran hilang">
+                    <span class="jbbenar"> Jawaban anda benar </span><br> 
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Ketika baju basah di jemur di bawah sinar matahari, sinar matahari dapat memanaskan air yang ada pada baju dan membuat baju berubah menjadi kering. Jenis perubahan fisika yang terjadi adalah menguap.
+                    </p>
+                </div>
+                <div class="pembahasan ukuran hilang">
+                    <span class="jbsalah"> Jawaban anda belum benar. </span> Silahkan tekan tombol ulang
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Ketika baju basah di jemur di bawah sinar matahari, sinar matahari dapat memanaskan air yang ada pada baju dan membuat baju berubah menjadi kering. Jenis perubahan fisika yang terjadi adalah ...
+                    </p>
+                </div>
+            </div>
+
+            <!-- Soal 3 -->
+            <div class="perta">
+                <ol start="3">
+                    <li class="ket1"> Perhatikan video di bawah ini! </li>
+                </ol>
+                <video id="videoku" class="Bendaku" autoplay loop>
+                    <source src="Video/Mencair.mp4" type="video/mp4">
+                </video>
+                <br>
+                <p class="soala"> Berdasarkan video di atas, jenis perubahan fisika yang terjadi ketika mentega dipanaskan menggunakan lilin adalah ... </p>
+                <div class="pilihan">
+                    <ol type="a" id="ul">
+                        <li id="op5" onclick="benar(2)"> Mencair </li>
+                        <li id="op6" onclick="salah(4)"> Mengembun </li>
+                        <li id="op7" onclick="salah(5)"> Menguap </li>
+                        <li id="op8" onclick="salah(6)"> Membeku </li>
+                    </ol>
+                </div>
+                <div class="tombol hilang">
+                    <button class="ulang"> Ulang </button>
+                </div>
+                <div class="pembahasan ukuran hilang">
+                    <span class="jbbenar"> Jawaban anda benar </span><br> 
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Ketika mentega dipanaskan menggunakan lilin, mentega yang berwujud padatan akan berubah wujud menjadi cair. Berdasarkan hal tersebut jenis perubahan fisika yang terjadi adalah mencair.
+                    </p>
+                </div>
+                <div class="pembahasan ukuran hilang">
+                    <span class="jbsalah"> Jawaban anda belum benar. </span> Silahkan tekan tombol ulang
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Ketika mentega dipanaskan menggunakan lilin, mentega yang berwujud padatan akan berubah wujud menjadi cair. Berdasarkan hal tersebut jenis perubahan fisika yang terjadi adalah ...
+                    </p>
+                </div>
+            </div>
+
+            <!-- Soal 4 -->
+            <div class="perta">
+                <ol start="4">
+                    <li class="soal"> Sebuah benda padat memiliki massa 60 gram dan ketika diukur volume dari benda tersebut adalah 12 cm<sup>3</sup>. Berapakah massa jenis dari benda tersebut ?</li>
+                </ol>
+                <div class="penyelesaian"> Penyelesaian </div>
+                <p class="keterangan"> <b> Diketahui: </b> </p>
+                    <p class="nilai"> $m$ &nbsp; = &nbsp; 60 gram <br> $V$ &nbsp; = &nbsp; 12 cm<sup>3</sup> </p>
+                <p class="keterangan"> <b> Ditanya: </b> </p>
+                    <p class="nilai"> Massa jenis benda ($p$) ? </p>
+                <p class="keterangan"> <b> Jawab: </b> </p>
+                    <p class="nilai"> Untuk menghitung massa jenis menggunakan rumus <span class="rumus"> $ p &nbsp; = &nbsp; \frac{m}{V} $ </span> </p><br>
+                <div class="nilai">
+                    <span class="rumusJ"> $p$ </span> = <input type="text" class="jawaban1" id="jawaban" maxlength="2"> <hr class="pembagi"> <input type="text" class="jawaban1" id="jawaban2" maxlength="2">
+                </div>
+                <div class="nilaiA hilang">
+                    <span class="rumusJ"> $p$ </span> = <input type="text" class="jawaban1" id="jawabanAk" maxlength="2">
+                </div>
+                <div class="pembahasan hilang" id="A2">
+                    <span class="jbbenar"> Jawaban anda benar </span><br> 
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Hasil perhitungan massa jenis dari benda adalah 5 gram / cm<sup>3</sup>
+                    </p>
+                </div>
+                <div class="pembahasan hilang" id="B2">
+                    <span class="jbsalah"> Jawaban anda belum benar. </span> Silahkan jawab kembali
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Hitunglah massa jenis benda dengan membagi massa benda dengan volume benda yaitu 60 dibagi 12 = ... <br> Tuliskan jawaban anda ke dalam kolom yang berwarna merah.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Soal 5 -->
+            <div class="perta">
+                <ol start="5">
+                    <li class="soal"> Sebuah benda padat memiliki massa 98 gram dan ketika diukur volume dari benda tersebut adalah 14 cm<sup>3</sup>. Berapakah massa jenis dari benda tersebut ?</li>
+                </ol>
+                <div class="penyelesaian"> Penyelesaian </div>
+                <p class="keterangan"> <b> Diketahui: </b> </p>
+                    <p class="nilai"> $m$ &nbsp; = &nbsp; 98 gram <br> $V$ &nbsp; = &nbsp; 14 cm<sup>3</sup> </p>
+                <p class="keterangan"> <b> Ditanya: </b> </p>
+                    <p class="nilai"> Massa jenis benda ($p$) ? </p>
+                <p class="keterangan"> <b> Jawab: </b> </p>
+                    <p class="nilai"> Untuk menghitung massa jenis menggunakan rumus <span class="rumus"> $ p &nbsp; = &nbsp; \frac{m}{V} $ </span> </p><br>
+                <div class="nilai">
+                    <span class="rumusJ"> $p$ </span> = <input type="text" class="jawaban1" id="jawaban" maxlength="2"> <hr class="pembagi"> <input type="text" class="jawaban1" id="jawaban2" maxlength="2">
+                </div>
+                <div class="nilaiA hilang">
+                    <span class="rumusJ"> $p$ </span> = <input type="text" class="jawaban1" id="jawabanAk" maxlength="2">
+                </div>
+                <div class="pembahasan hilang" id="A2">
+                    <span class="jbbenar"> Jawaban anda benar </span><br> 
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Hasil perhitungan massa jenis dari benda adalah 7 gram / cm<sup>3</sup>
+                    </p>
+                </div>
+                <div class="pembahasan hilang" id="B2">
+                    <span class="jbsalah"> Jawaban anda belum benar. </span> Silahkan jawab kembali
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Hitunglah massa jenis benda dengan membagi massa benda dengan volume benda yaitu 98 dibagi 14 = ... <br> Tuliskan jawaban anda ke dalam kolom yang berwarna merah.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Navigasi soal -->
+            <div class="Nav-soal"> Nomor soal: <br>
+                <div class="sebelumnya" onclick="SoalT(-1)"> Sebelumnya </div>
+                <div class="soal1 aktif" onclick="NomorSoal(1)">1</div>
+                <div class="soal1" onclick="NomorSoal(2)">2</div>
+                <div class="soal1" onclick="NomorSoal(3)">3</div>
+                <div class="soal1" onclick="NomorSoal(4)">4</div>
+                <div class="soal1" onclick="NomorSoal(5)">5</div>
+                <div class="selanjutnya" onclick="SoalT(1)"> Selanjutnya </div>
+            </div>
+            </div><br>
+        </div>
+
+        <!-- Navbottom -->
+        <div class="Nav-Lanjut" id="navigasi">
+            <a href="Sub2Bagian2.html"><div class="Lanjut"> Sebelumnya </div></a>
+            <a href="Sub2Bagian1.html"><div class="Lanjut">1</div></a>
+            <a href="Sub2Bagian1-1.html"><div class="Lanjut">2</div></a>
+            <a href="Sub2Bagian1-2.html"><div class="Lanjut">3</div></a>
+            <a href="Sub2Bagian1-3.html"><div class="Lanjut">4</div></a>
+            <a href="Sub2Bagian1-4.html"><div class="Lanjut">5</div></a>
+            <a href="Sub2Bagian2.html"><div class="Lanjut">6</div></a>
+            <a href="Pertanyaan3.html"><div class="Lanjut aktif_konten">7</div></a>
+            <a href="Sub2Bagian3.html"><div class="Lanjut"> Selanjutnya </div></a>
+        </div>
+    </div>
+    
+    <script src="Pertanyaan3.js"></script>
+</body>
+</html>

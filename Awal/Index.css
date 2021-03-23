@@ -1,0 +1,233 @@
+@media only screen and (min-width: 320px){
+    body{
+        background-color: powderblue;
+        margin: 0px;
+    }
+    header{
+        background-color: rgba(90, 90, 136, 0.993);
+        width: 100%;
+        height: 210px;
+    }
+    header h1{
+        font-size: 55px;
+        border-bottom: 2px solid white;
+        color: white;
+        text-align: center;
+        position: relative;
+        display: inline-block;
+        padding: 5px;
+        letter-spacing: 2px;
+        margin-left: 20vw;
+        top: 10px;
+        margin-top: 0px;
+    }
+    header h2{
+        font-size: 45px;
+        color: white;
+        text-align: center;
+        display: inline-block;
+        border: 5px solid white;
+        border-radius: 35px;
+        padding: 120px 50px 0px 50px;
+        letter-spacing: 2px;
+        margin-left: 4vw;
+        margin-top: -102px;
+    }
+    .kikd{
+        margin-top: -100px;
+        float: none;
+        width: -1vw;
+        height: 45vh;
+    }
+    .kikd p{
+        font-size: 45px;
+        position: relative;
+        margin-top: -100px;
+        margin-left: 0px;
+    }
+    .kikd a{
+        text-decoration: none;
+        color: black;
+    }
+    .Materi{
+        margin-top: -150px;
+        float: none;
+        width: -1vw;
+        height: 30vh;
+    }
+    .Materi a{
+        text-decoration: none;
+        color: black;
+        font-size: 40px;
+    }
+    .info{
+        float: none;
+        width: -1vw;
+        height: 0vh;
+    }
+    .info a{
+        text-decoration: none;
+        color: black;
+        font-size: 40px;
+    }
+    .img1{
+        margin-top: 12px;
+        margin-left: 0px;
+        width: 70vw;
+        height: 35vh;
+        transition: 0.5s;
+    }
+    .img3{
+        padding-left: 0px;
+        padding-top: 0px;
+        width: 30vw;
+        height: 20vh;
+        transition: 0.5s;
+    }
+    .img2{
+        margin-left: 0px;
+        width: 35vw;
+        height: 25vh;
+        transition: 0.5s;
+    }
+    .footer{
+        position: relative;
+        padding: 5px;
+        margin-top: 25vh;
+        margin-left: 2px;
+        width: 99vw;
+        height: 140px;
+        font-family: 'Libre Franklin', sans-serif;
+        background-color: rgba(90, 90, 136, 0.993);
+        color: white;
+    }
+    .footer p{
+        font-size: 35px;
+        position: relative;
+        top: -25px;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    body{
+        background-color: powderblue;
+        margin: 0px;
+    }
+    header{
+        background-color: rgba(90, 90, 136, 0.993);
+        width: 100vw;
+        height: 120px;
+    }
+    header h1{
+        font-size: 30px;
+        border-bottom: 2px solid white;
+        color: white;
+        text-align: center;
+        position: relative;
+        display: inline-block;
+        padding: 5px;
+        letter-spacing: 2px;
+        margin-left: 38vw;
+        top: 10px;
+        margin-top: 0px;
+    }
+    header h2{
+        font-size: 27px;
+        color: white;
+        text-align: center;
+        display: inline-block;
+        border: 5px solid white;
+        border-radius: 35px;
+        padding: 70px 50px 0px 50px;
+        letter-spacing: 2px;
+        margin-left: 29vw;
+        margin-top: -62px;
+    }
+    .kikd{
+        margin-top: 13px;
+        float: left;
+        width: 35vw;
+        height: 52vh;
+    }
+    .kikd p{
+        font-size: 20px;
+        position: relative;
+        margin-top: -75px;
+        margin-left: -40px;
+    }
+    .kikd a{
+        text-decoration: none;
+        color: black;
+    }
+    .Materi{
+        margin-top: 80px;
+        float: left;
+        width: 30vw;
+        height: 50vh;
+    }
+    .Materi a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+    .info{
+        float: left;
+        width: 30vw;
+        height: 50vh;
+    }
+    .info a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+    .img1{
+        margin-left: -40px;
+        width: 37vw;
+        height: 60vh;
+        transition: 0.5s;
+    }
+    .img3{
+        padding-left: 50px;
+        padding-top: 110px;
+        width: 18vw;
+        height: 35vh;
+        transition: 0.5s;
+    }
+    .img2{
+        margin-left: 0px;
+        width: 19vw;
+        height: 39vh;
+        transition: 0.5s;
+    }
+    .img1:hover{
+        width: 38vw;
+        height: 61vh;
+        transition: 0.5s;
+    }
+    .img2:hover{
+        width: 20vw;
+        height: 40vh;
+        transition: 0.5s;
+    }
+    .img3:hover{
+        width: 19vw;
+        height: 36vh;
+        transition: 0.5s;
+    }
+    .footer{
+        position: relative;
+        padding: 5px;
+        margin-top: 460px;
+        margin-left: 2px;
+        width: 99vw;
+        height: 11.5vh;
+        font-family: 'Libre Franklin', sans-serif;
+        background-color: rgba(90, 90, 136, 0.993);
+        color: white;
+    }
+    .footer p{
+        font-size: 18px;
+        position: relative;
+        top: -15px;
+    }
+}

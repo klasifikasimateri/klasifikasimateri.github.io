@@ -1,0 +1,202 @@
+[
+    {
+        "Soal0":{
+            "pertanyaan":"<p class='soalku'> Sebuah materi memiliki karakteristik ketika ditempatkan ke dalam sebuah wadah, materi tersebut tidak dapat memenuhi wadah penampungnya dan bentuk dari materi tersebut dapat berubah dengan cara tertentu. Wujud dari materi tersebut adalah ... </p>",
+            "pilihanA":"Padat",
+            "pilihanB":"Cair",
+            "pilihanC":"Gas",
+            "pilihanD":"Tidak berwujud",
+            "jawaban":"a"
+        }
+    },
+    {
+        "Soal1":{
+            "pertanyaan":"<p class='soalku'> Sebuah materi dapat menghantarkan panas dengan tidak terlalu baik tetapi dapat menghantarkan listrik. Berdasarkan pernyataan tersebut dapat di identifikasi jenis dari materi adalah ... </p>",
+            "pilihanA":"Unsur logam",
+            "pilihanB":"Unsur semilogam",
+            "pilihanC":"Unsur nonlogam",
+            "pilihanD":"Senyawa organik",
+            "jawaban":"b"
+        }
+    },
+    {
+        "Soal2":{
+            "pertanyaan":"<p class='soalku'> Sebuah larutan ketika dicampurkan dengan ekstrak kunyit larutan tersebut berubah menjadi warna merah. Sifat dari larutan tersebut adalah ... </p>",
+            "pilihanA":"Asam",
+            "pilihanB":"Basa",
+            "pilihanC":"Garam",
+            "pilihanD":"Netral",
+            "jawaban": "b"
+        }
+    },
+    {
+        "Soal3":{
+            "pertanyaan":"<p class='soalku'> Sebuah materi tersusun atas dua buah zat tunggal yang tidak dapat dibedakan antara zat terlarut dan zat pelarutnya. Berdasarkan pernyataan tersebut dapat di identifikasi jenis dari materi adalah ... </p>",
+            "pilihanA":"Senyawa organik",
+            "pilihanB":"Senyawa anorganik",
+            "pilihanC":"Campuran homogen",
+            "pilihanD":"Campuran heterogen",
+            "jawaban":"c"
+        }
+    },
+    {
+        "Soal4":{
+            "pertanyaan":"<p class='soalku'> Pada saat menggoreng telur ibu mengoleskan mentega terlebih dahulu ke teflon mentega lama-kelamaan berubah wujud. Dari kejadian berikut, jenis perubahan wujud yang terjadi adalah ... </p>",
+            "pilihanA":"Mencair",
+            "pilihanB":"Mengembun",
+            "pilihanC":"Menyublim",
+            "pilihanD":"Mengkristal",
+            "jawaban":"a"
+        }
+    },
+    {
+        "Soal5":{
+            "pertanyaan":"<p class='soalku'> Pada saat pagi hari rumput dan dauh yang ada di taman basah, padahal tidak ada hujan yang turun waktu itu. Dari kejadian berikut, jenis perubahan wujud yang terjadi adalah ... </p>",
+            "pilihanA":"Mencair",
+            "pilihanB":"Mengembun",
+            "pilihanC":"Menyublim",
+            "pilihanD":"Mengkristal",
+            "jawaban":"b"
+        }
+    },
+    {
+        "Soal6":{
+            "pertanyaan":"<p class='soalku'> Ketika logam besi dipanaskan sampai meleleh sehingga dapat di bentuk menjadi peralatan masak. Perubahan yang terjadi pada logam tersebut adalah perubahan ... </p>",
+            "pilihanA":"Fisika karena hasil dari logam besi tersebut menghasilkan suatu materi yang berbeda dari materi sebelumnya",
+            "pilihanB":"Kimia karena hasil dari perubahan logam besi merupakan suatu materi yang baru dari materi sebelumnya",
+            "pilihanC":"Fisika karena logam besi tersebut hanya berubah wujud dari suatu wujud ke wujud lainya",
+            "pilihanD":"Kimia karena logam besi tidak memiliki sifat yang berbeda dari materi sebelumnya",
+            "jawaban":"c"
+        }
+    },
+    {
+        "Soal7":{
+            "pertanyaan":"<p class='soalku'> Tapai merupakan salah satu makanan yang dapat mengatasi anemia, tapai terbuat dari singkong yang diberi ragi. Faktor yang mempengaruhi perubahan singkok menjadi tapai adalah ... </p> ",
+            "pilihanA":"Faktor kerusakan",
+            "pilihanB":"Faktor pertumbuhan",
+            "pilihanC":"Faktor fermentasi",
+            "pilihanD":"Faktor pembakaran",
+            "jawaban":"c"
+        }
+    },
+    {
+        "Soal8":{
+            "pertanyaan":"<p class='soalku'> Ketika susu dibiarkan di ruang terbuka lama-kelamaan susu tersebut akan mengalami perubahan rasa menjadi asam. Perubahan yang terjadi pada susu tersebut adalah perubahan ... </p>",
+            "pilihanA":"Fisika karena hasil dari susu tersebut menghasilkan suatu materi yang baru dari materi sebelumnya",
+            "pilihanB":"Kimia karena hasil dari susu tersebut tidak dapat dikembalikan menjadi materi sebelumnya",
+            "pilihanC":"Fisika karena susu tersebut dapat berubah wujud dari suatu wujud ke wujud lainya",
+            "pilihanD":"Kimia karena susu tidak memiliki sifat yang berbeda dari materi sebelumnya",
+            "jawaban":"b"
+        }
+    },
+    {
+        "Soal9":{
+            "pertanyaan":"<p class='soalku'> Edo menimbang sebuah logam dengan menggunakan neraca ukur, ternyata logam tersebut memiliki massa 680 gram. Dengan gelas ukur, edo mengukur volume dari logam tersebut, ternyata kenaikan air di dalam gelas ukur sebesar 25 cm<sup>3</sup>. Berapakah massa jenis dari logam yang ditemukan oleh edo ... </p>",
+            "pilihanA":"26,2 gram / cm<sup>3</sup>",
+            "pilihanB":"26,5 gram / cm<sup>3</sup>",
+            "pilihanC":"27,5 gram / cm<sup>3</sup>",
+            "pilihanD":"27,2 gram / cm<sup>3</sup>",
+            "jawaban":"d"
+        }
+    },
+    {
+        "Soal10":{
+            "pertanyaan":"<p class='soalku'> Arul menimbang sebuah benda dengan menggunakan neraca ukur, ternyata benda tersebut memiliki massa 784 gram. Dengan gelas ukur, arul mengukur volume dari benda tersebut, ternyata kenaikan air di dalam gelas ukur sebesar 64 cm<sup>3</sup>. Berapakah massa jenis dari logam yang ditemukan oleh arul ... </p>",
+            "pilihanA":"11,25 gram / cm<sup>3</sup>",
+            "pilihanB":"12,25 gram / cm<sup>3</sup>",
+            "pilihanC":"13,25 gram / cm<sup>3</sup>",
+            "pilihanD":"14,25 gram / cm<sup>3</sup>",
+            "jawaban":"b"
+        }
+    },
+    {
+        "Soal11":{
+            "pertanyaan":"<p class='soalku'> Seorang tukang bangunan ingin memisahkan campuran pasir dan kerikil, metode pemisahan yang tepat untuk digunakan untuk memisahkan campuran tersebut adalah ... </p>",
+            "pilihanA":"Distilasi",
+            "pilihanB":"Kromatografi",
+            "pilihanC":"Sublimasi",
+            "pilihanD":"Filtrasi",
+            "jawaban":"d"
+        }
+    },
+    {
+        "Soal12":{
+            "pertanyaan":"<p class='soalku'> Metode pemisahan campuran banyak digunakan dalam dunia industri. Metode pemisahan campuran yang prinsip kerjanya didasarkan pada perbedaan titik didih dari materi yang bercampur adalah ... </p>",
+            "pilihanA":"Distilasi",
+            "pilihanB":"Kromatografi",
+            "pilihanC":"Sublimasi",
+            "pilihanD":"Filtrasi",
+            "jawaban":"a"
+        }
+    },
+    {
+        "Soal13":{
+            "pertanyaan":"<p class='soalku'> Panitia penyelenggara olimpiade balap lari ingin mengecek bahwa peserta lomba bebas dari zat adiktif atau obat-obat terlarang. Berdasarkan prinsip kerjanya metode yang tepat digunakan untuk hal tersebut adalah ... </p>",
+            "pilihanA":"Distilasi",
+            "pilihanB":"Kromatografi",
+            "pilihanC":"Sublimasi",
+            "pilihanD":"Filtrasi",
+            "jawaban":"b"
+        }
+    },
+    {
+        "Soal14":{
+            "pertanyaan":"<p class='soalku'> Faktor yang mempengaruhi dapat terpisahnya campuran kapur barus dan pasir saat dipisahkan dengan menggunakan metode sublimasi adalah ... </p>",
+            "pilihanA":"Pendinginan dari es batu",
+            "pilihanB":"Pengembunan dari es batu",
+            "pilihanC":"Perbedaan titik beku yang tinggi",
+            "pilihanD":"Perbedaan titik didih yang tinggi",
+            "jawaban":"d"
+        }
+    },
+    {
+        "Soal15":{
+            "pertanyaan":"<p class='soalku'> Akibat kurang hati-hati, sebuah perusahaan membuang limbah pabriknya ke sebuah sungai. Berdasarkan prinsip kerjanya, metode pemisahan yang tepat untuk memisahkan limbah dari air sungai adalah ... </p>",
+            "pilihanA":"Kromatografi dan sublimasi",
+            "pilihanB":"Distilasi dan kromatografi",
+            "pilihanC":"Filtrasi dan distilasi",
+            "pilihanD":"Sublimasi dan filtrasi",
+            "jawaban":"d"
+        }
+    },
+    {
+        "Soal16":{
+            "pertanyaan":"<p class='soalku'> Setiap materi memiliki sifat kimia dan sifat fisika ketika dilakukan pengamatan. Sifat kimia yang dimiliki suatu materi adalah ...  </p>",
+            "pilihanA":"Sifat yang berhubungan dengan reaksi suatu materi dengan materi lain dan membentuk suatu materi yang berbeda",
+            "pilihanB":"Sifat yang tidak berhubungan dengan reaksi suatu materi dengan materi lain dan membentuk suatu materi yang baru",
+            "pilihanC":"Sifat yang tidak dapat diamati, diukur, atau dirasakan oleh pancaindra",
+            "pilihanD":"Sifat yang dapat diamati, diukur, atau dirasakan oleh pancaindra",
+            "jawaban":"a"
+        }
+    },
+    {
+        "Soal17":{
+            "pertanyaan":"Perhatikan data berikut ini! <ol class='dataK'><li> Air laut tersusun dari materi air dan garam </li><li> Garam tersusun dari materi natrium dan klor </li><li> Sirup buah tersusun dari materi air dan serbuk perasa buah </li><li> Gula pasir tersusun dari materi karbon, hidrogen dan oksigen </li><li> Urea tersusun dari materi karbon, oksigen dan nitrogen dan hidrogen </li></ol> <p class='keteranganS'> Berdasarkan data di atas, contoh materi yang tergolong ke dalam senyawa ditunjukkan oleh nomor ... </p>",
+            "pilihanA":"1, 2, dan 3",
+            "pilihanB":"2, 4, dan 5",
+            "pilihanC":"2, 3, dan 4",
+            "pilihanD":"1, 3, dan 5",
+            "jawaban":"b"
+        }
+    },
+    {
+        "Soal18":{
+            "pertanyaan":" <p class='soalku'> Pernyataan yang paling tepat mengenai campuran adalah ... </p> ",
+            "pilihanA":"Materi yang seluruh bagiannya mempunyai susunan dan komposisi yang tepat",
+            "pilihanB":"Zat tunggal yang tidak dapat diuraikan melalui reaksi kimia menjadi materi lain yang lebih sederhana",
+            "pilihanC":"Dua unsur atau lebih yang bergabung secara kimia dengan perbandingan tertentu",
+            "pilihanD":"Materi yang terdiri atas beberapa komponen yang tidak tertentu",
+            "jawaban":"d"
+        }
+    },
+    {
+        "Soal19":{
+            "pertanyaan":"Perhatikan gambar berikut ini! <br> <img src='Gambar/Asam.jpg' class='buatan'> <img src='Gambar/Basa.jpg' class='buatan'> <br> <span class='larutan'>(Larutan A)</span> <span class='larutan1'>(Larutan B)</span> <br> <br> <p class='soala'> Berdasarkan perubahan warna yang terjadi pada kedua kertas lakmus ketika dicelupkan ke dalam larutan A dan larutan B, sifat dari larutan A dan larutan B adalah ... </p> ",
+            "pilihanA":"Asam dan basa",
+            "pilihanB":"Basa dan basa",
+            "pilihanC":"Asam dan asam",
+            "pilihanD":"Basa dan asam",
+            "jawaban":"a"
+        }
+    }
+]

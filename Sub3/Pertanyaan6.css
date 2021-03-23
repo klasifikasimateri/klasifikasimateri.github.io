@@ -1,0 +1,762 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(170, 213, 219);
+    font-family: 'Times New Roman', Times, serif !important;
+}
+.semua{
+    width: 100vw;
+    height: 100vh;
+}
+.atas{
+    position: relative;
+    height: 60px;
+    width: 100vw;
+    background-color: rgba(151, 151, 253, 0.712);
+    box-shadow: 5px 5px 5px grey;
+}
+.atas h2{
+    margin: 0px;
+    display: inline-block;
+    padding: 15px;
+    letter-spacing: 2px;
+}
+.tb{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.tb span{
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: #151719;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+.nk{
+    position: relative;
+    float: right;
+    margin-top: -57px;
+}
+#sidebar{
+    position: absolute;
+    display: block;
+    height: 91vh;
+    width: 17.5vw;
+    background: cornflowerblue;
+    box-shadow: 5px 5px 5px grey;
+}
+#sidebar.active{
+    left: -20vw;
+}
+#sidebar .A{
+    list-style-position: inside;
+    font-size: 22px !important;
+    padding: 10px 10px 0px 10px;
+    margin-left: -5px;
+    cursor: default;
+}
+#sidebar .B{
+    margin-left: 0px;
+    font-size: 20px;
+    padding: 5px 5px 7px 30px;
+    color: white;
+    border-bottom: 1px solid whitesmoke;
+    cursor: pointer;
+}
+#sidebar ol a{
+    text-decoration: none;
+    color: black;
+}
+.hidup {
+    background-color: whitesmoke;
+    color: black !important;
+    cursor: default;
+}
+.hilang {
+    display: none !important;
+}
+.judul{
+    margin-left: 250px;
+    padding: 10px 0px 3px 0px;
+    background-color: rgb(170, 213, 219);
+}
+#judul.full{
+    margin-left: 0px;
+}
+.judul h2{
+    padding: 5px 15px 5px 15px;
+    display: inline-block;
+    text-align: center;
+    font-size: 22px;
+    border: 4px solid black;
+    border-radius: 40px;
+    letter-spacing: 2px;
+}
+.konten{
+    overflow: auto;
+    margin-left: 250px;
+    background-color: white;
+    width: 81vw;
+    height: 510px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#konten.full{
+    width: 98vw;
+    margin-left: 15px;
+}
+.tujuanP{
+    margin-top: 0px;
+    margin-left: 0px;
+    display: inline-block;
+    border: 2px solid rgb(1, 59, 78);
+    background-color: lightblue;
+    border-radius: 0px 10px 10px 0px;
+    padding: 10px;
+    cursor: pointer;
+}
+.tujuanP p{
+    font-size: 21px;
+}
+.tujuan{
+    width: 75vw;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-left: 0px;
+    display: inline-block;
+    border: 2px solid rgb(1, 59, 78);
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+    box-sizing: border-box;
+}
+.tujuan li{
+    line-height: 1.5;
+    margin-left: 25px;
+    text-align: justify;
+    font-size: 20px !important;
+}
+.hidupku{
+    display: inline-block;
+}
+.Gperta{
+    border: none;
+    background-color:  rgba(151, 151, 253, 0.712);
+    height: 5px;
+}
+.konten h3{
+    font-size: 22px;
+    margin-left: 18px;
+    display: inline-block;
+    border: 2px solid rgb(1, 59, 78);
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+    padding: 10px;
+}
+.konten .pertanyaan{
+    padding: 10px 10px 5px 10px;
+    margin-left: 18px;
+    width: 76vw;
+    border: 2px solid black;
+    border-radius: 0px 10px 10px 0px;
+}
+.perta{
+    display: none;
+}
+.ket{
+    margin-bottom: 5px;
+    margin-left: 0px;
+    font-size: 20px;
+}
+.ket1{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+.cek{
+    width: 55px;
+}
+.pil{
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.soala{
+    text-align: justify;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    font-size: 21px;
+}
+.Kayu{
+    margin-bottom: 5px;
+    margin-left: 22px;
+    width: 175px;
+    height: 150px;
+}
+.soal{
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    font-size: 20.5px;
+}
+.KS{
+    margin-left: 60px; 
+    font-size: 18px;
+}
+.Kk{
+    margin-left: 90px; 
+    font-size: 18px;
+}
+.Le{
+    margin-left: 85px;
+    font-size: 18px;
+}
+.Ld{
+    margin-left: 70px;
+    font-size: 18px;
+}
+.cekbox{
+    position: relative;
+    margin-left: 20px;
+}
+.cekbox:hover{
+    cursor: pointer;
+}
+.nav_pilihan{
+    display: inline-block;
+    position: relative;
+    flex-wrap: wrap;
+}
+.pilihan:hover{
+    cursor: pointer;
+}
+.pilihan1:hover{
+    cursor: pointer;
+}
+.nav_pilihan:after{
+    content: "";
+    position: absolute;
+    top: 9px;
+    left: 8.5px;
+    display: none;
+}
+.nav_pilihan{
+    border-radius: 50%;
+}
+.nav_pilihan:after{
+    border-radius: 50%;
+}
+input[type="checkbox"]:checked+span .nav_pilihan:after {
+    display: block;
+}
+.pilihan{
+    line-height: 1.8;
+    font-size: 20px;
+    width: 100%;
+}
+.pilihan ol li{
+    list-style-position: inside;
+    background-color: darkgray;
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 3px 0px grey;
+}
+#op1, #op2, #op3, #op4{
+    width: 300px;
+    top: 0px;
+    text-align: justify;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.pilihan ol li:active{
+    box-shadow: 0px 0px 0px grey;
+}
+.pilihan ol li.benar{
+    background-color: #03a503;
+    box-shadow: 0px 3px 0px #0fd40f;
+}
+.pilihan ol li.salah{
+    background-color: #e91e1e;
+    box-shadow: #cb0b0b;
+}
+.jbbenar{
+    color: green;
+}
+.jbsalah{
+    color: red;
+}
+.pembahasan{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 23px;
+    line-height: 1.5;
+    padding: 8px;
+    border: 2px dotted black;
+    border-radius: 10px;
+    text-align: justify;
+    font-size: 20px;
+}
+.pembahasan p{
+    margin-bottom: 0px;
+    margin-left: 0px !important;
+    text-align: justify;
+}
+.ukuran{
+    float: right;
+    width: 50vw;
+    margin-top: -15vw;
+}
+.ukuran1{
+    float: right;
+    width: 45vw;
+    margin-top: -25vw;
+}
+.ukuran2{
+    float: right;
+    width: 45vw;
+    margin-top: -20.5vw;
+}
+.ulang{
+    background-color: lightblue;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 70px;
+    height: 40px;
+}
+.cekJb{
+    background-color: lightblue;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 120px;
+    height: 40px;
+}
+.selanjutnya{
+    display: inline-block;
+    border: 2px solid rgb(1, 59, 78);
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: lightblue;
+}
+.sebelumnya{
+    display: inline-block;
+    border: 2px solid rgb(1, 59, 78);
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: lightblue;
+}
+.disable {
+    background-color: rgb(133, 133, 133) !important;
+    color: rgb(37, 37, 37);
+    cursor: default !important;
+}
+.ulang:hover{
+    cursor: pointer;
+    background-color: white;
+}
+.cekJb:hover{
+    cursor: pointer;
+    background-color: white;
+}
+.selanjutnya:hover{
+    cursor: pointer;
+    background-color: rgb(1, 59, 78);
+}
+.sebelumnya:hover{
+    cursor: pointer;
+    background-color: rgb(1, 59, 78);
+}
+.Nav-soal{
+    text-align: justify;
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 22px;
+    margin-left: 5px;
+}
+.aktif{
+    background-color: rgb(1, 59, 78) !important;
+    cursor: default;
+}
+.aktif:hover{
+    cursor: default !important;
+}
+.soal1{
+    display: inline-block;
+    border: 2px solid rgb(1, 59, 78);
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: lightblue;
+    margin-top: 10px;
+}
+.soal1:hover{
+    cursor: pointer;
+    background-color: rgb(1, 59, 78);
+}
+.Nav-Lanjut{
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 250px;
+}
+#navigasi.full{
+    margin-left: 0px;
+}
+.Nav-Lanjut a{
+    text-decoration: none;
+    color: black;
+}
+.Nav-Lanjut .Lanjut{
+    display: inline-block;
+    border: 2px solid rgb(1, 59, 78);
+    padding: 5px;
+    font-size: 15px;
+    background-color: lightblue;
+}
+.Nav-Lanjut .Lanjut:hover {
+    cursor: pointer;
+    background-color: rgb(1, 59, 78);
+}
+.Nav-Lanjut .aktif_konten {
+    background-color: rgb(1, 59, 78);
+    cursor: default !important;
+}
+.Nav-Lanjut .disable {
+    background-color: rgb(133, 133, 133) !important;
+    color: rgb(37, 37, 37);
+    cursor: default !important;
+}
+
+@media only screen and (max-width: 380px){
+
+    .semua{
+        width: 100vw;
+        height: 100vh;
+    }
+    .atas{
+        position: relative;
+        height: 80px;
+        width: 100vw;
+        background-color: rgba(151, 151, 253, 0.712);
+        box-shadow: 5px 5px 5px grey;
+    }
+    .atas h2{
+        position: relative;
+        margin-left: -12px;
+        top: -55px;
+        font-size: 20px;
+        display: inline-block;
+        padding: 15px;
+        letter-spacing: 1px;
+        width: 215px;
+    }
+    .tb{
+        position: static;
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 8px;
+    }
+    .tb span{
+        display: block;
+        width: 25px;
+        height: 5px;
+        background: #151719;
+        margin: 5px 0px;
+        cursor: pointer;
+    }
+    .nk{
+        position: relative;
+        float: right;
+        margin-top: -124px;
+    }
+    #sidebar{
+        left: -69vw;
+        position: absolute;
+        display: block;
+        height: auto;
+        width: 69vw;
+        background: cornflowerblue;
+        box-shadow: 5px 5px 5px grey;
+    }
+    .active{
+        left: 0vw !important;
+    }
+    #sidebar .A{
+        list-style-position: inside;
+        font-size: 20px !important;
+        padding: 10px 10px 3px 10px;
+        margin-left: -5px;
+        cursor: default;
+    }
+    #sidebar .B{
+        margin-left: 0px;
+        font-size: 18px;
+        padding: 5px 5px 5px 30px;
+        color: white;
+        border-bottom: 1px solid whitesmoke;
+        cursor: pointer;
+    }
+    .judul{
+        margin-left: 0px;
+        padding: 10px 0px 3px 0px;
+        background-color: rgb(170, 213, 219);
+    }
+    .judul h2{
+        padding: 5px 15px 5px 15px;
+        display: inline-block;
+        text-align: center;
+        font-size: 20px;
+        border: 3px solid black;
+        border-radius: 40px;
+        letter-spacing: 2px;
+    }
+    .konten{
+        overflow: auto;
+        margin-left: 0px;
+        background-color: white;
+        width: 99vw;
+        height: auto;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    #konten.full{
+        width: 99vw;
+        margin-left: 0px;
+    }
+    .konten h3{
+        font-size: 20px;
+        margin-left: 4px;
+        display: inline-block;
+        border: 2px solid rgb(1, 59, 78);
+        background-color: white;
+        border-radius: 0px 10px 10px 0px;
+        padding: 10px;
+    }
+    .konten .pertanyaan{
+        padding: 10px 10px 5px 10px;
+        margin-left: 4px;
+        width: 90vw;
+        border: 2px solid black;
+        border-radius: 0px 10px 10px 0px;
+    }
+    .tujuanP{
+        margin-top: 0px;
+        margin-left: 0px;
+        display: inline-block;
+        border: 2px solid rgb(1, 59, 78);
+        background-color: lightblue;
+        border-radius: 0px 10px 10px 0px;
+        padding: 10px;
+        cursor: pointer;
+    }
+    .tujuanP p{
+        font-size: 20px;
+    }
+    .tujuan{
+        width: 90.5vw;
+        padding: 5px 10px 5px 5px;
+        margin-left: 0px;
+        display: inline-block;
+        border: 2px solid rgb(1, 59, 78);
+        background-color: white;
+        border-radius: 0px 10px 10px 0px;
+        box-sizing: border-box;
+    }
+    .tujuan li{
+        line-height: 1.5;
+        margin-left: 20px;
+        text-align: justify;
+        font-size: 18px !important;
+    }
+    .soalku{
+        text-align: justify;
+        line-height: 1.5;
+        letter-spacing: 0px;
+        margin-top: -35px;
+        margin-left: 15px;
+        margin-bottom: 7px;
+        font-size: 18px;
+    }
+    .Kayu{
+        margin-left: 23px;
+        margin-bottom: 30px;
+        width: 118px;
+        height: 120px;
+    }
+    .KS{
+        position: relative;
+        display: inline-block;
+        top: -185px;
+        margin-left: 35px;
+        font-size: 16px;
+    }
+    .Kk{
+        position: relative;
+        display: inline-block;
+        top: -202px;
+        margin-left: 185px;
+        font-size: 16px;
+    }
+    .Le{
+        position: relative;
+        display: inline-block;
+        top: -65px;
+        margin-left: 26px;
+        font-size: 15px;
+    }
+    .Ld{
+        position: relative;
+        display: inline-block;
+        top: -85px;
+        margin-left: 175px;
+        font-size: 16px; 
+    }
+    .pil{
+        position: relative;
+        top: 10px;
+        font-size: 18px;
+        line-height: 1.5;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .cek{
+        font-size: 18px;
+        width: 55px;
+    }
+    .ket{
+        position: relative;
+        display: inline-block;
+        text-align: justify;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+    .ket1{
+        line-height: 1.5;
+        margin-left: 20px !important;
+        font-size: 17px !important;
+    }
+    .soal{
+        text-align: justify;
+        line-height: 1.5;
+        letter-spacing: 0px;
+        margin-top: 0px;
+        margin-left: 15px !important;
+        margin-bottom: 0px;
+        font-size: 18px !important;
+    }
+    .soala{
+        font-size: 18px;
+        margin-top: -65px;
+        margin-left: 15px;
+    }
+    #op1, #op2, #op3, #op4{
+        font-size: 18px;
+        width: 245px;
+        top: 0px;
+        text-align: justify;
+        position: relative;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .pembahasan{
+        width: auto !important;
+        float: none;
+        position: relative;
+        margin-top: 20px !important;
+        margin-left: 0px;
+        line-height: 1.5;
+        padding: 8px;
+        border: 2px dotted black;
+        border-radius: 10px;
+        text-align: justify;
+        font-size: 18px;
+    }
+    .Nav-soal{
+        text-align: justify;
+        position: relative;
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 25px;
+        margin-left: 0px;
+    }
+    .soal1{
+        display: inline-block;
+        border: 2px solid rgb(1, 59, 78);
+        border-radius: 10px;
+        padding: 5px;
+        font-size: 12px;
+        background-color: lightblue;
+    }
+    .selanjutnya{
+        display: inline-block;
+        border: 2px solid rgb(1, 59, 78);
+        border-radius: 10px;
+        padding: 5px;
+        font-size: 13px;
+        background-color: lightblue;
+    }
+    .sebelumnya{
+        display: inline-block;
+        border: 2px solid rgb(1, 59, 78);
+        border-radius: 10px;
+        padding: 5px;
+        font-size: 13px;
+        background-color: lightblue;
+    }
+    .Nav-Lanjut{
+        text-align: center;
+        position: relative;
+        text-decoration: none;
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+    .Nav-Lanjut .Lanjut{
+        display: inline-block;
+        border: 2px solid rgb(1, 59, 78);
+        padding: 3px;
+        font-size: 13px;
+        background-color: lightblue;
+    }
+    .Nav-Lanjut .aktif_konten {
+        background-color: rgb(1, 59, 78);
+        cursor: default !important;
+    }
+    .Nav-Lanjut .disable {
+        background-color: rgb(133, 133, 133) !important;
+        color: rgb(37, 37, 37);
+        cursor: default !important;
+    }
+}

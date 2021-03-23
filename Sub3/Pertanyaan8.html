@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Klasifikasi Materi </title>
+    <link rel="stylesheet" href="Pertanyaan8.css">
+</head>
+<body>
+    <div class="semua">
+
+        <!-- Header -->
+        <div class="atas">
+            <div class="tb" onclick="tbsidebar()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+          <center><h2>Klasifikasi Materi dan Perubahannya</h2></center>
+        <div class="nk"><a href="../index.html"><img src="Gambar/Home.png" alt="Home" style="height: 60px; width: 60px;"></a></div>
+        </div>
+
+        <!-- Sidebar -->
+        <div id="sidebar">
+            <ol type="A" class="A"><li> Klasifikasi Materi </li></ol>
+            <ol start="1" style="list-style-position: inside;">
+                <a href="../Sub1/Sub1Bagian1.html"><li class="B"> Materi </li></a>
+                <a href="../Sub1/Sub1Bagian4.html"><li class="B"> Unsur, senyawa, dan campuran </li></a>
+                <a href="../Sub1/Kuis.html"><li class="B" style="list-style: none;"> Kuis 1 </li></a>
+            </ol>
+            <ol type="A" start="2" class="A"><li>Perubahan materi</li></ol>
+            <ol start="1" style="list-style-position: inside;">
+                <a href="../Sub2/Sub2Bagian1.html"><li class="B"> Perubahan fisika </li></a>
+                <a href="../Sub2/Sub2Bagian3.html"><li class="B"> Perubahan kimia  </li></a>
+                <a href="../Sub2/Kuis2.html"><li class="B" style="list-style: none;"> Kuis 2 </li></a>
+            </ol>
+            <ol type="A" start="3" class="A hidup"><li>Pemisahan campuran</li></ol>
+            <ol start="1" style="list-style-position: inside;">
+                <a href="../Sub3/Sub3Bagian1.html"><li class="B"> Filtrasi       </li></a>
+                <a href="../Sub3/Sub3Bagian2.html"><li class="B"> Distilasi      </li></a>
+                <a href="../Sub3/Sub3Bagian3.html"><li class="B"> Kromatografi   </li></a>
+                <a href="../Sub3/Sub3Bagian4.html"><li class="B hidup"> Sublimasi      </li></a>
+                <a href="../Sub3/Kuis3.html"> <li class="B" style="list-style: none;"> Kuis 3         </li></a>
+            </ol>
+            <ol style="list-style: none;" class="A"><a href="../Latihan akhir/Latihan.html"><li> Latihan </li></a></ol>
+        </div>
+
+        <!-- Judul -->
+        <div class="judul" id="judul">
+            <center><h2> Pemisahan campuran </h2></center>
+        </div>
+
+        <!-- Isi -->
+        <div class="konten" id="konten"><br>
+            <h3> Pertanyaan </h3>
+            
+            <!-- Pertanyaan -->
+            <div class="pertanyaan">
+
+                <!-- Petunjuk -->
+            <div class="kliksaya">
+                <nav class="tujuanP">
+                        <p> Petunjuk (Klik saya) </p>
+                </nav>
+                <div class="atasa">
+                    <ol class="tujuan">
+                        <li>Jawablah pertanyaan berikut ini!</li>
+                        <li>Pertanyaan ini terdiri dari 3 soal</li>
+                        <li>Setiap pertanyaan memiliki data yang disajikan</li>
+                        <li>Anda diminta memilih jawaban yang benar diantara pilihan jawaban</li>
+                        <li>Jika jawaban anda benar, maka akan tampil pembahasan dan keterangan jawaban benar</li>
+                        <li>Jika jawaban anda salah, maka akan tampil pembahasan dan keterangan jawaban salah</li>
+                        <li>Jika ingin mengulang menjawab pertanyaan, silahkan tekan tombol 'Ulang'</li>
+                        <li>Jika ingin melanjutkan menjawab pertanyaan, silahkan tekan tombol 'Selanjutnya' pada nomor soal</li>
+                        <li>Jika ingin kembali ke pertanyaan sebelumnya, silahkan tekan tombol 'Sebelumnya' pada nomor soal</li>
+                    </ol>
+                </div>
+            </div>
+            <br>
+            <hr class="Gperta">
+            <br>
+
+            <!-- Soal 1 -->
+            <div class="perta">
+                <ol>
+                    <li class="soal"> Di bawah ini yang menjadi faktor yang mempengaruhi pemisahan campuran dengan menggunakan metode sublimasi adalah ... (silahkan pilih 2 pilihan) </li>
+                </ol>
+                <div class="pil">
+                   <label class="pilihan">
+                       <table>
+                           <tr>
+                               <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan" onclick="return cekbox(1)"> a. </td>
+                               <td class="ket"> <span class="nav_pilihan"></span> Faktor pembakaran </td>
+                           </tr>
+                       </table>
+                   </label>
+                   <label class="pilihan">
+                    <table>
+                        <tr>
+                            <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan" onclick="return cekbox(1)"> b. </td>
+                            <td class="ket"> <span class="nav_pilihan"></span> Faktor pemanasan </td>
+                        </tr>
+                    </table>
+                    </label>
+                    <label class="pilihan">
+                        <table>
+                            <tr>
+                                <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan" onclick="return cekbox(1)"> c. </td>
+                                <td class="ket"> <span class="nav_pilihan"></span> Faktor pembekuan </td>
+                            </tr>
+                        </table>
+                    </label>
+                    <label class="pilihan">
+                        <table>
+                            <tr>
+                                <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan" onclick="return cekbox(1)"> d. </td>
+                                <td class="ket"> <span class="nav_pilihan"></span> Faktor pencairan </td>
+                            </tr>
+                        </table>
+                    </label>
+                    <label class="pilihan">
+                        <table>
+                            <tr>
+                                <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan" onclick="return cekbox(1)"> e. </td>
+                                <td class="ket"> <span class="nav_pilihan"></span> Faktor pendinginan </td>
+                            </tr>
+                        </table>
+                    </label>
+                </div><br>
+
+                <button class="cekJb" onclick="cekjawab(1)"> Cek jawaban </button>
+                
+                <div class="pembahasan ukuran hilang">
+                    <span class="jbbenar"> Jawaban anda benar </span><br> 
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Faktor yang mempengaruhi pemisahan campuran metode sublimasi adalah faktor pemanasan dan faktor pendinginan.
+                    </p>
+                </div>
+                <div class="pembahasan ukuran hilang">
+                    <span class="jbsalah"> Jawaban anda belum benar. </span> 
+                    <p> <b><u> Petunjuk: </u></b><br>
+                        Silahkan pilih kembali jawaban yang benar
+                    </p>
+                </div>
+            </div>
+
+            <!-- Soal 2 -->
+            <div class="perta">
+                <ol start="2">
+                    <li class="ket1"> Perhatikan alat - alat laboratorium di bawah ini! </li>
+                </ol>
+                <img src="Gambar/Pertanyaan5/kaca arloji.jpg" class="Kayu">
+                <img src="Gambar/Pertanyaan7/Corong.jpg" class="Kayu">
+                <img src="Gambar/Pertanyaan7/Kolom.jpg" class="Kayu">
+                <img src="Gambar/Pertanyaan7/Gelas Kimia.jpg" class="Kayu"><br> 
+                <span class="Ka"> (Kaca arloji) </span> <span class="Ck"> (Corong kaca) </span> <span class="Kk"> (Kolom kimia) </span> <span class="Gk"> (Gelas kimia) </span>
+                <p class="soala"> Pada gambar di atas, alat yang dapat digunakan dalam pemisahan campuran metode sublimasi adalah ... </p>
+                <div class="pilihan">
+                    <ol type="a" id="ul">
+                        <li id="op1" onclick="salah(1)"> Corong kaca dan kolom kimia </li>
+                        <li id="op2" onclick="salah(2)"> Gelas kimia dan corong kaca </li>
+                        <li id="op3" onclick="benar(1)"> Kaca arloji dan gelas kimia </li>
+                        <li id="op4" onclick="salah(3)"> Kaca arloji dan kolom kimia </li>
+                    </ol>
+                </div>
+                <div class="tombol hilang">
+                    <button class="ulang"> Ulang </button>
+                </div>
+                <div class="pembahasan ukuran1 hilang">
+                    <span class="jbbenar"> Jawaban anda benar </span><br> 
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Pada gambar di atas, alat yang dapat digunakan dalam pemisahan campuran metode sublimasi adalah kaca arloji dan gelas kimia.
+                    </p>
+                </div>
+                <div class="pembahasan ukuran2 hilang">
+                    <span class="jbsalah"> Jawaban anda belum benar. </span>
+                    <p> <b><u> Petunjuk: </u></b><br>
+                        Silahkan tekan tombol ulang
+                    </p>
+                </div>
+            </div>
+
+            <!-- Soal 3 -->
+            <div class="perta">
+                <ol start="3">
+                    <li class="soal"> Di bawah ini yang menjadi prinsip kerja dari pemisahan campuran metode sublimasi adalah ... </li>
+                </ol>
+                <div class="pilihan">
+                    <ol type="a" id="ul">
+                        <li id="op5" onclick="salah(4)"> Mengubah wujud komponen menjadi berwujud cair lalu mengubahnya menjadi wujud padat </li>
+                        <li id="op6" onclick="benar(2)"> Mengubah wujud komponen menjadi berwujud gas lalu mengubahnya menjadi wujud padat </li>
+                        <li id="op7" onclick="salah(5)"> Mengubah wujud komponen menjadi berwujud gas lalu mengubahnya menjadi wujud cair </li>
+                        <li id="op8" onclick="salah(6)"> Mengubah wujud komponen menjadi berwujud cair lalu mengubahnya menjadi wujud gas </li>
+                    </ol>
+                </div>
+                <div class="tombol hilang">
+                    <button class="ulang"> Ulang </button>
+                </div>
+                <div class="pembahasan hilang">
+                    <span class="jbbenar"> Jawaban anda benar </span><br> 
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Pada gambar di atas, alat yang dapat digunakan dalam pemisahan campuran metode sublimasi adalah kaca arloji dan gelas kimia.
+                    </p>
+                </div>
+                <div class="pembahasan hilang">
+                    <span class="jbsalah"> Jawaban anda belum benar. </span>
+                    <p> <b><u> Petunjuk: </u></b><br>
+                        Silahkan tekan tombol ulang
+                    </p>
+                </div>
+            </div>
+
+            <!-- Soal 4 -->
+            <div class="perta">
+                <ol start="4">
+                    <li class="soal"> Di bawah ini, yang merupakan pernyataan yang tepat tentang metode sublimasi adalah ... <br> (silahkan pilih 2 pilihan) </li>
+                </ol>
+                <div class="pil">
+                    <label class="pilihan">
+                        <table>
+                            <tr>
+                                <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan1" onclick="return cekbox(2)"> a. </td>
+                                <td class="ket"> <span class="nav_pilihan"></span> Komponen yang tercampur memiliki kemampuan untuk menyublim dan mengkristal </td>
+                            </tr>
+                        </table>
+                    </label>
+                    <label class="pilihan">
+                        <table>
+                            <tr>
+                                <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan1" onclick="return cekbox(2)"> b. </td>
+                                <td class="ket"> <span class="nav_pilihan"></span> Komponen yang tercampur memiliki kemampuan untuk mencair dan membeku </td>
+                            </tr>
+                        </table>
+                     </label>
+                     <label class="pilihan">
+                        <table>
+                            <tr>
+                                <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan1" onclick="return cekbox(2)"> c. </td>
+                                <td class="ket"> <span class="nav_pilihan"></span> Komponen yang tercampur memiliki kemampuan untuk menyublim dan membeku </td>
+                            </tr>
+                        </table>
+                     </label>
+                     <label class="pilihan">
+                        <table>
+                            <tr>
+                                <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan1" onclick="return cekbox(2)"> d. </td>
+                                <td class="ket"> <span class="nav_pilihan"></span> Komponen yang tercampur memiliki perbedaan titik beku yang rendah </td>
+                            </tr>
+                        </table>
+                     </label>
+                     <label class="pilihan">
+                        <table>
+                            <tr>
+                                <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan1" onclick="return cekbox(2)"> e. </td>
+                                <td class="ket"> <span class="nav_pilihan"></span> Komponen yang tercampur memiliki perbedaan titik didih yang tinggi </td>
+                            </tr>
+                        </table>
+                     </label>
+                 </div><br>
+ 
+                 <button class="cekJb" onclick="cekjawab(2)"> Cek jawaban </button>
+                
+                <div class="pembahasan hilang">
+                    <span class="jbbenar"> Jawaban anda benar </span><br> 
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Pernyataan yang tepat tentang pemisahan campuran metode sublimasi adalah Komponen yang tercampur memiliki kemampuan untuk menyublim dan mengkristal dan Komponen yang tercampur memiliki perbedaan titik didih yang tinggi.
+                    </p>
+                </div>
+                <div class="pembahasan hilang">
+                    <span class="jbsalah"> Jawaban anda belum benar. </span> 
+                    <p> <b><u> Petunjuk: </u></b><br>
+                        Silahkan pilih kembali jawaban yang benar!
+                    </p>
+                </div>
+            </div>
+
+            <!-- Navigasi soal -->
+            <div class="Nav-soal"> Nomor soal: <br>
+                <div class="sebelumnya" onclick="SoalT(-1)"> Sebelumnya </div>
+                <div class="soal1 aktif" onclick="NomorSoal(1)">1</div>
+                <div class="soal1" onclick="NomorSoal(2)">2</div>
+                <div class="soal1" onclick="NomorSoal(3)">3</div>
+                <div class="soal1" onclick="NomorSoal(4)">4</div>
+                <div class="selanjutnya" onclick="SoalT(1)"> Selanjutnya </div>
+            </div>
+            </div><br>
+        </div>
+
+        <!-- Navbottom -->
+        <div class="Nav-Lanjut" id="navigasi">
+            <a href="Sub3Bagian4.html"><div class="Lanjut"> Sebelumnya </div></a>
+            <a href="Sub3Bagian4.html"><div class="Lanjut">1</div></a>
+            <a href="Pertanyaan8.html"><div class="Lanjut aktif_konten">2</div></a>
+            <a href="Kuis3.html"><div class="Lanjut"> Selanjutnya </div></a>
+        </div>
+    </div>
+    
+    <script src="Pertanyaan8.js"></script>
+</body>
+</html>

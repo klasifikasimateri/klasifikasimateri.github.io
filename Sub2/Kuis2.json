@@ -1,0 +1,102 @@
+[
+    {
+        "Soal0":{
+            "pertanyaan":"Perhatikan gambar di bawah ini! <br> <img src='Gambar/Nasi.jpg' alt='nasi' class='percobaan'> <br> <p class='keteranganS'> Ketika beras di masak lama-kelamaan beras akan berubah menjadi nasi. Perubahan yang terjadi pada beras termasuk ke dalam perubahan ... </p>",
+            "pilihanA":"Kimia karena nasi tidak dapat kembali menjadi beras",
+            "pilihanB":"Fisika karena bentuknya tetap dan warnanya tidak berubah",
+            "pilihanC":"Kimia karena bentuknya tetap dan rasanya berubah",
+            "pilihanD":"Fisika karena wujudnya tidak berubah",
+            "jawaban":"a"
+        }
+    },
+    {
+        "Soal1":{
+            "pertanyaan":"Perhatikan gambar di bawah ini! <br> <img src='Gambar/Besi.jpg' alt='nasi' class='percobaan'> <br> <p class='keteranganS'> Faktor Faktor yang mempengaruhi perubahan kimia dari besi yang lama-kelamaan berubah menjadi berkarat adalah ... </p>",
+            "pilihanA":"Faktor pencampuran zat",
+            "pilihanB":"Faktor pembakaran",
+            "pilihanC":"Faktor fermentasi",
+            "pilihanD":"Faktor kerusakan",
+            "jawaban":"d"
+        }
+    },
+    {
+        "Soal2":{
+            "pertanyaan":"Perhatikan gambar di bawah ini! <br> <img src='Gambar/Tempe.jpg' alt='nasi' class='percobaan'> <br> <p class='keteranganS'> Faktor yang mempengaruhi perubahan kimia dari kacang kedelai yang lama-kelamaan berubah menjadi tempe adalah ... </p>",
+            "pilihanA":"Faktor pencampuran zat",
+            "pilihanB":"Faktor pembakaran",
+            "pilihanC":"Faktor fermentasi",
+            "pilihanD":"Faktor kerusakan",
+            "jawaban": "c"
+        }
+    },
+    {
+        "Soal3":{
+            "pertanyaan":"<p class='keteranganS'> Pewangi ruangan merupakan salah satu contoh materi yang berwujud padat. Ketika pewangi ruangan dibiarkan di suatu ruangan, lama-kelamaan pewangi ruangan tersebut akan mengecil dan habis. Jenis perubahan yang terjadi pada pewangi ruangan adalah ... </p>",
+            "pilihanA":"Mencair",
+            "pilihanB":"Membeku",
+            "pilihanC":"Menguap",
+            "pilihanD":"Menyublim",
+            "jawaban":"d"
+        }
+    },
+    {
+        "Soal4":{
+            "pertanyaan":"<p class='keteranganS'> Diketahui sebuah benda memiliki volume 28 cm<sup>3</sup> dan memiliki massa seberat 98 gram. Berapakah hasil perhitungan massa jenis dari benda tersebut ... </p>",
+            "pilihanA":"3,5 gram/cm<sup>3</sup>",
+            "pilihanB":"3,7 gram/cm<sup>3</sup>",
+            "pilihanC":"6,5 gram/cm<sup>3</sup>",
+            "pilihanD":"6,7 gram/cm<sup>3</sup>",
+            "jawaban":"a"
+        }
+    },
+    {
+        "Soal5":{
+            "pertanyaan":"<p class='keteranganS'> Diketahui sebuah benda memiliki volume 42 cm<sup>3</sup> dan memiliki massa seberat 189 gram. Berapakah hasil perhitungan massa jenis dari benda tersebut ... </p>",
+            "pilihanA":"8,5 gram/cm<sup>3</sup>",
+            "pilihanB":"8,8 gram/cm<sup>3</sup>",
+            "pilihanC":"4,5 gram/cm<sup>3</sup>",
+            "pilihanD":"4,8 gram/cm<sup>3</sup>",
+            "jawaban":"c"
+        }
+    },
+    {
+        "Soal6":{
+            "pertanyaan":"<p class='keteranganS'> Diketahui sebuah benda padat berbentuk balok memiliki massa jenis sebesar 8,9 gram/cm<sup>3</sup>. Apakah jenis materi dari benda tersebut tersebut ... </p>",
+            "pilihanA":"Besi",
+            "pilihanB":"Tembaga",
+            "pilihanC":"Kaca",
+            "pilihanD":"Raksa",
+            "jawaban":"b"
+        }
+    },
+    {
+        "Soal7":{
+            "pertanyaan":"<p class='keteranganS'> Awan merupakan salah satu contoh materi yang berwujud gas. Awan terbentuk dari sinar matahari yang memanaskan air yang berada di bumi, kemudian hasil dari pemanasan tersebut berkumpul di udara. Jenis perubahan fisika yang terjadi pada pembentukan awan adalah ... </p>",
+            "pilihanA":"Mencair",
+            "pilihanB":"Membeku",
+            "pilihanC":"Menguap",
+            "pilihanD":"Mengembun",
+            "jawaban":"c"
+        }
+    },
+    {
+        "Soal8":{
+            "pertanyaan":"Perhatikan gambar di bawah ini! <br> <img src='Gambar/Pepaya.jpg' alt='nasi' class='percobaan'> <br> <p class='keteranganS'> Pepaya mentah yang diperam, dapat berubah menjadi matang. Perubahan yang teradi pada pepaya termasuk ke dalam perubahan ... </p>",
+            "pilihanA":"Fisika karena bentuknya tetap dan warnanya berubah",
+            "pilihanB":"Kimia karena terjadinya perubahan rasa dan warna",
+            "pilihanC":"Fisika karena teradinya perubahan rasa dan komponen penyusunnya sama",
+            "pilihanD":"Kimia karena bentuknya tetap dan komponen penyusunnya sama",
+            "jawaban":"b" 
+        }
+    },
+    {
+        "Soal9":{
+            "pertanyaan":"Perhatikan pernyataan berikut ini! <ol class='dataK'><li> Sifat fisika tidak menghasilkan zat baru, sedangkan sifat kimia menghasilkan suatu zat baru </li><li> Sifat kimia tidak dapat mengubah warna materi, sedangkan sifat fisika dapat mengubah warna materi </li><li> Sifat fisika tidak dapat diamati, sedangkan sifat kimia dapat diamati </li><li> Sifat kimia tidak dapat mengubah materi kembali ke bentuk semula, sedangkan sifat fisika dapat mengubah materi kembali ke bentuk semula </li></ol> <p class='soal'> Berdasarkan pernyataan di atas, perbedaan dari sifat kimia dan sifat fisika ditunjukkan oleh nomor ... </p>",
+            "pilihanA":"1 dan 4",
+            "pilihanB":"2 dan 3",
+            "pilihanC":"3 dan 4",
+            "pilihanD":"1 dan 2",
+            "jawaban":"a"
+        }
+    }
+]

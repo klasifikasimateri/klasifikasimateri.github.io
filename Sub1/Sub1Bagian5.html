@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Klasifikasi Materi </title>
+    <link rel="stylesheet" href="Sub1Bagian5.css">
+</head>
+<body>
+    <div class="semua">
+
+        <!-- Header -->
+        <div class="atas">
+            <div class="tb" onclick="tbsidebar()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+          <center><h2>Klasifikasi Materi dan Perubahannya</h2></center>
+        <div class="nk"><a href="../index.html"><img src="Gambar/Home.png" alt="Home" style="height: 60px; width: 60px;"></a></div>
+        </div>
+
+        <!-- Sidebar -->
+        <div id="sidebar">
+            <ol type="A" class="A hidup"><li> Klasifikasi Materi </li></ol>
+            <ol start="1" style="list-style-position: inside;">
+                <a href="../Sub1/Sub1Bagian1.html"><li class="B"> Materi </li></a>
+                <a href="../Sub1/Sub1Bagian4.html"><li class="B hidup"> Unsur, senyawa, dan campuran </li></a>
+                <a href="../Sub1/Kuis.html"><li class="B" style="list-style: none;"> Kuis 1 </li></a>
+            </ol>
+            <ol type="A" start="2" class="A"><li>Perubahan materi</li></ol>
+            <ol start="1" style="list-style-position: inside;">
+                <a href="../Sub2/Sub2Bagian1.html"><li class="B"> Perubahan fisika </li></a>
+                <a href="../Sub2/Sub2Bagian3.html"><li class="B"> Perubahan kimia  </li></a>
+                <a href="../Sub2/Kuis2.html"><li class="B" style="list-style: none;"> Kuis 2 </li></a>
+            </ol>
+            <ol type="A" start="3" class="A"><li>Pemisahan campuran</li></ol>
+            <ol start="1" style="list-style-position: inside;">
+                <a href="../Sub3/Sub3Bagian1.html"><li class="B"> Filtrasi       </li></a>
+                <a href="../Sub3/Sub3Bagian2.html"><li class="B"> Distilasi      </li></a>
+                <a href="../Sub3/Sub3Bagian3.html"><li class="B"> Kromatografi   </li></a>
+                <a href="../Sub3/Sub3Bagian4.html"><li class="B"> Sublimasi      </li></a>
+                <a href="../Sub3/Kuis3.html"> <li class="B" style="list-style: none;"> Kuis 3         </li></a>
+            </ol>
+            <ol style="list-style: none;" class="A"><a href="../Latihan akhir/Latihan.html"><li> Latihan </li></a></ol>
+        </div>
+
+        <!-- Judul -->
+        <div class="judul" id="judul">
+            <center><h2> Klasifikasi materi </h2></center>
+        </div>
+
+        <!-- Isi -->
+        <div class="konten" id="konten">
+            <!-- Tujuan -->
+            <div class="kliksaya">
+                <nav class="tujuanP">
+                        <p> Tujuan Pembelajaran (Klik saya) </p>
+                </nav>
+                <div class="atasa">
+                    <div class="tujuan">
+                        <ol>
+                            <li> Peserta didik dapat mengidentifikasi materi yang tergolong senyawa berdasarkan karakteristik materi tersebut </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <h3> Senyawa </h3>
+            <div class="penjelasan">
+                <p>
+                    Senyawa adalah hasil dari penggabungan dua unsur atau lebih, penggabungan dari unsur dilakukan memalui suatu reaksi kimia. Senyawa dapat juga diuraikan menjadi materi yang lebih sederhana melalui reaksi kimia. 
+                    Senyawa termasuk ke dalam golongan zat tunggal. Pada senyawa, zat tunggal merupakan zat yang terdiri atau tersusun atas materi unsur sejenis.
+                </p>
+            </div><br>
+
+            <h3> Mari mengamati </h3>
+            <div class="penjelasan">
+                <p>
+                    Pada video ke 5 ini adalah demonstrasi percobaan untuk mengidentifikasi materi yang tergolong ke dalam senyawa dan menjelaskan tentang karakteristik yang dimiliki oleh materi yang tergolong senyawa. Pengguna diminta untuk menyimak dan memperhatikan penjelasan video 5 di bawah ini dengan baik.
+                </p><br>
+                <center>
+                    <video id="videoku" class="video1" controls>
+                        <source src="Video/Baru/Video1bagian5.m4v" type="video/mp4">
+                    </video>
+                    <div id="video_controls_bar">
+                        <button class="controls_vid_button" onclick="setCurTime(1)" type="button"> <b> Penjelasan awal </b> </button>
+                        <button class="controls_vid_button" onclick="setCurTime(2)" type="button"> <b> Materi yang digunakan </b> </button>
+                        <button class="controls_vid_button" onclick="setCurTime(3)" type="button"> <b> Alat yang digunakan </b> </button>
+                        <button class="controls_vid_button" onclick="setCurTime(4)" type="button"> <b> Awal percobaan </b> </button>
+                    </div>
+
+                    <p class="KetV"> Video 5 Mengidentifikasi materi yang tergolong senyawa berdasarkan karakteristiknya </p>
+                </center>
+            </div>
+
+            <h3 id="penje"> Kesimpulan </h3>
+            <div class="penjelasanku hilang">
+               <p>
+                    Senyawa merupakan materi yang memiliki sifat yang berbeda dari unsur penyusunnya, salah satu contoh senyawa adalah air. Air memiliki wujud cair dan air dapat memadamkan api. Sedangkan unsur penyusun air yaitu unsur oksigen dan hidrogen berwujud gas dan unsur hidrogen mudah terbakar.
+                    Air merupakan salah satu contoh zat tunggal, karena air tersusun atas dua buah unsur yang sejenis yaitu oksigen dan hidrogen. Senyawa dapat di identifikasi berdasarkan karakteristiknya, berikut ini adalah karakteristik yang dimiliki oleh senyawa:
+               </p>
+               <ol>
+                   <li> Terbentuk dari dua atau lebih unsur yang berbeda melalui rekasi kimia </li>
+                   <li> Memiliki karakteristik yang berbeda dari unsur penyusunnya </li>
+                   <li> Dapat diuraikan menjadi unsur penyusunnya melalui reaksi kimia </li>
+                   <li> Unsur penyusunnya memiliki perbandingan tetap </li>
+               </ol>
+               <p>
+                   Bagian terkecil dari senyawa yang masih memiliki karakteristik yang sama disebut molekul. Molekul dapat diartikan sebagai sekumpulan atau sekelompok atom yang saling berikatan satu sama lainnya dengan sangat kuat, bermuatan netral dan cukup stabil. Ada dua jenis molekul, yaitu molekul unsur dan molekul senyawa.
+               </p> <br>
+               <p>
+                  Molekul senyawa terdiri atas atom-atom yang sama, contohnya gas hidrogen dengan rumus kimia H<sub>2</sub> yang tersusun atas dua atom hidrogen. Sedangkan molekul senyawa terdiri atas atom-atom berlainan, contohnya air dengan rumus kimia H<sub>2</sub>O yang tersusun atas dua atom hidrogen dan satu atom oksigen.
+                  Berdasarkan unsur penyusunnya, senyawa dibagi menjadi dua macam yaitu senyawa organik dan senyawa anorganik.
+               </p>
+               <ol>
+                   <li> Senyawa organik <br> Senyawa ini mengandung unsur karbon (C) dalam penyusunannya, kecuali karbida, karbonat, dan oksida karbon. <br> Contoh: urea CO(NH<sub>2</sub>)<sub>2</sub> dan gula pasir (C<sub>12</sub>H<sub>22</sub>O<sub>11</sub>). </li>
+                   <li> Senyawa anorganik <br> Senyawa anorganik adalah senyawa yang tidak mengandung unsur karbon (C) dalam penyusunannya dan pada umumnya sebagai penyusun material atau benda tak hidup. Contoh: pasir (SiO<sub>2</sub>) dan garam dapur (NaCl). </li>
+               </ol>
+               <p>
+                Berikut ini adalah materi yang tergolong senyawa berserta rumus kimia, atom unsur penyusunnya dan nama unsur penyusunnya.
+               </p><br>
+               <center>
+                <span class="tab"> Tabel 1 contoh materi yang tergolong senyawa berserta rumus kimia, atom unsur penyusunnya dan nama unsur penyusunnya </span><br>
+                <table class="tabelku">
+                   <tr> 
+                       <th> Nama senyawa </th>
+                       <th> Rumus kimia </th>
+                       <th> Atom unsur penyusunnya </th>
+                       <th> Nama unsur penyusunnya </th>
+                   </tr>
+                   <tr>
+                       <td> Gula pasir </td>
+                       <td> C<sub>12</sub>H<sub>22</sub>O<sub>11</sub> </td>
+                       <td> 12 atom C + 22 atom H + 11 atom O</td>
+                       <td> Karbon, hidrogen dan oksigen </td>
+                   </tr>
+                   <tr>
+                        <td> Urea </td>
+                        <td> CO(NH<sub>2</sub>)<sub>2</sub> </td>
+                        <td> 1 atom C + 1 atom O + 2 atom N + 4 atom H</td>
+                        <td> Karbon, oksigen, nitrogen, dan hidrogen </td>
+                    </tr>
+                    <tr>
+                        <td> Garam dapur </td>
+                        <td> NaCl </td>
+                        <td> 1 atom Na + 1 atom Cl </td>
+                        <td> Natrium dan klor </td>
+                    </tr>
+                    <tr>
+                        <td> Karbon dioksida </td>
+                        <td> CO<sub>2</sub> </td>
+                        <td> 1 atom C + 2 atom O </td>
+                        <td> Karbon dan oksigen </td>
+                    </tr>
+                </table>
+                </center>
+            </div><br>
+
+            <div class="containerP hilang">
+                <h3> Pertanyaan </h3>
+            <div class="pertanyaan">
+                <div class="klikaku">
+                    <nav class="Petunjuk">
+                        <p id="petunjukku"> Petunjuk (Klik saya) </p>
+                    </nav>
+                    <div class="Isi">
+                        <div class="IsiPetunjuk">
+                            <ol>
+                                <li> Jawablah pertanyaan dibawah ini </li>
+                                <li> Anda diminta memilih jawaban yang benar di antara pilihan jawaban yang tersedia </li>
+                                <li> Jika jawaban anda benar, maka kotak pilihan akan berubah warna hijau dan disertai pembahasan pertanyaan </li>
+                                <li> Jika jawaban anda salah, maka kotak pilihan akan berubah warna merah dan disertai pembahasan pertanyaan </li>
+                                <li> Saat jawaban anda benar, maka akan tampil pertanyaan selanjutnya </li>
+                                <li> Saat jawaban anda belum benar, silahkan tekan tombol "Ulang" untuk kembali menjawab pertanyaan </li>
+                            </ol> 
+                        </div>
+                    </div>
+                </div><br>
+                <hr class="Gperta">
+                <br>
+                <div class="perta1">
+                    <ol>
+                        <li class="soal"> Berdasarkan video di atas, karakteristik yang dimiliki air sehingga tergolong senyawa adalah ... </li>
+                    </ol><br>
+                    <div class="pilihan">
+                        <ol type="a" id="ul">
+                            <li id="op1" onclick="benar(1)">  Tersusun atas dua unsur yang sejenis </li>
+                            <li id="op2" onclick="salahA(1)"> Tersusun atas satu unsur yang sejenis </li>
+                            <li id="op3" onclick="salahA(2)"> Tersusun atas dua unsur yang berbeda jenis </li>
+                            <li id="op4" onclick="salahA(3)"> Tersusun atas tiga unsur yang berbeda jenis </li>
+                        </ol>
+                    </div>
+                    <div class="tombol hilang">
+                        <button class="ulangP" onclick="ulang(1)"> Ulang </button>
+                    </div>
+                    <div class="pembahasan hilang">
+                        <span class="jbsalah" id="salah"> Jawaban anda belum benar </span>
+                        <div id="benar">
+                            <span class="jbbenar"> Jawaban anda benar </span>
+                            <br><b><u> Pembahasan: </u></b><br>
+                            Pada percobaan video di atas, air memiliki karakteristik tersusun atas dua buah unsur yang terlihat dari reaksi kimia elektrolisi air. Reaksi ini dapat memisahkan senyawa air menjadi unsur penyusunnya.
+                        </div>
+                    </div>
+                </div>
+                <div class="perta2 hilang">
+                    <ol start="2">
+                        <li class="soal"> Berdasarkan video di atas, materi yang menjadi penyusun senyawa air adalah ... </li>
+                    </ol><br>
+                    <div class="pilihan">
+                        <ol type="a" id="ul1">
+                            <li id="op5" onclick="salahA(6)"> Hidrogen dan oksidasi </li>
+                            <li id="op6" onclick="salahA(4)"> Oksigen dan helium </li>
+                            <li id="op7" onclick="salahA(5)"> Hidrogen dan helium </li>
+                            <li id="op8" onclick="benar(2)">  Oksigen dan hidrogen </li>
+                        </ol>
+                    </div>
+                    <div class="tombol hilang">
+                        <button class="ulangP" onclick="ulang(2)"> Ulang </button>
+                    </div>
+                    <div class="pembahasan1 hilang">
+                        <span class="jbsalah" id="salah1"> Jawaban anda belum benar </span>
+                        <div id="benar1">
+                            <span class="jbbenar"> Jawaban anda benar </span>
+                            <br><b><u> Pembahasan: </u></b><br>
+                            Pada video di atas, air tersusun atas unsur oksigen dan unsur hidrogen. Air memiliki perbedaan karakteristik dari unsur penyusunnya, unsur penyusun air berwujud gas sedangkan air berwujud cair.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </div>
+
+        <!-- Navbottom -->
+        <div class="Nav-Lanjut" id="navigasi">
+            <a href="Sub1Bagian4-1.html"><div class="Lanjut"> Sebelumnya </div></a>
+            <a href="Sub1Bagian4.html"><div class="Lanjut">1</div></a>
+            <a href="Sub1Bagian4-1.html"><div class="Lanjut">2</div></a>
+            <a href="Sub1Bagian5.html"><div class="Lanjut aktif_konten">3</div></a>
+            <a href="Sub1Bagian6.html"><div class="Lanjut">4</div></a>
+            <a href="Sub1Bagian7.html"><div class="Lanjut">5</div></a>
+            <a href="Sub1Bagian8(1).html"><div class="Lanjut">6</div></a>
+            <a href="Sub1Bagian9(1).html"><div class="Lanjut">7</div></a>
+            <a href="Pertanyaan2.html"><div class="Lanjut">8</div></a>
+            <a href="Sub1Bagian6.html"><div class="Lanjut"> Selanjutnya </div></a>
+        </div>
+    </div>
+    
+    <script src="Sub1Bagian5.js"></script>
+</body>
+</html>

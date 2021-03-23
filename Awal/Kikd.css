@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(170, 213, 219);
+}
+.container{
+    width: 100vw;
+    height: 667px;
+}
+.atas{
+    position: relative;
+    height: 60px;
+    width: 100vw;
+    background-color: rgba(151, 151, 253, 0.712);
+    box-shadow: 5px 5px 5px grey;
+}
+.atas h2{
+    margin: 0px;
+    display: inline-block;
+    padding: 15px;
+    letter-spacing: 2px;
+}
+.nk{
+    position: relative;
+    float: left;
+    margin-top: -57px;
+}
+.G1{
+    height: 60px; 
+    width: 60px;
+}
+.judul{
+    padding: 10px 0px 3px 0px;
+    background-color: rgb(170, 213, 219);
+}
+.judul h2{
+    padding: 3px 20px 3px 20px;
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    border: 4px solid black;
+    border-radius: 40px;
+    letter-spacing: 1px;
+}
+.konten{
+    margin-top: 10px;
+    background-color: white;
+    width: 75vw;
+    height: 520px;
+    border: 2px dotted black;
+    border-radius: 10px;
+    overflow: auto;
+    padding: 5px;
+}
+.border h1{
+    float: left;
+    margin-left: 10px;
+}
+.border .Kinti{
+    margin-left: 40px;
+    margin-right: 10px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.border .tigasatu{
+    line-height: 1.5;
+    margin-left: 40px;
+    margin-right: 10px;
+    font-size: 20px;
+    text-align: justify;
+}
+.border .empatsatu{
+    line-height: 1.5;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+@media (max-width : 380px){
+
+    .container{
+        width: 100vw;
+        height: 100vh;
+    }
+    .atas{
+        position: relative;
+        height: 60px;
+        width: 100vw;
+        background-color: rgba(151, 151, 253, 0.712);
+        box-shadow: 5px 5px 5px grey;
+    }
+    .atas h2{
+        font-size: 20px;
+        margin-top: -10px;
+        display: inline-block;
+        padding: 15px;
+        letter-spacing: 1px;
+    }
+    .nk{
+        position: relative;
+        float: left;
+        margin-top: -62px;
+    }
+    .G1{
+        height: 50px; 
+        width: 50px;
+    }
+    .judul h2{
+        line-height: 1.5;
+        padding: 5px 10px 5px 10px;
+        display: inline-block;
+        text-align: center;
+        font-size: 18px;
+        border: 2px solid black;
+        border-radius: 40px;
+        letter-spacing: 1px;
+    }
+    .konten{
+        margin-top: 5px;
+        margin-left: 0px;
+        background-color: white;
+        width: 94vw;
+        height: auto;
+        border: 1px solid black;
+        border-radius: 10px;
+        overflow: auto;
+        padding: 5px;
+    }
+    .konten h1{
+        margin-left: 0px;
+    }
+    .border .Kinti{
+        margin-top: 0px;
+        margin-left: 25px;
+        font-size: 20px;
+        text-align: justify;
+        line-height: 1.5;
+    }
+    .Kinti li{
+        position: relative;
+        top: -10px;
+        margin-top: 10px;
+    }
+    .border .tigasatu{
+        margin-top: 0px;
+        line-height: 1.5;
+        margin-left: 20px;
+        font-size: 20px;
+        text-align: justify;
+    }
+    .border .empatsatu{
+        line-height: 1.5;
+        text-align: justify;
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+}

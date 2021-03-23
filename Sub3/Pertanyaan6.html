@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Klasifikasi Materi </title>
+    <link rel="stylesheet" href="Pertanyaan6.css">
+</head>
+<body>
+    <div class="semua">
+
+        <!-- Header -->
+        <div class="atas">
+            <div class="tb" onclick="tbsidebar()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+          <center><h2>Klasifikasi Materi dan Perubahannya</h2></center>
+        <div class="nk"><a href="../index.html"><img src="Gambar/Home.png" alt="Home" style="height: 60px; width: 60px;"></a></div>
+        </div>
+
+        <!-- Sidebar -->
+        <div id="sidebar">
+            <ol type="A" class="A"><li> Klasifikasi Materi </li></ol>
+            <ol start="1" style="list-style-position: inside;">
+                <a href="../Sub1/Sub1Bagian1.html"><li class="B"> Materi </li></a>
+                <a href="../Sub1/Sub1Bagian4.html"><li class="B"> Unsur, senyawa, dan campuran </li></a>
+                <a href="../Sub1/Kuis.html"><li class="B" style="list-style: none;"> Kuis 1 </li></a>
+            </ol>
+            <ol type="A" start="2" class="A"><li>Perubahan materi</li></ol>
+            <ol start="1" style="list-style-position: inside;">
+                <a href="../Sub2/Sub2Bagian1.html"><li class="B"> Perubahan fisika </li></a>
+                <a href="../Sub2/Sub2Bagian3.html"><li class="B"> Perubahan kimia  </li></a>
+                <a href="../Sub2/Kuis2.html"><li class="B" style="list-style: none;"> Kuis 2 </li></a>
+            </ol>
+            <ol type="A" start="3" class="A hidup"><li>Pemisahan campuran</li></ol>
+            <ol start="1" style="list-style-position: inside;">
+                <a href="../Sub3/Sub3Bagian1.html"><li class="B"> Filtrasi       </li></a>
+                <a href="../Sub3/Sub3Bagian2.html"><li class="B hidup"> Distilasi      </li></a>
+                <a href="../Sub3/Sub3Bagian3.html"><li class="B"> Kromatografi   </li></a>
+                <a href="../Sub3/Sub3Bagian4.html"><li class="B"> Sublimasi      </li></a>
+                <a href="../Sub3/Kuis3.html"> <li class="B" style="list-style: none;"> Kuis 3         </li></a>
+            </ol>
+            <ol style="list-style: none;" class="A"><a href="../Latihan akhir/Latihan.html"><li> Latihan </li></a></ol>
+        </div>
+
+        <!-- Judul -->
+        <div class="judul" id="judul">
+            <center><h2> Pemisahan campuran </h2></center>
+        </div>
+
+        <!-- Isi -->
+        <div class="konten" id="konten"><br>
+            <h3> Pertanyaan </h3>
+            
+            <!-- Pertanyaan -->
+            <div class="pertanyaan">
+
+                <!-- Petunjuk -->
+            <div class="kliksaya">
+                <nav class="tujuanP">
+                        <p> Petunjuk (Klik saya) </p>
+                </nav>
+                <div class="atasa">
+                    <ol class="tujuan">
+                        <li>Jawablah pertanyaan berikut ini!</li>
+                        <li>Pertanyaan ini terdiri dari 4 soal</li>
+                        <li>Setiap pertanyaan memiliki data yang disajikan</li>
+                        <li>Anda diminta memilih jawaban yang benar diantara pilihan jawaban</li>
+                        <li>Jika jawaban anda benar, maka akan tampil pembahasan dan keterangan jawaban benar</li>
+                        <li>Jika jawaban anda salah, maka akan tampil pembahasan dan keterangan jawaban salah</li>
+                        <li>Jika ingin mengulang menjawab pertanyaan, silahkan tekan tombol 'Ulang'</li>
+                        <li>Jika ingin melanjutkan menjawab pertanyaan, silahkan tekan tombol 'Selanjutnya' pada nomor soal</li>
+                        <li>Jika ingin kembali ke pertanyaan sebelumnya, silahkan tekan tombol 'Sebelumnya' pada nomor soal</li>
+                    </ol>
+                </div>
+            </div>
+            <br>
+            <hr class="Gperta">
+            <br>
+
+            <!-- Soal 1 -->
+            <div class="perta">
+                <ol>
+                    <li class="soal"> Di bawah ini yang menjadi bagian penting dari proses pemisahan campuran metode distilasi adalah ... <br> (silahkan pilih 2 pilihan) </li>
+                </ol>
+                <div class="pil">
+                   <label class="pilihan">
+                       <table>
+                           <tr>
+                               <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan" onclick="return cekbox(1)"> a. </td>
+                               <td class="ket"> <span class="nav_pilihan"></span> Pembakaran materi </td>
+                           </tr>
+                       </table>
+                   </label>
+                   <label class="pilihan">
+                       <table>
+                           <tr>
+                               <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan" onclick="return cekbox(1)"> b. </td>
+                               <td class="ket"> <span class="nav_pilihan"></span> Penguapan materi </td>
+                           </tr>
+                       </table>
+                    </label>
+                    <label class="pilihan">
+                        <table>
+                            <tr>
+                                <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan" onclick="return cekbox(1)"> c. </td>
+                                <td class="ket"> <span class="nav_pilihan"></span> Pembekuan materi </td>
+                            </tr>
+                        </table>
+                    </label>
+                    <label class="pilihan">
+                        <table>
+                            <tr>
+                                <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan" onclick="return cekbox(1)"> d. </td>
+                                <td class="ket"> <span class="nav_pilihan"></span> Pemadatan materi </td>
+                            </tr>
+                        </table>
+                    </label>
+                    <label class="pilihan">
+                        <table>
+                            <tr>
+                                <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan" onclick="return cekbox(1)"> e. </td>
+                                <td class="ket"> <span class="nav_pilihan"></span> Pengembunan materi </td>
+                            </tr>
+                        </table>
+                    </label>
+                </div><br>
+
+                <button class="cekJb" onclick="cekjawab(1)"> Cek jawaban </button>
+                
+                <div class="pembahasan ukuran hilang">
+                    <span class="jbbenar"> Jawaban anda benar </span><br> 
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Bagian terpenting dari pemisahan campuran metode distilasi adalah proses penguapan materi dan pengembunan materi yang telah terpisah dari campuran.
+                    </p>
+                </div>
+                <div class="pembahasan ukuran hilang">
+                    <span class="jbsalah"> Jawaban anda belum benar. </span> 
+                    <p> <b><u> Petunjuk: </u></b><br>
+                        Silahkan pilih kembali jawaban yang benar
+                    </p>
+                </div>
+            </div>
+
+            <!-- Soal 2 -->
+            <div class="perta">
+                <ol start="2">
+                    <li class="ket1"> Perhatikan peralatan laboratorium di bawah ini! </li>
+                </ol>
+                <img src="Gambar/Alat lab/Kertas saring.jpg" class="Kayu">
+                <img src="Gambar/Alat lab/Kawat kasa.jpg" class="Kayu">
+                <img src="Gambar/Alat lab/Labu erlenmeyer.jpg" class="Kayu">
+                <img src="Gambar/Alat lab/Labu distilasi.jpg" class="Kayu"><br>
+                <span class="KS"> (Kertas saring) </span> <span class="Kk"> (Kawat kasa) </span> <span class="Le"> (Labu erlenmeyer) </span> <span class="Ld"> (Labu distilasi) </span>
+                <p class="soala"> Pada gambar di atas, peralatan yang dapat digunakan dalam pemisahan campuran metode distilasi diantaranya adalah ... </p>
+                <div class="pilihan">
+                    <ol type="a" id="ul">
+                        <li id="op1" onclick="salah(1)"> Kawat kasa dan labu erlenmeyer </li>
+                        <li id="op2" onclick="salah(2)"> Kertas saring dan kawat kasa </li>
+                        <li id="op3" onclick="benar(1)"> Labu erlenmeyer dan labu distilasi </li>
+                        <li id="op4" onclick="salah(3)"> Labu distilasi dan Kertas saring </li>
+                    </ol>
+                </div>
+                <div class="tombol hilang">
+                    <button class="ulang"> Ulang </button>
+                </div>
+                <div class="pembahasan ukuran2 hilang">
+                    <span class="jbbenar"> Jawaban anda benar </span><br> 
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Pada gambar di atas, alat yang dapat digunakan dalam pemisahan campuran metode distilasi adalah labu erlenmeyer dan labu distilasi.
+                    </p>
+                </div>
+                <div class="pembahasan ukuran1 hilang">
+                    <span class="jbsalah"> Jawaban anda belum benar. </span>
+                    <p> <b><u> Petunjuk: </u></b><br>
+                        Silahkan tekan tombol ulang & pilih kembali jawaban yang benar
+                    </p>
+                </div>
+            </div>
+
+            <!-- Soal 3 -->
+            <div class="perta">
+                <ol start="3">
+                    <li class="soal"> Di bawah ini, merupakan pernyataan yang tepat mengenai distilasi uap adalah ... <br> (silahkan pilih 2 pilihan) </li>
+                </ol>
+                <div class="pil">
+                    <label class="pilihan">
+                        <table>
+                            <tr>
+                                <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan1" onclick="return cekbox(2)"> a. </td>
+                                <td class="ket"> <span class="nav_pilihan"></span> Distilasi dilakukan dengan menggunakan uap air </td>
+                            </tr>
+                        </table>
+                    </label>
+                    <label class="pilihan">
+                        <table>
+                            <tr>
+                                <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan1" onclick="return cekbox(2)"> b. </td>
+                                <td class="ket"> <span class="nav_pilihan"></span> Distilasi digunakan dengan menggunakan sebuah kolom </td>
+                            </tr>
+                        </table>
+                     </label>
+                     <label class="pilihan">
+                         <table>
+                             <tr>
+                                 <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan1" onclick="return cekbox(2)"> c. </td>
+                                 <td class="ket"> <span class="nav_pilihan"></span> Aplikasi dari distilasi adalah untuk memisahkan materi dari campuran </td>
+                             </tr>
+                         </table>
+                     </label>
+                     <label class="pilihan">
+                         <table>
+                             <tr>
+                                 <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan1" onclick="return cekbox(2)"> d. </td>
+                                 <td class="ket"> <span class="nav_pilihan"></span> Aplikasi dari distilasi adalah untuk mengekstrak parfum dari tumbuhan </td>
+                             </tr>
+                         </table>
+                     </label>
+                     <label class="pilihan">
+                         <table>
+                             <tr>
+                                 <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan1" onclick="return cekbox(2)"> e. </td>
+                                 <td class="ket"> <span class="nav_pilihan"></span> Aplikasi dari distilasi adalah untuk memurnikan suatu materi yang tercampur </td>
+                             </tr>
+                         </table>
+                     </label>
+                 </div><br>
+ 
+                 <button class="cekJb" onclick="cekjawab(2)"> Cek jawaban </button>
+                
+                <div class="pembahasan hilang">
+                    <span class="jbbenar"> Jawaban anda benar </span><br> 
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Pernyataan yang tepat tentang pemisahan campuran metode distilasi uap adalah Distilasi dilakukan dengan menggunakan uap air dan Aplikasi dari distilasi adalah untuk mengekstrak minyak parfum dari tumbuhan.
+                    </p>
+                </div>
+                <div class="pembahasan hilang">
+                    <span class="jbsalah"> Jawaban anda belum benar. </span> 
+                    <p> <b><u> Petunjuk: </u></b><br>
+                        Silahkan pilih kembali jawaban yang benar!
+                    </p>
+                </div>
+            </div>
+
+            <!-- Soal 4 -->
+            <div class="perta">
+                <ol start="4">
+                    <li class="soal"> Di bawah ini, merupakan contoh implementasi dari pemisahan campuran metode distilasi adalah ... <br> (silahkan pilih 2 pilihan) </li>
+                </ol>
+                <div class="pil">
+                    <label class="pilihan">
+                        <table>
+                            <tr>
+                                <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan2" onclick="return cekbox(3)"> a. </td>
+                                <td class="ket"> <span class="nav_pilihan"></span> Mengekstrak daging kelapa menjadi santan </td>
+                            </tr>
+                        </table>
+                    </label>
+                    <label class="pilihan">
+                        <table>
+                            <tr>
+                                <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan2" onclick="return cekbox(3)"> b. </td>
+                                <td class="ket"> <span class="nav_pilihan"></span> Mengekstrak tebu menjadi gula pasir </td>
+                            </tr>
+                        </table>
+                     </label>
+                     <label class="pilihan">
+                         <table>
+                             <tr>
+                                 <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan2" onclick="return cekbox(3)"> c. </td>
+                                 <td class="ket"> <span class="nav_pilihan"></span> Mengekstrak minyak bumi menjadi bahan bakar </td>
+                             </tr>
+                         </table>
+                     </label>
+                     <label class="pilihan">
+                         <table>
+                             <tr>
+                                 <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan2" onclick="return cekbox(3)"> d. </td>
+                                 <td class="ket"> <span class="nav_pilihan"></span> Mengekstrak air laut menjadi air sungai </td>
+                             </tr>
+                         </table>
+                     </label>
+                     <label class="pilihan">
+                         <table>
+                             <tr>
+                                 <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan2" onclick="return cekbox(3)"> e. </td>
+                                 <td class="ket"> <span class="nav_pilihan"></span> Mengekstrak kelapa sawit menjadi minyak goreng </td>
+                             </tr>
+                         </table>
+                     </label>
+                 </div><br>
+ 
+                 <button class="cekJb" onclick="cekjawab(3)"> Cek jawaban </button>
+                
+                <div class="pembahasan hilang">
+                    <span class="jbbenar"> Jawaban anda benar </span><br> 
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Contoh implementasi dari pemisahan campuran metode distilasi adalah Mengekstrak minyak bumi menjadi bahan bakar dan Mengekstrak kelapa sawit menjadi minyak goreng.
+                    </p>
+                </div>
+                <div class="pembahasan hilang">
+                    <span class="jbsalah"> Jawaban anda belum benar. </span> 
+                    <p> <b><u> Petunjuk: </u></b><br>
+                        Silahkan pilih kembali jawaban yang benar!
+                    </p>
+                </div>
+            </div>
+
+            <!-- Navigasi soal -->
+            <div class="Nav-soal"> Nomor soal: <br>
+                <div class="sebelumnya" onclick="SoalT(-1)"> Sebelumnya </div>
+                <div class="soal1 aktif" onclick="NomorSoal(1)">1</div>
+                <div class="soal1" onclick="NomorSoal(2)">2</div>
+                <div class="soal1" onclick="NomorSoal(3)">3</div>
+                <div class="soal1" onclick="NomorSoal(4)">4</div>
+                <div class="selanjutnya" onclick="SoalT(1)"> Selanjutnya </div>
+            </div>
+            </div><br>
+        </div>
+
+        <!-- Navbottom -->
+        <div class="Nav-Lanjut" id="navigasi">
+            <a href="Sub3Bagian2-1.html"><div class="Lanjut"> Sebelumnya </div></a>
+            <a href="Sub3Bagian2.html"><div class="Lanjut">1</div></a>
+            <a href="Sub3Bagian2-1.html"><div class="Lanjut">2</div></a>
+            <a href="Pertanyaan6.html"><div class="Lanjut aktif_konten">3</div></a>
+            <a href="Sub3Bagian3.html"><div class="Lanjut"> Selanjutnya </div></a>
+        </div>
+    </div>
+    
+    <script src="Pertanyaan6.js"></script>
+</body>
+</html>

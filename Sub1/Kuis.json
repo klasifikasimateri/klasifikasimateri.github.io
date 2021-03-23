@@ -1,0 +1,102 @@
+[
+    {
+        "Soal0":{
+            "pertanyaan":"Perhatikan gambar di bawah ini! <br> <img src='Gambar/Baru/Garam.jpg' class='percobaan'> <br> <p class='soalU'> Ketika garam ditempatkan ke dalam sebuah gelas, garam dapat memenuhi semua bagian dari gelas tersebut. Wujud dari materi garam adalah ... </p>",
+            "pilihanA":"Padat",
+            "pilihanB":"Cair",
+            "pilihanC":"Gas",
+            "pilihanD":"Tidak berwujud",
+            "jawaban":"a"
+        }
+    },
+    {
+        "Soal1":{
+            "pertanyaan":"Perhatikan gambar di bawah ini! <br> <img src='Gambar/Kuis/Asam.jpg' alt='Gas' class='lakmus'> <img src='Gambar/Kuis/Basa.jpg' alt='Gas' class='lakmus'> <img src='Gambar/Kuis/Garam.jpg' alt='Gas' class='lakmus'> <br> <span class='larutanA'>(Larutan A)</span> <span class='larutanB'>(Larutan B)</span> <span class='larutanC'>(Larutan C)</span> <br><br> <p class='kertas'> Berdasarkan perubahan warna dari kertas lakmus di atas, sifat dari larutan A, larutan B, dan larutan C adalah ... </p>",
+            "pilihanA":"Asam, basa, dan garam ",
+            "pilihanB":"Basa, basa, dan garam",
+            "pilihanC":"Asam, asam, dan garam",
+            "pilihanD":"Basa, asam, dan garam",
+            "jawaban":"a"
+        }
+    },
+    {
+        "Soal2":{
+            "pertanyaan":"Perhatikan hasil uji coba sifat larutan menggunakan indikator alami di bawah ini! <br> <img src='Gambar/Kuis/AsamM.jpg' alt='Gas' class='buatan'> <img src='Gambar/Kuis/BasaK.jpg' alt='Gas' class='buatan'> <br> <span class='larutan'>(Larutan X)</span> <span class='larutan1'>(Larutan Y)</span> <br><br> <div class='buatan1'> Larutan X adalah hasil dari pencampuran ekstrak bunga mawar dengan larutan buah kedondong dan Larutan Y adalah hasil dari pencampuran ekstrak kunyit dengan larutan deterjen. Berdasarkan perubahan warna yang dihasilkan oleh indikator alami, sifat dari larutan X dan larutan Y adalah ... </div>",
+            "pilihanA":"Basa dan asam",
+            "pilihanB":"Basa dan basa",
+            "pilihanC":"Asam dan basa",
+            "pilihanD":"Asam dan asam",
+            "jawaban": "c"
+        }
+    },
+    {
+        "Soal3":{
+            "pertanyaan":"Perhatikan gambar di bawah ini! <br> <img src='Gambar/Kuis/Es.jpg' alt='Gas' class='gambar'> <img src='Gambar/Baru/Kecap.jpg' alt='Gas' class='gambar'> <img src='Gambar/Baru/Pasir.jpg' alt='Gas' class='gambar'> <img src='Gambar/Baru/Susu.jpg' alt='Gas' class='gambar'> <br> <span class='es2'>(Es)</span> <span class='kecap'>(Kecap)</span> <span class='pasir'>(Pasir)</span> <span class='susu'>(Susu)</span> <br><br> <p class='soalB'> Berdasarkan gambar di atas, materi yang berwujud cair diantaranya adalah ... </p>",
+            "pilihanA":"Es dan kecap",
+            "pilihanB":"Susu dan pasir",
+            "pilihanC":"Pasir dan es",
+            "pilihanD":"Susu dan kecap",
+            "jawaban":"d"
+        }
+    },
+    {
+        "Soal4":{
+            "pertanyaan":"Perhatikan gambar di bawah ini! <br> <img src='Gambar/Kuis/Koin.jpg' alt='Gas' class='gambar'> <img src='Gambar/Kuis/Kain.jpg' alt='Gas' class='gambar'> <img src='Gambar/Kuis/Kaca.jpg' alt='Gas' class='gambar'> <img src='Gambar/Kaleng.jpg' alt='Gas' class='gambar'> <br> <span class='nasi'>(Koin)</span> <span class='kain'>(Kain)</span> <span class='kaca'>(Kaca)</span> <span class='baterai'>(Kaleng)</span> <br><br> <p class='soalB'> Berdasarkan gambar di atas, benda yang tergolong ke dalam jenis unsur logam diantaranya adalah ... </p>",
+            "pilihanA":"Koin dan kaca",
+            "pilihanB":"Kain dan kaleng",
+            "pilihanC":"Kaca dan kain",
+            "pilihanD":"Kaleng dan koin",
+            "jawaban":"d"
+        }
+    },
+    {
+        "Soal5":{
+            "pertanyaan":"Perhatikan gambar di bawah ini! <br> <img src='Gambar/Kuis/Beras.jpg' alt='Gas' class='gambar'> <img src='Gambar/Kuis/Sirup.jpg' alt='Gas' class='gambar'> <img src='Gambar/Kuis/Gelembung.gif' alt='Gas' class='gambar'> <img src='Gambar/Kuis/Kapas.jpg' alt='Gas' class='gambar'> <br> <span class='nasi'>(Beras)</span> <span class='es'>(Sirup)</span> <span class='madu'>(Gelembung)</span> <span class='parfum'>(Kapas)</span> <br><br> <p class='soalB'> Berdasarkan gambar di atas, materi yang berwujud padat diantaranya adalah ... </p>",
+            "pilihanA":"Beras dan Kapas",
+            "pilihanB":"Kapas dan gelembung",
+            "pilihanC":"Gelembung dan sirup",
+            "pilihanD":"Beras dan sirup",
+            "jawaban":"a"
+        }
+    },
+    {
+        "Soal6":{
+            "pertanyaan":"Perhatikan gambar di bawah ini! <br> <img src='Gambar/Kuis/Asap.gif' alt='Gas' class='gambar'> <img src='Gambar/Kuis/Es.jpg' alt='Gas' class='gambar'> <img src='Gambar/Kuis/Gelembung.gif' alt='Gas' class='gambar'> <img src='Gambar/Kuis/Balok.jpg' alt='Gas' class='gambar'> <br> <span class='nasi'>(Asap)</span> <span class='es1'>(Es)</span> <span class='gele'>(Gelembung)</span> <span class='balok'>(Balok)</span> <br><br> <p class='soalB'> Berdasarkan gambar di atas, materi yang berwujud gas diantaranya adalah ... </p>",
+            "pilihanA":"Asap dan es",
+            "pilihanB":"Es dan balok",
+            "pilihanC":"Gelembung dan asap",
+            "pilihanD":"Balok dan gelembung",
+            "jawaban":"c"
+        }
+    },
+    {
+        "Soal7":{
+            "pertanyaan":"<p class='soal'> Sebuah materi memiliki karakteristik ketika ditempatkan ke dalam sebuah wadah, materi tersebut dapat memenuhi wadah penampungnya dan bentuk dari materi tersebut dapat berubah-ubah. Wujud dari materi tersebut adalah ... </p>",
+            "pilihanA":"Padat",
+            "pilihanB":"Cair",
+            "pilihanC":"Gas",
+            "pilihanD":"Tidak berwujud",
+            "jawaban":"c"
+        }
+    },
+    {
+        "Soal8":{
+            "pertanyaan":"Perhatikan data berikut ini! <ol class='dataK'><li> Air laut tersusun dari materi air dan garam </li><li> Karbon dioksida tersusun dari materi karbon dan oksigen </li><li> Pasir tersusun dari materi silikon dan oksigen </li><li> Sirup buah tersusun dari materi air dan perasa buah </li><li> Gula pasir tersusun dari materi karbon, hidrogen dan oksigen </li></ol> <p class='soalU'> Berdasarkan data di atas, materi yang tergolong senyawa ditunjukkan oleh nomor ... </p>",
+            "pilihanA":"1, 2, dan 3",
+            "pilihanB":"1, 2, dan 4",
+            "pilihanC":"2, 3, dan 5",
+            "pilihanD":"2, 4, dan 5",
+            "jawaban":"c"
+        }
+    },
+    {
+        "Soal9":{
+            "pertanyaan":"Perhatikan gambar di bawah ini! <br> <img src='Gambar/Baru/Larutan susu.jpg' alt='Gas' class='gambar'> <img src='Gambar/Baru/Larutan kopi.jpg' alt='Gas' class='gambar'> <img src='Gambar/Baru/Larutan tanah.jpg' alt='Gas' class='gambar'> <img src='Gambar/Baru/Larutan garam.jpg' alt='Gas' class='gambar'> <br> <span class='larutanS'>(Larutan susu)</span> <span class='LarutanK'>(Larutan kopi)</span> <span class='LarutanT'>(Larutan tanah)</span> <span class='LarutanG'>(Larutan gula)</span> <br><br> <p class='soalB'>Berdasarkan gambar di atas, campuran materi yang tergolong ke dalam campuran heterogen diantaranya adalah ...</p>",
+            "pilihanA":"Larutan susu dan larutan kopi",
+            "pilihanB":"Larutan kopi dan larutan tanah",
+            "pilihanC":"Larutan tanah dan larutan gula",
+            "pilihanD":"Larutan gula dan larutan susu",
+            "jawaban":"b"
+        }
+    }
+]

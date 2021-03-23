@@ -1,0 +1,1116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(170, 213, 219);
+}
+@media only screen and (max-width: 380px){
+    .semua{
+        width: 100vw;
+        height: 100vh;
+    }
+    .BAtas{
+        position: relative;
+        height: 65px;
+        width: 100vw;
+        background-color: rgba(151, 151, 253, 0.712);
+        box-shadow: 5px 5px 5px grey;
+    }
+    .BAtas h2{
+        line-height: 1.5;
+        margin-left: -15px;
+        margin-top: -15px;
+        font-size: 20px;
+        display: inline-block;
+        padding: 15px;
+        letter-spacing: 1px;
+    }
+    .nk{
+        position: relative;
+        float: right;
+        margin-top: -73px;
+    }
+    .judul{
+        padding: 10px 0px 3px 0px;
+        background-color: rgb(170, 213, 219);
+    }
+    .judul h2{
+        padding: 3px 20px 3px 20px;
+        display: inline-block;
+        text-align: center;
+        font-size: 18px;
+        background-color: white;
+        border: 3px solid black;
+        border-radius: 40px;
+        letter-spacing: 1px;
+        margin-left: 0px;
+    }
+    .konten{
+        width: 98vw;
+        height: auto;
+        border: 2px solid black;
+        border-radius: 10px;
+        overflow: auto;
+        background-color: white;
+        margin-top: 5px;
+    }
+    .tujuanP{
+        margin-top: 8px;
+        margin-left: 8px;
+        text-align: justify;
+        display: inline-block;
+        border: 2px solid rgb(1, 59, 78);
+        background-color: lightblue;
+        border-radius: 0px 10px 10px 0px;
+        padding: 8px;
+        cursor: pointer;
+    }
+    .tujuanP p{
+        font-size: 18px;
+    }
+    .tujuan{
+        width: 93vw;
+        padding-top: 5px;
+        padding-left: 0px;
+        padding-right: 5px;
+        padding-bottom: 0px;
+        margin-left: 8px;
+        display: inline-block;
+        border: 2px solid rgb(1, 59, 78);
+        background-color: white;
+        border-radius: 0px 10px 10px 0px;
+        box-sizing: border-box;
+    }
+    .tujuan li{
+        line-height: 1.5;
+        margin-left: 25px;
+        text-align: justify;
+        font-size: 18px !important;
+    }
+    .hilang{
+        display: none;
+    }
+    .data_diri{
+        height: 40vh;
+        border: 2px solid black;
+        display: inline-block;
+        padding: 10px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .data_diri p{
+        font-size: 20px;
+        text-align: center;
+    }
+    #nama,
+    #sekolah,
+    #kelas {
+        width: 65vw;
+        font-size: 18px;
+        float: right;
+    }
+    .lanjut {
+        width: 80px;
+        padding: 5px 5px;
+        background-color: lightblue;
+        border: 2px solid rgb(9, 64, 82);
+        font-weight: bold;
+        text-align: center;
+        position: relative;
+        display: inline-block;
+        margin-left: 10px;
+        font-size: 18px !important;
+    }
+    .lanjut:hover {
+        background-color: rgb(9, 64, 82);
+        cursor: pointer;
+    }
+    .kembali{
+        display: inline-block;
+        width: 150px;
+        padding: 5px 5px;
+        background-color: lightblue;
+        border: 2px solid rgb(9, 64, 82);
+        margin-top: 5px;
+        font-weight: bold;
+        text-align: center;
+        font-size: 18px !important;
+    }
+    .kembali a{
+        text-decoration: none;
+        color: black;
+    }
+    .Formkuis{
+        left: -10px;
+        padding-left: 10px;
+        margin-top: 10px;
+        margin-left: 5px;
+        border: 3px solid #006A4E;
+        border-radius: 10px;
+        width: 93vw;
+        height: auto;
+    }
+    .Formkuis1{
+        width: 90vw;
+        height: auto;
+        font-size: 18px;
+    }
+    #soal9{
+        margin-left: 0px;
+    }
+    .soal{
+        line-height: 1.5;
+        font-size: 18px;
+        text-align: justify;
+    }
+    .soalU{
+        text-align: justify;
+        font-size: 18px;
+        line-height: 1.5;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    .soalB{
+        text-align: justify;
+        font-size: 18px;
+        line-height: 1.5;
+        margin-top: -55px;
+        margin-bottom: 10px;
+    }
+    .buatan1{
+        text-align: justify;
+        font-size: 18px;
+        line-height: 1.5;
+        margin-top: -30px;
+    }
+    .kertas{
+        text-align: justify;
+        font-size: 18px;
+        line-height: 1.5;
+        margin-top: -30px;
+    }
+    .cek{
+        position: relative;
+        display: inline-block;
+        margin-left: 0px !important;
+        width: 35px;
+    }
+    .cek1{
+        width: 300px;
+    }
+    .pilihanJ{
+        margin-top: 8px;
+        margin-bottom: 15px;
+    }
+    .percobaan{
+        margin-top: 5px;
+        margin-left: 3px;
+        width: 250px;
+        height: 200px;
+    }
+    .gambar{
+        margin-top: 8px;
+        margin-left: 2px;
+        margin-bottom: 20px;
+        width: 124px;
+        height: 110px;
+    }
+    .gambar1{
+        margin-top: -10px;
+        margin-left: 10px;
+        width: 50px;
+        height: 100px;
+    }
+    .buatan{
+        margin-top: 8px;
+        margin-left: 2px;
+        margin-bottom: 20px;
+        width: 127px;
+        height: 110px;
+    }
+    .lakmus{
+        margin-top: 8px;
+        margin-left: 2px;
+        margin-bottom: 20px;
+        width: 124px;
+        height: 110px;
+    }
+    .larutan{
+        font-size: 16px;
+        position: relative;
+        display: inline-block;
+        top: -20px;
+        margin-left: 25px;
+    }
+    .larutan1{
+        font-size: 16px;
+        position: relative;
+        display: inline-block;
+        top: -20px;
+        margin-left: 55px;
+    }
+    .larutanS{
+        font-size: 16px;
+        position: relative;
+        display: inline-block;
+        top: -170px;
+        margin-left: 20px;
+    }
+    .LarutanK{
+        font-size: 16px;
+        position: relative;
+        display: inline-block;
+        top: -170px;
+        left: -15px;
+    }
+    .LarutanT{
+        font-size: 16px;
+        position: relative;
+        display: inline-block;
+        top: -45px;
+        margin-left: 15px;
+    }
+    .LarutanG{
+        font-size: 16px;
+        position: relative;
+        display: inline-block;
+        top: -45px;
+        margin-left: 30px;
+    }
+    .larutanA{
+        font-size: 16px;
+        position: relative;
+        display: inline-block;
+        top: -165px;
+        left: 28px;
+    }
+    .larutanB{
+        font-size: 16px;
+        position: relative;
+        display: inline-block;
+        top: -165px;
+        left: 80px;
+    }
+    .larutanC{
+        font-size: 16px;
+        position: relative;
+        display: inline-block;
+        top: -20px;
+        left: -135px;
+    }
+    .nasi{
+        font-size: 16px;
+        position: relative;
+        display: inline-block;
+        top: -167px;
+        margin-left: 40px;
+    }
+    .es{
+        font-size: 16px;
+        position: relative;
+        display: inline-block;
+        top: -167px;
+        left: 70px;
+    }
+    .madu{
+        font-size: 16px;
+        position: relative;
+        display: inline-block;
+        left: -156px;
+        top: -23px;
+    }
+    .parfum{
+        font-size: 16px;
+        position: relative;
+        display: inline-block;
+        left: 170px;
+        top: -45px;
+    }
+    .es2{
+        font-size: 16px;
+        position: relative;
+        display: inline-block;
+        top: -167px;
+        margin-left: 50px;
+    }
+    .kecap{
+        font-size: 16px;
+        position: relative;
+        display: inline-block;
+        top: -167px;
+        left: 95px;
+    }
+    .pasir{
+        font-size: 16px;
+        position: relative;
+        display: inline-block;
+        left: -90px;
+        top: -23px;
+        margin-bottom: 25px;
+    }
+    .susu{
+        font-size: 16px;
+        position: relative;
+        display: inline-block;
+        left: -10px;
+        top: -23px;
+    }
+    .es1{
+        font-size: 16px;
+        position: relative;
+        display: inline-block;
+        top: -167px;
+        left: 95px;
+    }
+    .gele{
+        font-size: 16px;
+        position: relative;
+        display: inline-block;
+        left: -96px;
+        top: -23px;
+    }
+    .balok{
+        font-size: 16px;
+        position: relative;
+        display: inline-block;
+        left: -38px;
+        top: -23px;
+        margin-bottom: 25px;
+    }
+    .kain{
+        font-size: 16px;
+        position: relative;
+        display: inline-block;
+        top: -167px;
+        left: 95px; 
+    }
+    .kaca{
+        font-size: 16px;
+        position: relative;
+        display: inline-block;
+        left: -85px;
+        top: -23px;
+    }
+    .baterai{
+        font-size: 16px;
+        position: relative;
+        display: inline-block;
+        left: -15px;
+        top: -23px;
+        margin-bottom: 25px;
+    }
+    .dataK{
+        line-height: 1.5;
+        text-align: justify;
+    }
+    .TabNav{
+        border: 3px solid #006A4E;
+        border-radius: 10px;
+        margin-top: 5px;
+        margin-left: 12px;
+        margin-bottom: 10px;
+        width: 90vw;
+        height: 46vh;
+        background-color: rgba(151, 151, 253, 0.712);
+    }
+    .nomorS{
+        margin-top: 3px;
+        margin-left: 75px;
+        border: 2px solid #006A4E;
+        border-radius: 10px;
+        display: inline-block !important;
+        text-align: center;
+        background-color: white;
+        width: 40vw;
+        height: 5vh;
+    }
+    .nomorS p{
+        display: inline-block !important;
+        padding: 3px;
+    }
+    p .tulis{
+        font-size: 20px !important;
+    }
+    .S1Nav{
+        margin-top: 15px;
+        margin-left: 15px;
+        border: 2px solid rgb(9, 64, 82);
+        border-radius: 15px !important;
+        display: inline-block;
+        text-align: center;
+        width: 10vw;
+        height: 5vh;
+    }
+    .S1Nav p{
+        padding: 4px;
+    }
+    .S1Nav:hover{
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    .putih{
+        background-color: white;
+    }
+    .hijau{
+        background-color: green;
+    }
+    .keterangan{
+        padding: 8px;
+        margin-top: 7px;
+        margin-left: 5px;
+        width: 48vw;
+        height: 15vh;
+        background-color: white;
+        border: 2px solid rgb(9, 64, 82);
+        border-radius: 10px;
+    }
+    .keterangan .ket{
+        font-size: 15px;
+        padding: 3px;
+        margin-top: -2vh;
+    }
+    .keterangan .put{
+        margin-top: 5px;
+    }
+    .keterangan p{
+        margin-top: 15px;
+    }
+    .belum{
+        border: 3px solid #006A4E;
+        border-radius: 5px;
+        padding: 2px;
+        font-size: 14px;
+        background-color: white;
+    }
+    .sudah{
+        border: 3px solid #006A4E;
+        border-radius: 5px;
+        padding: 2px;
+        font-size: 14px;
+        background-color: green;
+    }
+    .selesai{
+        padding: 10px;
+        text-align: center;
+        margin-left: 58vw;
+        margin-top: -65px;
+        border: 3px solid #006A4E;
+        border-radius: 15px;
+        width: 22vw;
+        height: 3vh;
+        background-color: white;
+    }
+    .selesai:hover{
+        cursor: pointer;
+        background-color: lightblue;
+    }
+    .pilihan{
+        top: 20px;
+        font-size: 18px;
+    }
+    #Kuisku p ol{
+        padding: 5px;
+        text-align: justify;
+        margin-left: 15px;
+        font-size: 18px;
+    }
+    #Kuisku .soalli{
+        margin-top: -3px;
+        font-size: 18px;
+        text-align: justify;
+    }
+    .nav_lanjut{
+        font-size: 18px;
+        width: 35vw;
+        margin-left: 30px;
+    }
+    .nav_belum{
+        font-size: 18px;
+        width: 35vw;
+        margin-left: -5px;
+    }
+    .disable{
+        cursor: unset;
+        background-color: #bcbcbc;
+        border-color: #bcbcbc;
+    }
+    #Kuisku .pil{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .isihasil{
+        margin-top: 40px;
+        margin-bottom: 50px;
+        width: 80vw;
+        height: 49vh;
+        border: 3px solid rgba(151, 151, 253, 0.712);
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .isihasil h2{
+        padding-bottom: 5px;
+    }
+    .isihasil p{
+        padding: 13px 5px 5px 5px;
+        font-size: 18px;
+        text-align: justify;
+    }
+    .isihasil span{
+        font-size: 18px;
+        text-align: justify;
+        padding: 5px;
+    }
+    .kembali1{
+        background-color: lightblue;
+        display: inline-block;
+        font-weight: bold;
+        margin-top: 15px;
+        margin-left: 0px;
+        font-size: 12px;
+        padding: 5px;
+    }
+    .kembali1 a{
+        text-decoration: none;
+        color: black;
+    }
+    .lanjut1{
+        display: inline-block;
+        margin-left: 10px;
+        background-color: lightblue;
+        font-weight: bold;
+        font-size: 12px;
+        padding: 5px;
+    }
+    .lanjut1 a{
+        text-decoration: none;
+        color: black;
+    }
+    .kembali1:hover{
+        cursor: pointer;
+        background-color: white;
+    }
+    .lanjut1:hover{
+        cursor: pointer;
+        background-color: white;
+    }
+}
+
+@media(min-width: 400px){
+    .BAtas{
+        position: relative;
+        height: 60px;
+        width: 1366px;
+        background-color: rgba(151, 151, 253, 0.712);
+        box-shadow: 5px 5px 5px grey;
+    }
+    .BAtas h2{
+        margin: 0px;
+        font-size: 25px;
+        display: inline-block;
+        padding: 15px;
+        letter-spacing: 2px;
+    }
+    .nk{
+        position: relative;
+        float: right;
+        margin-top: -57px;
+    }
+    .judul{
+        padding: 10px 0px 3px 0px;
+        background-color: rgb(170, 213, 219);
+    }
+    .judul h2{
+        width: 150px;
+        padding: 3px 30px 3px 30px;
+        display: inline-block;
+        text-align: center;
+        font-size: 25px;
+        background-color: white;
+        border: 4px solid black;
+        border-radius: 40px;
+        letter-spacing: 1px;
+    }
+    .konten{
+        margin-left: 25px;
+        background-color: white;
+        width: 95vw;
+        height: 76vh;
+        border: 1px solid black;
+        border-radius: 10px;
+        overflow: auto;
+        padding: 10px;
+    }
+    .tujuanP{
+        margin-top: 10px;
+        margin-left: 20px;
+        text-align: justify;
+        display: inline-block;
+        border: 2px solid rgb(1, 59, 78);
+        background-color: lightblue;
+        border-radius: 0px 10px 10px 0px;
+        padding: 10px;
+        cursor: pointer;
+    }
+    .tujuanP p{
+        font-size: 21px;
+    }
+    .tujuan{
+        width: 65vw;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        margin-left: 20px;
+        display: inline-block;
+        border: 2px solid rgb(1, 59, 78);
+        background-color: white;
+        border-radius: 0px 10px 10px 0px;
+        box-sizing: border-box;
+    }
+    .tujuan li{
+        line-height: 1.5;
+        margin-left: 25px;
+        text-align: justify;
+        font-size: 20px !important;
+    }
+    .hidupku{
+        display: inline-block;
+    }
+    .Gperta{
+        border: none;
+        background-color:  rgba(151, 151, 253, 0.712);
+        height: 5px;
+    }
+    .hilang{
+        display: none;
+    }
+    .data_diri{
+        border: 2px solid black;
+        display: inline-block;
+        padding-right: 30px;
+        padding-top: 15px;
+        margin-top: 0px;
+    }
+    .data_diri p{
+        font-size: 1.6vw;
+    }
+    label {
+        width: 500px;
+        display: inline-block;
+        margin-left: 26%;
+        font-size: 1.6vw;
+        margin-top: 10px;
+        margin: 0px;
+    }
+    #nama,
+    #sekolah,
+    #kelas {
+        width: 300px;
+        font-size: 1.6vw;
+        float: right;
+    }
+    .lanjut {
+        display: inline-block;
+        width: 200px;
+        padding: 5px 5px;
+        background-color: lightblue;
+        border: 2px solid rgb(9, 64, 82);
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.6vw !important;
+    }
+    .lanjut:hover {
+        background-color: rgb(9, 64, 82);
+        cursor: pointer;
+    }
+    .kembali{
+        display: inline-block;
+        width: 200px;
+        padding: 5px 5px;
+        background-color: lightblue;
+        border: 2px solid rgb(9, 64, 82);
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.6vw !important;
+    }
+    .kembali a{
+        text-decoration: none;
+        color: black;
+    }
+    .kembali:hover {
+        background-color: rgb(9, 64, 82);
+        cursor: pointer;
+    }
+    .Formkuis{
+        padding: 1px 0px 0px 10px;
+        margin-top: 0px;
+        margin-left: 0px;
+        border: 3px solid #006A4E;
+        border-radius: 10px;
+        font-size: 20px;
+        width: 67vw;
+        height: 75vh;
+    }
+    .Formkuis1{
+        width: 65vw;
+        height: 75vh;
+        font-size: 20px;
+    }
+    .TabNav{
+        border: 3px solid #006A4E;
+        border-radius: 10px;
+        margin-top: 0px;
+        left: 0px;
+        margin-top: -510px;
+        position: relative;
+        float: right;
+        width: 25.5vw;
+        height: 57vh;
+        background-color: rgba(151, 151, 253, 0.712);
+    }
+    .nomorS{
+        margin-top: 10px;
+        margin-left: 65px;
+        border: 2px solid #006A4E;
+        border-radius: 10px;
+        display: inline-block;
+        text-align: center;
+        background-color: white;
+        width: 15vw;
+        height: 5vh;
+    }
+    .nomorS p{
+        display: inline-block;
+        padding: 7px;
+    }
+    p .tulis{
+        font-size: 20px !important;
+    }
+    .buatan1{
+        margin-top: -15px;
+        text-align: justify;
+        line-height: 1.5;
+    }
+    .S1Nav{
+        margin-top: 15px;
+        margin-left: 40px;
+        border: 2px solid rgb(9, 64, 82);
+        border-radius: 15px !important;
+        display: inline-block;
+        text-align: center;
+        width: 8vw;
+        height: 5vh;
+    }
+    .S1Nav p{
+        padding: 8px;
+    }
+    .S1Nav:hover{
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    .putih{
+        background-color: white;
+    }
+    .hijau{
+        background-color: green;
+    }
+    .keterangan{
+        padding: 10px;
+        margin-top: 80px;
+        margin-left: 0px;
+        width: 24vw;
+        height: 13vh;
+        background-color: white;
+        border: 3px solid #006A4E;
+        border-radius: 10px;
+    }
+    .keterangan .ket{
+        margin-top: -10px;
+        margin-bottom: 5px;
+        font-size: 20px;
+        padding: 3px;
+    }
+    .keterangan .put{
+        margin-top: 0px;
+    }
+    .keterangan p{
+        margin-top: 15px;
+    }
+    .belum{
+        border: 3px solid #006A4E;
+        border-radius: 5px;
+        padding: 2px;
+        font-size: 20px;
+        background-color: white;
+    }
+    .sudah{
+        border: 3px solid #006A4E;
+        border-radius: 5px;
+        padding: 2px;
+        font-size: 20px;
+        background-color: green;
+    }
+    .selesai{
+        padding: 10px;
+        text-align: center;
+        margin-top: -178px;
+        margin-left: 120px;
+        border: 3px solid #006A4E;
+        border-radius: 15px;
+        width: 7vw;
+        height: 3vh;
+        background-color: white;
+    }
+    .selesai:hover{
+        cursor: pointer;
+        background-color: lightblue;
+    }
+    .pilihan{
+        margin-top: 5px;
+        margin-left: -15px;
+        font-size: 20px;
+    }
+    .cek{
+        position: relative;
+        display: inline-block;
+        margin-left: 20px;
+    }
+    .cek:hover{
+        cursor: pointer;
+    }
+    .cek1:hover{
+        cursor: pointer;
+    }
+    .pilihanJ{
+        margin-bottom: 10px;
+        width: 150px;
+    }
+    .dataK{
+        line-height: 1.5;
+        text-align: justify;
+        font-size: 20px;
+    }
+    #Kuisku p ol{
+        padding: 5px;
+        text-align: justify;
+        margin-left: 20px;
+        font-size: 19px;
+    }
+    #Kuisku .soalli{
+        margin-top: -3px;
+        font-size: 18px;
+        text-align: justify;
+    }
+    .soal{
+        line-height: 1.5;
+        font-size: 20px;
+        text-align: justify;
+    }
+    .soalU{
+        font-size: 20px;
+        line-height: 1.5;
+        margin-bottom: 0px;
+    }
+    .percobaan{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 20vw;
+        height: 14vw;
+    }
+    .gambar{
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 150px;
+        height: 150px;
+    }
+    .gambar1{
+        margin-top: -10px;
+        margin-left: 10px;
+        width: 150px;
+        height: 100px;
+    }
+    .lakmus{
+        margin-top: 5px;
+        margin-left: 15px;
+        width: 250px;
+        height: 180px;
+    }
+    .buatan{
+        margin-top: 5px;
+        margin-left: 15px;
+        width: 200px;
+        height: 155px;
+    }
+    .larutan{
+        margin-left: 65px;
+    }
+    .larutan1{
+        margin-left: 130px;
+    }
+    .larutan2{
+        margin-left: 175px;
+    }
+    .larutanA{
+        margin-left: 100px;
+    }
+    .larutanB{
+        margin-left: 175px;
+    }
+    .larutanC{
+        margin-left: 175px;
+    }
+    .kain{
+        margin-left: 110px;
+    }
+    .kaca{
+        margin-left: 110px;
+    }
+    .pasir{
+        margin-left: 110px;
+    }
+    .kecap{
+        margin-left: 110px;
+    }
+    .susu{
+        margin-left: 110px;
+    }
+    .baterai{
+        margin-left: 100px;
+    }
+    .nasi{
+        margin-top: 10px;
+        margin-left: 60px;
+    }
+    .es{
+        margin-top: 10px;
+        margin-left: 110px;
+    }
+    .es1{
+        margin-left: 120px;
+    }
+    .es2{
+        margin-left: 70px;
+    }
+    .gele{
+        margin-left: 90px;
+    }
+    .balok{
+        margin-left: 80px;
+    }
+    .madu{
+        margin-left: 75px;
+    }
+    .parfum{
+        margin-left: 80px;
+    }
+    .larutanS{
+        margin-left: 25px;
+    }
+    .LarutanK{
+        font-size: 18px;
+        margin-left: 55px;
+    }
+    .LarutanT{
+        margin-left: 50px;
+    }
+    .LarutanG{
+        margin-left: 50px;
+    }
+    .nav_lanjut{
+        position: relative;
+        display: inline-block;
+        font-size: 20px;
+        width: 10vw;
+        margin-left: 50px;
+        top: 0px;
+    }
+    .nav_belum{
+        display: inline-block;
+        position: relative;
+        font-size: 18px;
+        width: 10vw;
+        top: 0px;
+        margin-left: -20px;
+    }
+    .disable{
+        cursor: unset;
+        background-color: #bcbcbc;
+        border-color: #bcbcbc;
+    }
+    #Kuisku .pil{
+        text-align: justify;
+        margin-left: 5px;
+    }
+    .isihasil{
+        margin-top: 50px;
+        width: 50vw;
+        height: 35vh;
+        border: 3px solid rgba(151, 151, 253, 0.712);
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .isihasil h2{
+        padding-bottom: 5px;
+        text-align: center;
+    }
+    .isihasil p{
+        padding: 5px;
+        font-size: 20px;
+        text-align: justify;
+    }
+    .isihasil span{
+        font-size: 20px;
+        text-align: justify;
+        padding: 5px;
+    }
+    .kembali1{
+        background-color: lightblue;
+        margin-top: 25px;
+        font-size: 20px;
+        padding: 5px;
+    }
+    .kembali1 a{
+        text-decoration: none;
+        color: black;
+    }
+    .lanjut1{
+        margin-left: 50px;
+        background-color: lightblue;
+        font-size: 20px;
+        padding: 5px;
+    }
+    .lanjut1 a{
+        text-decoration: none;
+        color: black;
+    }
+    .kembali1:hover{
+        cursor: pointer;
+        background-color: white;
+    }
+    .lanjut1:hover{
+        cursor: pointer;
+        background-color: white;
+    }
+    .full{
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        background-color: teal;
+    }
+    .full p{
+        display: inline-block;
+        font-size: 50px;
+        margin-top: 200px;
+        color: white;
+    }
+}

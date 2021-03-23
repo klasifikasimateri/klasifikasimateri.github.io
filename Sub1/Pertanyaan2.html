@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Klasifikasi Materi </title>
+    <link rel="stylesheet" href="Pertanyaan2.css">
+</head>
+<body>
+    <div class="semua">
+
+        <!-- Header -->
+        <div class="atas">
+            <div class="tb" onclick="tbsidebar()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+          <center><h2>Klasifikasi Materi dan Perubahannya</h2></center>
+        <div class="nk"><a href="../index.html"><img src="Gambar/Home.png" alt="Home" style="height: 60px; width: 60px;"></a></div>
+        </div>
+
+        <!-- Sidebar -->
+        <div id="sidebar">
+            <ol type="A" class="A hidup"><li> Klasifikasi Materi </li></ol>
+            <ol start="1" style="list-style-position: inside;">
+                <a href="../Sub1/Sub1Bagian1.html"><li class="B"> Materi </li></a>
+                <a href="../Sub1/Sub1Bagian4.html"><li class="B hidup"> Unsur, senyawa, dan campuran </li></a>
+                <a href="../Sub1/Kuis.html"><li class="B" style="list-style: none;"> Kuis 1 </li></a>
+            </ol>
+            <ol type="A" start="2" class="A"><li>Perubahan materi</li></ol>
+            <ol start="1" style="list-style-position: inside;">
+                <a href="../Sub2/Sub2Bagian1.html"><li class="B"> Perubahan fisika </li></a>
+                <a href="../Sub2/Sub2Bagian3.html"><li class="B"> Perubahan kimia  </li></a>
+                <a href="../Sub2/Kuis2.html"><li class="B" style="list-style: none;"> Kuis 2 </li></a>
+            </ol>
+            <ol type="A" start="3" class="A"><li>Pemisahan campuran</li></ol>
+            <ol start="1" style="list-style-position: inside;">
+                <a href="../Sub3/Sub3Bagian1.html"><li class="B"> Filtrasi       </li></a>
+                <a href="../Sub3/Sub3Bagian2.html"><li class="B"> Distilasi      </li></a>
+                <a href="../Sub3/Sub3Bagian3.html"><li class="B"> Kromatografi   </li></a>
+                <a href="../Sub3/Sub3Bagian4.html"><li class="B"> Sublimasi      </li></a>
+                <a href="../Sub3/Kuis3.html"> <li class="B" style="list-style: none;"> Kuis 3         </li></a>
+            </ol>
+            <ol style="list-style: none;" class="A"><a href="../Latihan akhir/Latihan.html"><li> Latihan </li></a></ol>
+        </div>
+
+        <!-- Judul -->
+        <div class="judul" id="judul">
+            <center><h2> Klasifikasi materi </h2></center>
+        </div>
+
+        <!-- Isi -->
+        <div class="konten" id="konten"><br>
+            <h3> Pertanyaan </h3>
+            
+            <!-- Pertanyaan -->
+            <div class="pertanyaan">
+
+                <!-- Petunjuk -->
+            <div class="kliksaya">
+                <nav class="tujuanP">
+                        <p> Petunjuk (Klik saya) </p>
+                </nav>
+                <div class="atasa">
+                    <ol class="tujuan">
+                        <li>Jawablah pertanyaan berikut ini!</li>
+                        <li>Pertanyaan ini terdiri dari 5 soal</li>
+                        <li>Setiap pertanyaan memiliki data yang disajikan</li>
+                        <li>Anda diminta memilih jawaban yang benar diantara pilihan jawaban</li>
+                        <li>Jika jawaban anda benar, maka kotak pilihan akan berubah warna hijau dan akan tampil pembahasan</li>
+                        <li>Jika jawaban anda salah, maka kotak pilihan akan berubah warna merah lalu akan tampil tombol 'Ulang'</li>
+                        <li>Jika ingin mengulang menjawab pertanyaan, silahkan tekan tombol 'Ulang'</li>
+                        <li>Jika ingin melanjutkan menjawab pertanyaan, silahkan tekan tombol 'Selanjutnya' pada nomor soal</li>
+                        <li>Jika ingin kembali ke pertanyaan sebelumnya, silahkan tekan tombol 'Sebelumnya' pada nomor soal</li>
+                    </ol>
+                </div>
+            </div>
+            <br>
+            <hr class="Gperta">
+            <br>
+
+            <!-- Soal 1 -->
+            <div class="perta">
+                <ol>
+                    <li class="soalku"> Di bawah ini yang menjadi karakteristik dari materi yang tergolong unsur adalah ... <br> (Silahkan pilih 2 pilihan) </li>
+                </ol>
+                <div class="pil">
+                    <label class="pilihan">
+                        <table>
+                            <tr>
+                                <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan" onclick="return cekbox(1)"> a. </td>
+                                <td class="ket"> <span class="nav_pilihan"></span>Merupakan zat tunggal yang dapat diuraikan dengan reaksi kimia </td>
+                            </tr>
+                        </table>
+                    </label><br>
+                    <label class="pilihan">
+                        <table>
+                            <tr>
+                                <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan" onclick="return cekbox(1)"> b. </td>
+                                <td class="ket"> <span class="nav_pilihan"></span>Merupakan zat tunggal yang sukar untuk diuraikan </td>
+                            </tr>
+                        </table>
+                     </label><br>
+                     <label class="pilihan">
+                         <table>
+                             <tr>
+                                 <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan" onclick="return cekbox(1)"> c. </td>
+                                 <td class="ket"> <span class="nav_pilihan"></span>Memiliki perbedaan sifat antara materi penyusunnya </td>
+                             </tr>
+                         </table>
+                     </label><br>
+                     <label class="pilihan">
+                         <table>
+                             <tr>
+                                 <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan" onclick="return cekbox(1)"> d. </td>
+                                 <td class="ket"> <span class="nav_pilihan"></span>Dapat mempertahankan sifat yang dimilikinya </td>
+                             </tr>
+                         </table>
+                     </label><br>
+                     <label class="pilihan">
+                         <table>
+                             <tr>
+                                 <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan" onclick="return cekbox(1)"> e. </td>
+                                 <td class="ket"> <span class="nav_pilihan"></span>Memiliki sifat seperti zat penyusunnya </td>
+                             </tr>
+                         </table>
+                     </label>
+                 </div>
+
+                 <button class="cekJb" onclick="cekjawab(1)"> Cek jawaban </button>
+
+                <div class="pembahasan awal hilang">
+                    <span class="jbbenar"> Jawaban anda benar </span><br> 
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Materi yang tergolong unsur memiliki karakteristik diantaranya, merupakan zat tunggal yang sukar untuk diuraikan dan dapat mempertahankan sifat yang dimilikinya.
+                    </p>
+                </div>
+                <div class="pembahasan awal hilang">
+                    <span class="jbsalah"> Jawaban anda belum benar. </span> 
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Silahkan pilih kembali jawaban yang benar
+                    </p>
+                </div>
+            </div>
+
+            <!-- Soal 2 -->
+            <div class="perta">
+                <ol start="2">
+                    <li class="soalku"> Di bawah ini yang menjadi karakteristik dari materi yang tergolong senyawa adalah ... <br> (Silahkan pilih 2 pilihan) </li>
+                </ol>
+                <div class="pil">
+                    <label class="pilihan">
+                        <table>
+                            <tr>
+                                <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan1" onclick="return cekbox(2)"> a. </td>
+                                <td class="ket"> <span class="nav_pilihan"></span>Terbentuk dari dua atau lebih unsur yang berbeda </td>
+                            </tr>
+                        </table>
+                    </label><br>
+                    <label class="pilihan">
+                        <table>
+                            <tr>
+                                <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan1" onclick="return cekbox(2)"> b. </td>
+                                <td class="ket"> <span class="nav_pilihan"></span>Dapat diuraikan dengan menggunakan reaksi kimia </td>
+                            </tr>
+                        </table>
+                     </label><br>
+                     <label class="pilihan">
+                         <table>
+                             <tr>
+                                 <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan1" onclick="return cekbox(2)"> c. </td>
+                                 <td class="ket"> <span class="nav_pilihan"></span>Tersusun atas dua buah materi atau lebih </td>
+                             </tr>
+                         </table>
+                     </label><br>
+                     <label class="pilihan">
+                         <table>
+                             <tr>
+                                 <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan1" onclick="return cekbox(2)"> d. </td>
+                                 <td class="ket"> <span class="nav_pilihan"></span>Dapat diuraikan dengan cara fisika </td>
+                             </tr>
+                         </table>
+                     </label><br>
+                     <label class="pilihan">
+                         <table>
+                             <tr>
+                                 <td class="cek"> <input type="checkbox" class="cekbox" name="pilihan1" onclick="return cekbox(2)"> e. </td>
+                                 <td class="ket"> <span class="nav_pilihan"></span>Tidak memiliki komposisi yang tetap </td>
+                             </tr>
+                         </table>
+                     </label>
+                 </div>
+
+                 <button class="cekJb" onclick="cekjawab(2)"> Cek jawaban </button>
+
+                <div class="pembahasan awal hilang">
+                    <span class="jbbenar"> Jawaban anda benar </span><br> 
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Materi yang tergolong senyawa memiliki karakteristik diantaranya, terbentuk dari dua unsur atau lebih yang berbeda dan dapat diuraikan menggunakan reaksi kimia.
+                    </p>
+                </div>
+                <div class="pembahasan awal hilang">
+                    <span class="jbsalah"> Jawaban anda belum benar. </span>  
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Silahkan pilih kembali jawaban yang benar
+                    </p>
+                </div>
+            </div>
+
+            <!-- Soal 3 -->
+            <div class="perta">
+               <b><ol start="3">
+                    <li class="soal"> Perhatikan gambar di bawah ini! </li>
+                </ol></b>
+                <img src="Gambar/Minyak.jpg" class="Benda">
+                <img src="Gambar/awan.jpg" class="Benda">
+                <img src="Gambar/Larutan kecap.jpg" class="Benda">
+                <img src="Gambar/Kaleng.jpg" class="Benda"><br>
+                <span class="minyak"> (Minyak goreng) </span> <span class="awan"> (Awan) </span> <span class="kecap"> (Larutan kecap) </span> <span class="kaleng"> (Kaleng) </span>
+                <p class="soala"> Berdasarkan gambar di atas, materi yang tergolong ke dalam campuran adalah ... </p>
+                <div class="pilihan">
+                    <ol type="a" id="ul">
+                        <li id="op1" onclick="salah(1)"> Minyak goreng dan awan </li>
+                        <li id="op2" onclick="salah(2)"> Larutan kecap dan kaleng </li>
+                        <li id="op3" onclick="benar(1)"> Awan dan larutan kecap </li>
+                        <li id="op4" onclick="salah(3)"> Kaleng dan minyak goreng </li>
+                    </ol>
+                </div>
+                <div class="tombol hilang">
+                    <button class="ulang"> Ulang </button>
+                </div>
+                <div class="pembahasan hilang">
+                    <span class="jbbenar"> Jawaban anda benar </span><br> 
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Pada gambar di atas, benda atau materi yang tergolong campuran adalah awan dan larutan kecap. Larutan kecap terdiri dari senyawa air dan kecap dan awan terdiri dari unsur-unsur gas dan partikel senyawa air.
+                    </p>
+                </div>
+                <div class="pembahasan hilang">
+                    <span class="jbsalah"> Jawaban anda belum benar. </span> 
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Campuran dibedakan menjadi tiga yaitu, campuran yang tersusun atas zat gas dan zat gas, campuran yang tersusun atas zat padat dan zat padat, dan campuran yang tersusun atas zat padat dan cair.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Soal 4 -->
+            <div class="perta">
+                <b><ol start="4">
+                    <li class="soal"> Perhatikan hasil identifikasi sifat larutan menggunakan indikator alami ekstrak bunga mawar! </li>
+                </ol></b>
+                <img src="Gambar/Soalku.jpg" class="larutan">
+                <img src="Gambar/Soalku1.jpg" class="larutan"><br>
+                <span class="larutanA"> (Larutan A) </span> <span class="larutanB"> (Larutan B) </span>
+                <p class="soala"> Ketika larutan A dan larutan B dicampurkan dengan ekstrak bunga mawar, terjadi perubahan warna pada kedua larutan yaitu larutan A menjadi warna merah dan larutan B menjadi warna hijau. Berdasarkan perubahan warna yang terjadi pada kedua larutan, sifat dari larutan A dan larutan B adalah ... </p>
+                <div class="pilihan">
+                    <ol type="a" id="ul">
+                        <li id="op5" onclick="benar(2)"> Asam dan basa </li>
+                        <li id="op6" onclick="salah(4)"> Basa dan basa </li>
+                        <li id="op7" onclick="salah(5)"> Asam dan garam</li>
+                        <li id="op8" onclick="salah(6)"> Asam dan asam </li>
+                    </ol>
+                </div>
+                <div class="tombol hilang" id="tombol">
+                    <button class="ulang"> Ulang </button>
+                </div>
+                <div class="pembahasan ukuran hilang">
+                    <span class="jbbenar"> Jawaban anda benar </span><br> 
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Pada gambar di atas, perubahan warna yang terjadi yaitu, larutan A berubah warna menjadi warna merah muda dan larutan B berubah warna menjadi warna hijau kekuningan.
+                        Dari perubahan warna tersebut dapat identifikasi sifat dari larutan tersebut yaitu larutan A bersifat asam dan larutan B bersifat basa.
+                    </p>
+                </div>
+                <div class="pembahasan ukuran hilang">
+                    <span class="jbsalah"> Jawaban anda belum benar. </span> Silahkan tekan tombol ulang 
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Pada gambar di atas, perubahan warna yang terjadi yaitu, larutan A berubah warna menjadi warna merah muda dan larutan B berubah warna menjadi warna hijau kekuningan.
+                        Dari perubahan warna tersebut dapat identifikasi sifat dari larutan adalah ...
+                    </p>
+                </div><br>
+            </div>
+
+            <!-- Soal 5 -->
+            <div class="perta">
+                <b><ol start="5">
+                    <li class="soal"> Perhatikan gambar yang ada di bawah ini! </li>
+                </ol></b>
+                <img src="Gambar/Kuis/Basa.jpg" class="Cair">
+                <img src="Gambar/Kuis/Garam.jpg" class="Cair"><br>
+                <span class="larutanX"> (Larutan X) </span> <span class="larutanY"> (Larutan Y) </span>
+                <p class="soala"> Ketika kertas lakmus merah dan biru dicelupkan ke dalam larutan X, kertas lakmus merah berubah warna menjadi warna biru dan ketika kertas lakmus merah dan biru dicelupkan ke dalam larutan Y, kertas lakmus tidak terjadi perubahan warna. Berdasarkan perubahan warna yang terjadi pada kedua percobaan di atas, sifat dari larutan X dan larutan Y adalah ... </p>
+                <div class="pilihan">
+                    <ol type="a" id="ul">
+                        <li id="op9" onclick="salah(7)">  Asam dan basa </li>
+                        <li id="op10" onclick="benar(3)"> Basa dan garam </li>
+                        <li id="op11" onclick="salah(8)"> Garam dan asam </li>
+                        <li id="op12" onclick="salah(9)"> Semua salah </li>
+                    </ol>
+                </div> 
+                <div class="tombol hilang" id="tombol">
+                    <button class="ulang"> Ulang </button>
+                </div>
+                <div class="pembahasan ukuran hilang">
+                    <span class="jbbenar"> Jawaban anda benar </span><br> 
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Pada gambar diatas, terjadi perubahan warna pada larutan X yaitu kertas lakmus merah yaitu berubah warna menjadi biru dan pada larutan Y tidak terjadi perubahan warna pada kertas lakmus merah dan kertas lakmus biru. ini menunjukkan sifat dari larutan X adalah basa dan sifat dari larutan Y adalah garam.
+                    </p>
+                </div>
+                <div class="pembahasan ukuran hilang">
+                    <span class="jbsalah"> Jawaban anda belum benar. </span> Silahkan tekan tombol ulang 
+                    <p> <b><u> Pembahasan: </u></b><br>
+                        Pada gambar diatas, terjadi perubahan warna pada larutan X yaitu kertas lakmus merah yaitu berubah warna menjadi biru dan pada larutan Y tidak terjadi perubahan warna pada kertas lakmus merah dan kertas lakmus biru. ini menunjukkan sifat dari larutan X dan larutan Y
+                    </p>
+                </div><br>
+            </div>
+
+            <!-- Navigasi soal -->
+            <div class="Nav-soal"> Nomor soal: <br>
+                <div class="sebelumnya" onclick="SoalT(-1)"> Sebelumnya </div>
+                <div class="soal1 aktif" onclick="NomorSoal(1)">1</div>
+                <div class="soal1" onclick="NomorSoal(2)">2</div>
+                <div class="soal1" onclick="NomorSoal(3)">3</div>
+                <div class="soal1" onclick="NomorSoal(4)">4</div>
+                <div class="soal1" onclick="NomorSoal(5)">5</div>
+                <div class="selanjutnya" onclick="SoalT(1)"> Selanjutnya </div>
+            </div>
+            </div><br>
+        </div>
+
+        <!-- Navbottom -->
+        <div class="Nav-Lanjut" id="navigasi">
+            <a href="Sub1Bagian9(1).html"><div class="Lanjut"> Sebelumnya </div></a>
+            <a href="Sub1Bagian4.html"><div class="Lanjut">1</div></a>
+            <a href="Sub1Bagian4-1.html"><div class="Lanjut">2</div></a>
+            <a href="Sub1Bagian5.html"><div class="Lanjut">3</div></a>
+            <a href="Sub1Bagian6.html"><div class="Lanjut">4</div></a>
+            <a href="Sub1Bagian7.html"><div class="Lanjut">5</div></a>
+            <a href="Sub1Bagian8(1).html"><div class="Lanjut">6</div></a>
+            <a href="Sub1Bagian9(1).html"><div class="Lanjut">7</div></a>
+            <a href="Pertanyaan2.html"><div class="Lanjut aktif_konten">8</div></a>
+            <a href="Kuis.html"><div class="Lanjut"> Selanjutnya </div></a>
+        </div>
+    </div>
+    
+    <script src="Pertanyaan2.js"></script>
+</body>
+</html>

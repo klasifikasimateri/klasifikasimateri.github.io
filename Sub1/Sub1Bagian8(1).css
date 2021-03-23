@@ -1,0 +1,779 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(170, 213, 219);
+    font-family: 'Times New Roman', Times, serif;
+}
+.semua{
+    width: 100vw;
+    height: 100vh;
+}
+.atas{
+    position: relative;
+    height: 60px;
+    width: 100vw;
+    background-color: rgba(151, 151, 253, 0.712);
+    box-shadow: 5px 5px 5px grey;
+}
+.atas h2{
+    margin: 0px;
+    display: inline-block;
+    padding: 15px;
+    letter-spacing: 2px;
+}
+.tb{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.tb span{
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: #151719;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+.nk{
+    position: relative;
+    float: right;
+    margin-top: -57px;
+}
+#sidebar{
+    position: absolute;
+    display: block;
+    height: 91vh;
+    width: 17.5vw;
+    background: cornflowerblue;
+    box-shadow: 5px 5px 5px grey;
+}
+#sidebar.active{
+    left: -20vw;
+}
+#sidebar .A{
+    list-style-position: inside;
+    font-size: 22px !important;
+    padding: 10px 10px 0px 10px;
+    margin-left: -5px;
+    cursor: default;
+}
+#sidebar .B{
+    margin-left: 0px;
+    font-size: 20px;
+    padding: 5px 5px 7px 30px;
+    color: white;
+    border-bottom: 1px solid whitesmoke;
+    cursor: pointer;
+}
+#sidebar ol a{
+    text-decoration: none;
+    color: black;
+}
+.hidup {
+    background-color: whitesmoke;
+    color: black !important;
+    cursor: default;
+}
+.hilang {
+    display: none !important;
+}
+.judul{
+    margin-left: 250px;
+    padding: 10px 0px 3px 0px;
+    background-color: rgb(170, 213, 219);
+}
+#judul.full{
+    margin-left: 0px;
+}
+.judul h2{
+    padding: 5px 15px 5px 15px;
+    display: inline-block;
+    text-align: center;
+    font-size: 22px;
+    border: 4px solid black;
+    border-radius: 40px;
+    letter-spacing: 2px;
+}
+.konten{
+    overflow: auto;
+    margin-left: 250px;
+    background-color: white;
+    width: 81vw;
+    height: 510px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#konten.full{
+    width: 98vw;
+    margin-left: 15px;
+}
+.tujuanP{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    border: 2px solid rgb(1, 59, 78);
+    background-color: lightblue;
+    border-radius: 0px 10px 10px 0px;
+    padding: 10px;
+    cursor: pointer;
+}
+.tujuanP p{
+    font-size: 21px;
+}
+.tujuan{
+    width: auto;
+    padding: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    border: 2px solid rgb(1, 59, 78);
+    background-color: lightblue;
+    border-radius: 0px 10px 10px 0px;
+    box-sizing: border-box;
+}
+.tujuan li{
+    padding-left: 2px !important;
+    margin-left: 20px;
+    text-align: justify;
+    padding: 0px;
+    font-size: 20px;
+}
+hr{
+    height: 5px;
+    background-color: rgba(151, 151, 253, 0.712);
+    border: none;
+}
+.konten h3{
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-left: 10px;
+    display: inline-block;
+    border: 2px solid rgb(1, 59, 78);
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+    padding: 10px;
+}
+.konten .penjelasan{
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid rgb(1, 59, 78);
+    border-radius: 0px 10px 10px 0px;
+    background-color: white;
+}
+.konten .penjelasan p{
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 20px;
+}
+.konten .video1{
+    width: 52vw;
+    height: 400px;
+}
+#video_controls_bar{
+    border-radius: 5px 5px 15px 15px;
+    margin-top: -5px;
+    width: 695px;
+    height: 35px;
+    background: cornflowerblue; 
+    padding: 8px; 
+    color:#CCC; 
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.controls_vid_button{
+    margin-left: 10px;
+    border-radius: 5px 5px 15px 15px;
+    font-size: 11px;
+    padding: 5px;
+}
+.controls_vid_button:hover{
+    cursor: pointer;
+    background-color: lightblue;
+}
+.KetV{
+    margin-top: 5px;
+    color: rgb(58, 57, 57);
+    text-align: center !important;
+    font-style: italic;
+}
+.containerP{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.konten .pertanyaan{
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid rgb(1, 59, 78);
+    border-radius: 0px 10px 10px 0px;
+    background-color: rgb(39, 192, 243);
+}
+.Petunjuk{
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 240px;
+    display: inline-block;
+    border: 2px solid rgb(1, 59, 78);
+    background-color: lightblue;
+    border-radius: 0px 10px 10px 0px;
+    padding: 5px;
+    cursor: pointer;
+}
+.Petunjuk p{
+    letter-spacing: 1px;
+    font-size: 23px;
+    text-align: center;
+    margin: 0px;
+}
+.IsiPetunjuk{
+    margin-left: 0px;
+    width: auto;
+    padding: 5px;
+    display: inline-block;
+    font-size: 20px;
+    border: 2px solid rgb(1, 59, 78);
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+.IsiPetunjuk ol li{
+    padding-top: 1px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    font-size: 20px;
+    margin-left: 30px;
+    line-height: 1.4;
+    text-align: justify;
+}
+.Gperta{
+    background-color: white;
+}
+.perta1{
+    width: 74.5vw;
+    background-color: white;
+    padding: 10px;
+    display: inline-block;
+    border: 2px double black;
+    border-radius: 10px 15px 15px 10px;
+}
+.perta2{
+    width: 74.5vw;
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+    display: inline-block;
+    border: 2px double black;
+    border-radius: 10px 15px 15px 10px;
+}
+.soal{
+    line-height: 1.5;
+    margin-left: 25px;
+    font-size: 20px;
+    text-align: justify;
+}
+.pilihan{
+    width: 100%;
+}
+.pilihan ol li{
+    list-style-position: inside;
+    text-align: justify;
+    background-color: darkgray;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 3px 0px grey;
+}
+#op1, #op2, #op3, #op4{
+    width: 75px;
+    top: -15px;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+#op5, #op6, #op7, #op8{
+    line-height: 1.5;
+    width: 75px;
+    padding: 10px !important;
+    position: relative;
+    text-align: justify;
+    top: -15px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.pilihan ol li:active{
+    box-shadow: 0px 0px 0px grey;
+}
+.pilihan ol li.benar{
+    background-color: #03a503;
+    box-shadow: 0px 3px 0px #0fd40f;
+}
+.pilihan ol li.salah{
+    background-color: #e91e1e;
+    box-shadow: #cb0b0b;
+}
+.jbbenar{
+    color: green;
+}
+.jbsalah{
+    color: red;
+}
+.pembahasan{
+    float: right;
+    width: 61vw;
+    margin-top: -17vw;
+    line-height: 1.5;
+    padding: 8px;
+    border: 2px dotted black;
+    border-radius: 10px;
+    text-align: justify;
+    font-size: 20px;
+}
+.pembahasan1{
+    float: right;
+    width: 61vw;
+    margin-top: -19vw;
+    line-height: 1.5;
+    padding: 8px;
+    border: 2px dotted black;
+    border-radius: 10px;
+    text-align: justify;
+    font-size: 20px;
+}
+.ulangP{
+    font-size: 18px;
+    background-color:white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.ulangP:hover{
+    background-color: rgb(39, 192, 243);
+    cursor: pointer;
+}
+.konten .penjelasanku{
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid rgb(1, 59, 78);
+    border-radius: 0px 10px 10px 0px;
+    background-color: white;
+}
+.konten .penjelasanku p{
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 20px;
+}
+.tabelku{
+    width: 90%;
+    margin: 0px;
+    font-size: 20px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.tabelku th, td {
+    border: 1px solid black;
+}
+.tabelku th {
+    font-size: 19px;
+    padding: 5px;
+    text-align: center;
+    background-color: green;
+}
+.tabelku td {
+    padding: 10px;
+    text-align: justify;
+}
+.sifat{
+    text-align: center !important;
+}
+.konten #penje{
+    margin-top: 30px;
+    display: none;
+}
+.Nav-Lanjut{
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 250px;
+}
+#navigasi.full{
+    margin-left: 0px;
+}
+.Nav-Lanjut a{
+    text-decoration: none;
+    color: black;
+}
+.Nav-Lanjut .Lanjut{
+    display: inline-block;
+    border: 2px solid rgb(1, 59, 78);
+    padding: 5px;
+    font-size: 15px;
+    background-color: lightblue;
+}
+.Nav-Lanjut .Lanjut:hover {
+    cursor: pointer;
+    background-color: rgb(1, 59, 78);
+}
+.Nav-Lanjut .aktif_konten {
+    background-color: rgb(1, 59, 78);
+    cursor: default !important;
+}
+.Nav-Lanjut .disable {
+    background-color: rgb(133, 133, 133) !important;
+    color: rgb(37, 37, 37);
+    cursor: default !important;
+}
+
+@media only screen and (max-width: 380px){
+
+    .semua{
+        width: 100vw;
+        height: 100vh;
+    }
+    .atas{
+        position: relative;
+        height: 80px;
+        width: 100vw;
+        background-color: rgba(151, 151, 253, 0.712);
+        box-shadow: 5px 5px 5px grey;
+    }
+    .atas h2{
+        position: relative;
+        margin-left: -12px;
+        top: -55px;
+        font-size: 20px;
+        display: inline-block;
+        padding: 15px;
+        letter-spacing: 1px;
+        width: 215px;
+    }
+    .tb{
+        position: static;
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 8px;
+    }
+    .tb span{
+        display: block;
+        width: 25px;
+        height: 5px;
+        background: #151719;
+        margin: 5px 0px;
+        cursor: pointer;
+    }
+    .nk{
+        position: relative;
+        float: right;
+        margin-top: -124px;
+    }
+    #sidebar{
+        left: -69vw;
+        position: absolute;
+        display: block;
+        height: auto;
+        width: 69vw;
+        background: cornflowerblue;
+        box-shadow: 5px 5px 5px grey;
+    }
+    .active{
+        left: 0vw !important;
+    }
+    #sidebar .A{
+        list-style-position: inside;
+        font-size: 20px !important;
+        padding: 10px 10px 3px 10px;
+        margin-left: -5px;
+        cursor: default;
+    }
+    #sidebar .B{
+        margin-left: 0px;
+        font-size: 18px;
+        padding: 5px 5px 5px 30px;
+        color: white;
+        border-bottom: 1px solid whitesmoke;
+        cursor: pointer;
+    }
+    .judul{
+        margin-left: 0px;
+        padding: 10px 0px 3px 0px;
+        background-color: rgb(170, 213, 219);
+    }
+    .judul h2{
+        padding: 5px 15px 5px 15px;
+        display: inline-block;
+        text-align: center;
+        font-size: 20px;
+        border: 3px solid black;
+        border-radius: 40px;
+        letter-spacing: 2px;
+    }
+    .konten{
+        overflow: auto;
+        margin-left: 0px;
+        background-color: white;
+        width: 99vw;
+        height: auto;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    #konten.full{
+        width: 99vw;
+        margin-left: 0px;
+    }
+    .tujuanP{
+        margin-top: 10px;
+        margin-left: 10px;
+        display: inline-block;
+        border: 2px solid rgb(1, 59, 78);
+        background-color: lightblue;
+        border-radius: 0px 10px 10px 0px;
+        padding: 5px;
+        cursor: pointer;
+    }
+    .tujuanP p{
+        font-size: 20px;
+    }
+    .tujuan{
+        width: 96vw;
+        padding: 5px;
+        margin-left: 10px;
+        display: inline-block;
+        border: 2px solid rgb(1, 59, 78);
+        background-color: lightblue;
+        border-radius: 0px 10px 10px 0px;
+        box-sizing: border-box;
+    }
+    .tujuan li{
+        line-height: 1.5;
+        padding-left: 2px !important;
+        margin-left: 20px;
+        text-align: justify;
+        padding: 0px;
+        font-size: 18px;
+    }
+    .konten h3{
+        font-size: 18px;
+        margin-left: 7px;
+        display: inline-block;
+        border: 2px solid rgb(1, 59, 78);
+        background-color: white;
+        border-radius: 0px 10px 10px 0px;
+        padding: 10px;
+    }
+    .konten .penjelasan{
+        width: 91vw;
+        padding: 8px;
+        margin-left: 8px;
+        margin-right: 10px;
+        border: 2px solid rgb(1, 59, 78);
+        border-radius: 0px 10px 10px 0px;
+        background-color: white;
+    }
+    .konten .penjelasan p{
+        line-height: 1.5;
+        text-align: justify;
+        font-size: 18px;
+    }
+    .konten .video1{
+        position: static;
+        margin-top: -12px;
+        margin-left: -2px;
+        width: 92vw;
+        height: 175px;
+    }
+    #video_controls_bar{
+        border-radius: 5px 5px 15px 15px;
+        margin-top: -10px;
+        margin-left: -2px;
+        width: 87vw;
+        height: auto;
+        background: cornflowerblue; 
+        padding: 8px; 
+        font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    }
+    .controls_vid_button{
+        margin-left: 5px;
+        float: none;
+        border-radius: 5px 5px 15px 15px;
+        font-size: 10px;
+        padding: 5px;
+    }
+    .KetV{
+        font-size: 15px !important;
+        margin-top: 5px;
+        color: rgb(58, 57, 57);
+        text-align: center !important;
+        font-style: normal;
+    }
+    .konten .penjelasanku{
+        width: 88vw;
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: 2px solid rgb(1, 59, 78);
+        border-radius: 0px 10px 10px 0px;
+        background-color: white;
+    }
+    .konten .penjelasanku p{
+        line-height: 1.5;
+        text-align: justify;
+        font-size: 18px;
+    }
+    .konten .pertanyaan{
+        width: 90vw;
+        padding: 10px;
+        margin-left: 8px;
+        margin-right: 10px;
+        border: 2px solid rgb(1, 59, 78);
+        border-radius: 0px 10px 10px 0px;
+        background-color: rgb(39, 192, 243);
+    }
+    .tab{
+        font-size: 14px;
+    }
+    .tabelku{
+        width: 90vw;
+        margin-left: -3px;
+        border-collapse: collapse;
+        border: 1px solid black;
+    }
+    .tabelku th, td {
+        border: 1px solid black;
+    }
+    .tabelku th {
+        font-size: 18px;
+        padding: 5px;
+        text-align: center;
+        background-color: green;
+    }
+    .tabelku td {
+        font-size: 18px;
+        padding: 13px;
+        text-align: justify;
+    }
+    .Petunjuk{
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 200px;
+        display: inline-block;
+        border: 2px solid rgb(1, 59, 78);
+        background-color: lightblue;
+        border-radius: 0px 10px 10px 0px;
+        padding: 5px;
+        cursor: pointer;
+    }
+    .Petunjuk p{
+        letter-spacing: 1px;
+        font-size: 20px;
+        text-align: center;
+        margin: 0px;
+    }
+    .IsiPetunjuk{
+        margin-left: 0px;
+        width: 91vw;
+        padding: 5px;
+        display: inline-block;
+        font-size: 18px;
+        border: 2px solid rgb(1, 59, 78);
+        background-color: white;
+        border-radius: 0px 10px 10px 0px;
+        box-sizing: border-box;
+        text-align: justify;
+    }
+    .IsiPetunjuk ol li{
+        padding: 5px;
+        font-size: 18px;
+        margin-left: 20px;
+        line-height: 1.5;
+        text-align: justify;
+    }
+    .perta1{
+        width: 83vw;
+        background-color: white;
+        padding: 10px;
+        display: inline-block;
+        border: 2px double black;
+        border-radius: 10px 15px 15px 10px;
+    }
+    .perta2{
+        width: 83vw;
+        margin-top: 20px;
+        background-color: white;
+        padding: 10px;
+        display: inline-block;
+        border: 2px double black;
+        border-radius: 10px 15px 15px 10px;
+    }
+    .soal{
+        line-height: 1.5;
+        margin-left: 15px;
+        font-size: 20px;
+        text-align: justify;
+    }
+    .pilihan li{
+        margin-left: 30px;
+    }
+    #op1, #op2, #op3, #op4{
+        width: 80px;
+        line-height: 1.5;
+        position: relative;
+        text-align: justify;
+        top: -25px;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+    #op5, #op6, #op7, #op8{
+        line-height: 1.5;
+        width: 80px !important;
+        position: relative;
+        text-align: justify;
+        top: -25px;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+    .ulangP{
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .pembahasan{
+        float: none;
+        width: auto;
+        font-size: 18px;
+        margin-top: 0px;
+    }
+    .pembahasan1{
+        float: none;
+        width: auto;
+        font-size: 18px;
+        margin-top: 0px;
+    }
+    .Nav-Lanjut{
+        text-align: center;
+        position: relative;
+        text-decoration: none;
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+    .Nav-Lanjut .Lanjut{
+        display: inline-block;
+        border: 2px solid rgb(1, 59, 78);
+        padding: 3px;
+        font-size: 13px;
+        background-color: lightblue;
+    }
+    .Nav-Lanjut .aktif_konten {
+        background-color: rgb(1, 59, 78);
+        cursor: default !important;
+    }
+    .Nav-Lanjut .disable {
+        background-color: rgb(133, 133, 133) !important;
+        color: rgb(37, 37, 37);
+        cursor: default !important;
+    }
+}

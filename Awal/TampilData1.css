@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(170, 213, 219);
+}
+.semua{
+    width: 100vw;
+    height: 100vh;
+}
+.atas{
+    width: 100vw;
+    height: 12vh;
+    background-color: rgba(90, 90, 136, 0.993);
+}
+.atas h1{
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border: 3px solid white;
+    display: inline-block;
+    border-radius: 15px;
+}
+.nk{
+    position: relative;
+    float: right;
+    margin-top: -76px;
+}
+.cari{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgba(214, 214, 235, 0.74);
+}
+.NilaiSiswa{
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 15vw;
+    height: 7vh;
+    background-color: white;
+    border-radius: 10px;
+}
+.NilaiSiswa p{
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.aktif{
+    background-color:  cornflowerblue !important;
+    cursor: default !important;
+}
+.NilaiSiswa:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+.jawabanSiswa{
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 15vw;
+    height: 7vh;
+    background-color: white;
+    border-radius: 10px;
+}
+.jawabanSiswa p{
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+.jawabanSiswa:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+.kontrol{
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 15vw;
+    height: 7vh;
+    background-color: white;
+    border-radius: 10px;
+}
+.kontrol p{
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+.kontrol:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+.pilihan{
+    margin-left: 50px;
+    padding: 10px;
+    width: 90vw;
+    height: auto;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#SelectKuis{
+    margin-top: 0px;
+    font-size: 20px;
+    width: 18vw;
+    height: 6vh;
+}
+.bawahPil{
+    margin-top: 10px;
+    width: 90vw;
+    height: 8vh;
+    background-color: cornflowerblue;
+}
+.sekolah{
+    margin-left: 50px;
+    display: inline-block;
+    position: relative;
+    font-size: 25px;
+    width: 25vw;
+    height: 6vh;
+}
+#SelectSekolah{
+    font-size: 20px;
+    width: 15vw;
+}
+.kelas{
+    margin-top: 13px;
+    margin-left: 50px;
+    display: inline-block;
+    position: relative;
+    font-size: 25px;
+    width: 30vw;
+    height: 6vh;
+}
+#SelectKelas{
+    font-size: 20px;
+    width: 20vw;
+}
+.pilCari{
+    display: inline-block;
+    position: relative;
+    margin-left: -40px;
+    width: 10vw;
+    height: 5vh;
+    background-color: white;
+    border-radius: 10px;
+}
+.pilCari p{
+    font-size: 20px;
+    padding-top: 5px;
+    text-align: center;
+}
+.pilCari:hover{
+    cursor: pointer;
+    background-color: rgb(174, 198, 243);
+}
+.pilDownload{
+    display: inline-block;
+    position: relative;
+    margin-left: 30px;
+    width: 10vw;
+    height: 5vh;
+    background-color: white;
+    border-radius: 10px;
+}
+.pilDownload p{
+    font-size: 20px;
+    padding-top: 5px;
+    text-align: center;
+}
+.pilDownload:hover{
+    cursor: pointer;
+    background-color: rgb(174, 198, 243);
+}
+.Isi1{
+    margin-top: -20px;
+    width: 90vw;
+    height: 5vh;
+    border: 2px solid black;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+.Isi1 th{
+    border: 2px solid black;
+    font-size: 23px;
+    background-color: rgb(174, 198, 243);
+}
+.skor {
+    text-align: center;
+    width: 50px;
+    font-size: 18px;
+    padding: 10px;
+}
+#IsiKuis td{
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+}
+.nah{
+    background-color: cornflowerblue !important;
+}
+.benar{
+    background-color: green !important;
+}
+.salah{
+    background-color: red !important;
+}
+@media (max-width : 400px){
+    body{
+        background-color: rgb(170, 213, 219);
+    }
+    .semua{
+        width: 100vw;
+        height: 100vh;
+    }
+    .atas{
+        width: 100vw;
+        height: 12vh;
+        background-color: rgba(90, 90, 136, 0.993);
+    }
+    .atas h1{
+        margin-top: 8px;
+        letter-spacing: 2px;
+        font-size: 20px;
+        padding: 5px;
+        color: white;
+        text-align: center;
+        border: 3px solid white;
+        display: inline-block;
+        border-radius: 15px;
+    }
+    .nk{
+        position: relative;
+        float: right;
+        margin-top: -56px;
+    }
+    .nk img{
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .cari{
+        width: 100vw;
+        height: 10vh;
+        background-color: rgba(214, 214, 235, 0.74);
+    }
+    .NilaiSiswa{
+        display: inline-block;
+        position: relative;
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 25vw;
+        height: 6vh;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .NilaiSiswa p{
+        font-size: 18px;
+        padding-top: 7px;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .aktif{
+        background-color:  cornflowerblue !important;
+        cursor: default !important;
+    }
+    .NilaiSiswa:hover{
+        cursor: pointer;
+        background-color: cornflowerblue;
+    }
+    .jawabanSiswa{
+        display: inline-block;
+        position: relative;
+        margin-top: 0px;
+        margin-left: 8px;
+        width: 32vw;
+        height: 6vh;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .jawabanSiswa p{
+        font-size: 18px;
+        padding-top: 7px;
+        text-align: center;
+    }
+    .jawabanSiswa:hover{
+        cursor: pointer;
+        background-color: cornflowerblue;
+    }
+    .kontrol{
+        display: inline-block;
+        position: relative;
+        margin-top: 13px;
+        margin-left: 8px;
+        width: 30vw;
+        height: 6vh;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .kontrol p{
+        font-size: 18px;
+        padding-top: 8px;
+        text-align: center;
+    }
+    .kontrol:hover{
+        cursor: pointer;
+        background-color: cornflowerblue;
+    }
+    .pilihan{
+        margin-left: 0px;
+        padding: 10px;
+        width: 93vw;
+        height: 24vh;
+        background-color: whitesmoke;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    #SelectKuis{
+        margin-top: 0px;
+        font-size: 18px;
+        width: 35vw;
+        height: 6vh;
+    }
+    .bawahPil{
+        margin-left: -5px;
+        margin-top: 10px;
+        width: 96vw;
+        height: 8vh;
+        background-color: cornflowerblue;
+    }
+    .sekolah{
+        top: 0px;
+        margin-left: 0px;
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        font-size: 20px;
+        width: 25vw;
+        height: 6vh;
+    }
+    #SelectSekolah{
+        font-size: 18px;
+        width: 20vw;
+    }
+    .kelas{
+        margin-top: 0px;
+        margin-left: -8px;
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        font-size: 20px;
+        width: 30vw;
+        height: 6vh;
+    }
+    #SelectKelas{
+        font-size: 18px;
+        width: 20vw;
+    }
+    .pilCari{
+        display: inline-block;
+        position: relative;
+        left: -8px;
+        top: -10px;
+        margin-left: 0px;
+        width: 15vw;
+        height: 5vh;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .pilCari p{
+        font-size: 18px;
+        padding-top: 5px;
+        text-align: center;
+    }
+    .pilCari:hover{
+        cursor: pointer;
+        background-color: rgb(174, 198, 243);
+    }
+    .pilDownload{
+        display: inline-block;
+        position: relative;
+        margin-left: 0px;
+        top: -10px;
+        width: 24vw;
+        height: 5vh;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .pilDownload p{
+        font-size: 18px;
+        padding-top: 5px;
+        text-align: center;
+    }
+    .pilDownload:hover{
+        cursor: pointer;
+        background-color: rgb(174, 198, 243);
+    }
+    .Isi1{
+        margin-left: -8.5px;
+        margin-top: -25px;
+        width: 98vw;
+        height: 5vh;
+        border: 2px solid black;
+        font-size: 18px;
+        border-collapse: collapse;
+    }
+    .Isi1 th{
+        border: 2px solid black;
+        font-size: 18px;
+        background-color: rgb(174, 198, 243);
+    }
+    .skor {
+        text-align: center;
+        width: 50px;
+        font-size: 18px;
+        padding: 10px;
+    }
+}

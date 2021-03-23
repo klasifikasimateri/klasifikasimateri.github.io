@@ -1,0 +1,102 @@
+[
+    {
+        "Soal0":{
+            "pertanyaan":"Garam dapur merupakan salah satu contoh campuran karena tersusun atas materi garam dan iodium. Metode pemisahan campuran yang dapat digunakan untuk memisahkan materi iodium pada garam dapur adalah metode ...",
+            "pilihanA":"Distilasi",
+            "pilihanB":"Filtrasi",
+            "pilihanC":"Sublimasi",
+            "pilihanD":"Kromatografi",
+            "jawaban":"c"
+        }
+    },
+    {
+        "Soal1":{
+            "pertanyaan":"Bensin yang digunakan sebagai bahan bakar motor adalah salah satu senyawa yang dihasilkan dari pemisahan campuran. Metode pemisahan yang digunakan untuk menghasilkan bensin adalah metode ...",
+            "pilihanA":"Distilasi",
+            "pilihanB":"Filtrasi",
+            "pilihanC":"Sublimasi",
+            "pilihanD":"Kromatografi",
+            "jawaban":"a"
+        }
+    },
+    {
+        "Soal2":{
+            "pertanyaan":"Campuran tepung terigu dengan air dapat dipisahkan dengan menggunakan metode filtrasi karena ...",
+            "pilihanA":"Memiliki perbedaan titik didih yang tinggi",
+            "pilihanB":"Memiliki perbedaan kecepatan merambat",
+            "pilihanC":"Memiliki kemampuan untuk mengubah wujud materi",
+            "pilihanD":"Memiliki perbedaan ukuran materi di dalam campuran",
+            "jawaban": "d"
+        }
+    },
+    {
+        "Soal3":{
+            "pertanyaan":"Dalam proses pemisahan campuran metode filtrasi, bagian campuran yang dapat melewati penyaring disebut ...",
+            "pilihanA":"Filtrat",
+            "pilihanB":"Ampas",
+            "pilihanC":"Residu",
+            "pilihanD":"Distilat",
+            "jawaban":"a"
+        }
+    },
+    {
+        "Soal4":{
+            "pertanyaan":"Seorang koki menambahkan berbagai macam bumbu dan pewarna makanan ke dalam makanan yang dibuatnya, untuk membuat makanan tersebut lebih menggugah selera makan. Metode pemisahan campuran yang tepat untuk mengetahui komponen apa saja yang terkandung dalam pewarna makanan adalah metode ...",
+            "pilihanA":"Distilasi",
+            "pilihanB":"Filtrasi",
+            "pilihanC":"Sublimasi",
+            "pilihanD":"Kromatografi",
+            "jawaban":"d"
+        }
+    },
+    {
+        "Soal5":{
+            "pertanyaan":"Perhatikan gambar berikut ini! <br> <img src='Gambar/Distilasi.png' alt='nasi' class='percobaan'> <br> <p class='keteranganS'> Berdasarkan gambar di atas, fungsi dari kondensor dalam pemisahan campuran metode distilasi adalah ... </p>",
+            "pilihanA":"Mendinginkan materi yang telah terpisah dari campuran",
+            "pilihanB":"Mendinginkan campuran yang akan dipisahkan",
+            "pilihanC":"Mendinginkan materi lalu mengubahnya menjadi padatan",
+            "pilihanD":"Mendinginkan materi lalu mengubahnya menjadi gas",
+            "jawaban":"a"
+        }
+    },
+    {
+        "Soal6":{
+            "pertanyaan":"Perhatikan data berikut ini! <ol class='dataK'><li> Mempunyai fase bergerak dan fase tidak bergerak </li><li> Mempunyai fase pemanasan dan fase pengembunan </li><li> Memperhatikan perubahan wujud dari materi </li><li> Dapat menggunakan materi berwujud gas dan sebuah kolom </li><li> Dapat menggunakan materi berwujud cair dan sebuah corong </li></ol> <p class='keteranganS'> Berdasarkan data di atas, ciri-ciri dari pemisahan campuran metode kromatografi ditunjukkan oleh nomor ... </p>",
+            "pilihanA":"1. dan 4.",
+            "pilihanB":"1. dan 5.",
+            "pilihanC":"2. dan 3.",
+            "pilihanD":"4. dan 5.",
+            "jawaban":"a"
+        }
+    },
+    {
+        "Soal7":{
+            "pertanyaan":"Perhatikan data berikut ini! <ol class='dataK'><li> Materi berubah wujud dari wujud padat menjadi wujud gas </li><li> Materi berubah wujud dari wujud gas menjadi wujud cair </li><li> Materi berubah wujud dari wujud padat menjadi wujud cair </li><li> Materi berubah wujud dari wujud cair menjadi wujud gas </li><li> Materi berubah wujud dari wujud gas menjadi wujud padat </li></ol> <p class='keteranganS'> Berdasarkan data di atas, perubahan wujud yang terjadi pada pemisahan campuran metode sublimasi ditunjukkan oleh nomor ... </p>",
+            "pilihanA":"1. dan 4.",
+            "pilihanB":"1. dan 5.",
+            "pilihanC":"2. dan 3.",
+            "pilihanD":"4. dan 5.",
+            "jawaban":"b"
+        }
+    },
+    {
+        "Soal8":{
+            "pertanyaan":"Perhatikan gambar berikut ini! <br> <img src='Gambar/Pertanyaan5/Larutan tanah.jpg' alt='nasi' class='percobaan'> <br> <p class='keteranganS'> Metode pemisahan campuran yang dapat digunakan untuk memurnikan air agar dapat lebih bersih dan dapat digunakan dalam kehidupan sehari-hari adalah metode ... </p>",
+            "pilihanA":"Distilasi dan kromatografi",
+            "pilihanB":"Sublimasi dan filtrasi",
+            "pilihanC":"Filtrasi dan distilasi",
+            "pilihanD":"Kromatografi dan sublimasi",
+            "jawaban":"c" 
+        }
+    },
+    {
+        "Soal9":{
+            "pertanyaan":"Perhatikan gambar berikut ini! <br> <img src='Gambar/Kulit jeruk.png' alt='nasi' class='percobaan1'> <br> <p class='keteranganS'> Berdasarkan gambar di atas, metode pemisahan campuran yang tepat untuk membuat minyak atsiri dari kulit jeruk adalah metode ... </p>",
+            "pilihanA":"Distilasi fraksionisasi",
+            "pilihanB":"Distilasi sederhana",
+            "pilihanC":"Distilasi uap",
+            "pilihanD":"Filtrasi",
+            "jawaban":"c"
+        }
+    }
+]
