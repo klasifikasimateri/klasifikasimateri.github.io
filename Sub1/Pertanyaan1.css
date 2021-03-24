@@ -233,6 +233,9 @@ body{
     margin-left: 45px;
     margin-bottom: 20px;
 }
+.cek{
+    width: 40px;
+}
 .cekbox{
     font-size: 20px;
 }
@@ -646,6 +649,9 @@ input[type="checkbox"]:checked+span .nav_pilihan:after {
         line-height: 1.7;
         margin-left: 15px;
         margin-bottom: 10px;
+    }
+    .cek{
+        width: 45px;
     }
     .ket{
         left: 0px;
