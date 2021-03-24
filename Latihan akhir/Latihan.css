@@ -162,7 +162,7 @@ body{
         position: relative;
         display: inline-block;
         margin-left: 0px !important;
-        width: 31px;
+        width: 45px;
     }
     .cek1{
         width: 300px;
@@ -274,7 +274,7 @@ body{
         height: 5vh;
     }
     .S1Nav p{
-        padding: 4px;
+        padding: 6px;
     }
     .S1Nav:hover{
         cursor: pointer;
@@ -288,10 +288,10 @@ body{
     }
     .keterangan{
         padding: 8px;
-        margin-top: -68px;
+        margin-top: -60px;
         margin-left: 5px;
         width: 48vw;
-        height: 15vh;
+        height: 80px;
         background-color: white;
         border: 2px solid rgb(9, 64, 82);
         border-radius: 10px;
@@ -299,7 +299,7 @@ body{
     .keterangan .ket{
         font-size: 15px;
         padding: 3px;
-        margin-top: -10px;
+        margin-top: -5px;
     }
     .keterangan .put{
         font-size: 14px;
@@ -333,7 +333,7 @@ body{
         border: 3px solid #006A4E;
         border-radius: 15px;
         width: 22vw;
-        height: 4vh;
+        height: 3vh;
         background-color: white;
     }
     .selesai:hover{
@@ -370,7 +370,7 @@ body{
         text-align: justify;
         line-height: 1.5;
         margin-top: 10px;
-        margin-left: 10px;
+        margin-left: 0px;
     }
     .isihasil{
         margin-top: 40px;
