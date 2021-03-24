@@ -133,7 +133,7 @@ dat.onreadystatechange = function () {
         let dataku = JSON.parse(this.responseText);
 
         //random urutan
-        for (var x = 0; x < 50; x++) {
+        for (var x = 0; x < 100; x++) {
             // acak angka dengan batas length.data dan minimum 0
             var random = Math.floor(Math.random() * dataku.length) + 0;
             cek.push(random);
