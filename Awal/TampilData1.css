@@ -109,6 +109,9 @@ a{
     border: 2px solid black;
     border-radius: 5px;
 }
+.hilang{
+    display: none !important;
+}
 #SelectKuis{
     margin-top: 0px;
     font-size: 20px;
@@ -195,6 +198,19 @@ a{
     font-size: 23px;
     background-color: rgb(174, 198, 243);
 }
+.Isi2{
+    margin-top: -20px;
+    width: 90vw;
+    height: 5vh;
+    border: 2px solid black;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+.Isi2 th{
+    border: 2px solid black;
+    font-size: 23px;
+    background-color: rgb(174, 198, 243);
+}
 .skor {
     text-align: center;
     width: 50px;
@@ -202,6 +218,11 @@ a{
     padding: 10px;
 }
 #IsiKuis td{
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+}
+#IsiKuis2 td{
     border: 2px solid black;
     background-color: white;
     text-align: center;
