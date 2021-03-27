@@ -464,11 +464,11 @@ hr{
     .nk{
         position: relative;
         float: right;
-        margin-top: -145px;
+        margin-top: -140px;
     }
     .GH{
-        height: 75px; 
-        width: 75px;
+        height: 60px; 
+        width: 60px;
     }
     #sidebar{
         left: -69vw;
