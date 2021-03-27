@@ -5,7 +5,7 @@
 body{
     background-color: rgb(170, 213, 219);
 }
-@media only screen and (max-width: 380px){
+@media only screen and (max-width: 414px){
     .semua{
         width: 100vw;
         height: 100vw;
@@ -20,11 +20,12 @@ body{
     .BAtas h2{
         line-height: 1.5;
         margin-left: -15px;
-        margin-top: -15px;
+        margin-top: -13px;
         font-size: 20px;
         display: inline-block;
         padding: 15px;
         letter-spacing: 1px;
+        width: 215px;
     }
     .nk{
         position: relative;
@@ -390,7 +391,7 @@ body{
 }
 
 
-@media(min-width: 400px){
+@media(min-width: 1000px){
     * {
         margin: 0;
         padding: 0;

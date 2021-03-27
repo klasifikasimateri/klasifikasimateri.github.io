@@ -561,7 +561,7 @@ input[type="checkbox"]:checked+span .nav_pilihan:after {
     cursor: default !important;
 }
 
-@media only screen and (max-width: 380px){
+@media only screen and (max-width: 414px){
 
     .semua{
         width: 100vw;
@@ -698,6 +698,7 @@ input[type="checkbox"]:checked+span .nav_pilihan:after {
     }
     .tujuan li{
         line-height: 1.5;
+        margin-top: 10px;
         margin-left: 20px;
         text-align: justify;
         font-size: 18px !important;
