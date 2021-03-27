@@ -519,7 +519,7 @@ input[type="checkbox"]:checked+span .nav_pilihan:after {
     cursor: default !important;
 }
 
-@media only screen and (max-width: 380px){
+@media only screen and (max-width: 414px){
 
     .semua{
         width: 100vw;
@@ -730,13 +730,13 @@ input[type="checkbox"]:checked+span .nav_pilihan:after {
     }
     .kecap{
         position: relative;
-        top: -55px;
-        margin-left: 27px; 
+        top: -40px;
+        margin-left: -225px; 
         font-size: 16px;
     }
     .kaleng{
         position: relative;
-        top: -55px;
+        top: -40px;
         margin-left: 65px; 
         font-size: 16px;
     }
