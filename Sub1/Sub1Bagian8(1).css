@@ -430,7 +430,7 @@ hr{
     cursor: default !important;
 }
 
-@media only screen and (max-width: 380px){
+@media only screen and (max-width: 414px){
 
     .semua{
         width: 100vw;

@@ -5,7 +5,7 @@
 body{
     background-color: rgb(170, 213, 219);
 }
-@media only screen and (max-width: 380px){
+@media only screen and (max-width: 414px){
     .semua{
         width: 100vw;
         height: 100vh;
@@ -597,7 +597,7 @@ body{
     }
 }
 
-@media(min-width: 400px){
+@media(min-width: 1000px){
     .BAtas{
         position: relative;
         height: 60px;
