@@ -45,7 +45,7 @@ body{
         border: 3px solid black;
         border-radius: 40px;
         letter-spacing: 1px;
-        margin-left: 0px;
+        margin-left: 50px;
     }
     .konten{
         width: 98vw;
@@ -389,7 +389,6 @@ body{
         background-color: white;
     }
 }
-
 
 @media(min-width: 1000px){
     * {
