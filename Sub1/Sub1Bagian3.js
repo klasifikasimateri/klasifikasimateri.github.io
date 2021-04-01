@@ -22,11 +22,11 @@ function setCurTime(X){
     if(X == 1){
         video.currentTime = 7;
     }else if(X == 2){
-        video.currentTime = 23;
+        video.currentTime = 29;
     }else if(X == 3){
-        video.currentTime = 34;
+        video.currentTime = 45;
     }else if(X == 4){
-        video.currentTime = 60;
+        video.currentTime = 87;
     }
 }
 
