@@ -341,7 +341,7 @@ hr{
     padding: 5px;
     width: 100px;
     margin-left: 25px;
-    margin-top: 0px;
+    margin-top: 10px;
 }
 .ulangP:hover{
     background-color:  rgb(39, 192, 243);
