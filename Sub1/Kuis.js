@@ -11,8 +11,11 @@ var firebaseConfig = {
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 
-let home_klik = document.querySelector('.nk a');
+  window.onbeforeunload = function(event) {
+   return event.returnValue = "Are you sure you want to exit ?";
+  }
 
+let home_klik = document.querySelector('.nk a');
 home_klik.addEventListener('click', function (e) {
     e.preventDefault(e);
     let tanya = confirm("Yakin ingin meninggalkan halaman");
@@ -145,7 +148,7 @@ dat.onreadystatechange = function () {
 
             var x = cek[y];
             soalku.push(x);
-            console.log(x);
+            // console.log(x);
                 let soal = dataku[x]['Soal' + x]['pertanyaan'];
                      let a = dataku[x]['Soal' + x]['pilihanA'];
                      let b = dataku[x]['Soal' + x]['pilihanB'];
