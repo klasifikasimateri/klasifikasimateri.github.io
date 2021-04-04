@@ -12,7 +12,6 @@ var firebaseConfig = {
   firebase.initializeApp(firebaseConfig);
 
 let home_klik = document.querySelector('.nk a');
-
 home_klik.addEventListener('click', function (e) {
     e.preventDefault(e);
     let tanya = confirm("Yakin ingin meninggalkan halaman");
@@ -24,7 +23,6 @@ home_klik.addEventListener('click', function (e) {
 });
 
 let kembali_materi = document.querySelector('.kembali a');
-
 kembali_materi.addEventListener('click', function(e){
     e.preventDefault(e);
     let tanya = confirm("Yakin ingin meninggalkan halaman");
@@ -34,7 +32,6 @@ kembali_materi.addEventListener('click', function(e){
 
     }
 });
-
 
 function aktif(){
     var id =0;
