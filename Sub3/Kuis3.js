@@ -11,7 +11,9 @@ var firebaseConfig = {
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 
-
+window.onbeforeunload = function(event) {
+    return event.returnValue = "Are you sure you want to exit ?";
+}
   
 let home_klik = document.querySelector('.nk a');
 home_klik.addEventListener('click', function (e) {
