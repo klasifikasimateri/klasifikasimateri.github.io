@@ -18,6 +18,8 @@ var kun1 = document.querySelector('.btnkunci1');
 var terkun1 = document.querySelector('.btntkunci1');
 var kun2 = document.querySelector('.btnkunci2');
 var terkun2 = document.querySelector('.btntkunci2');
+var kun3 = document.querySelector('.btnkunci3');
+var terkun3 = document.querySelector('.btntkunci3');
 
 kun.addEventListener('click', function (){
   id = 0;
@@ -50,7 +52,18 @@ kun2.addEventListener('click', function(){
   })
   kun2.className += " hidup";
   terkun2.className = terkun2.className.replace(' hidup', '');
-})
+});
+
+kun3.addEventListener('click', function(){
+  id = 3;
+  var task = firebase.database().ref('kontrol/'+id).set({
+    Nama: "evaluasi",
+    Nilai: 1,
+    Id: 16
+  })
+  kun3.className += " hidup";
+  terkun3.className = terkun3.className.replace(' hidup', '');
+});
 
 terkun.addEventListener('click', function(){
   id = 0;
@@ -77,6 +90,15 @@ terkun2.addEventListener('click', function(){
   });
   terkun2.className += " hidup";
   kun2.className = kun2.className.replace(' hidup', '');
+});
+
+terkun3.addEventListener('click', function(){
+  id = 3;
+  var task = firebase.database().ref('kontrol/'+id).update({
+    Nilai:0
+  });
+  terkun3.className += " hidup";
+  kun3.className = kun3.className.replace(' hidup', '');
 });
 
 function aktif(){
@@ -108,6 +130,14 @@ function aktif(){
       else if ((nilai.Id == 15) && (nilai.Nilai == 0)){
           terkun2.className += " hidup";
           kun2.className = kun2.className.replace(' hidup','');
+      }
+      else if ((nilai.Id == 16) && (nilai.Nilai == 1)){
+        kun3.className += " hidup";
+        terkun3.className = terkun3.className.replace(' hidup','');
+      }
+      else if ((nilai.Id == 16) && (nilai.Nilai == 0)){
+          terkun3.className += " hidup";
+          kun3.className = kun3.className.replace(' hidup','');
       }
   });
 }
