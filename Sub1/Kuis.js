@@ -47,7 +47,7 @@ function aktif(){
         var nilai = data.val();
 
         if ((nilai.Id == 13) && (nilai.Nilai == 1)){
-            tmp.innerHTML = '<div class="full"> <p> Halaman terkunci, silahkan kembali ke halaman sebelumnya </p> </div>';
+            tmp.innerHTML = '<div class="full"> <p> Halaman terkunci, silahkan kembali ke halaman sebelumnya. </p> <br> <button class="back" ><a href="../index.html"> Kembali </a><button> </div>';
             console.log("yes");
         }else{
             console.log("no");

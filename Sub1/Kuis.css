@@ -1114,4 +1114,18 @@ body{
         margin-top: 200px;
         color: white;
     }
+    .full .back{
+        font-size: 20px;
+        margin-top: 25px;
+        width: 100px;
+        height: 50px;
+    }
+    .back a{
+        color: black;
+        text-decoration: none;
+    }
+    .back:hover{
+        background-color: lightblue;
+        cursor: pointer;
+    }
 }
