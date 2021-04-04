@@ -11,8 +11,8 @@ var firebaseConfig = {
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 
-window.onbeforeunload = function(event) {
-   return event.returnValue = "Are you sure you want to exit ?";
+window.onbeforeunload = function() {
+   return "Apakah anda yakin?";
 }
 
 let home_klik = document.querySelector('.nk a');
