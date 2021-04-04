@@ -11,8 +11,9 @@ var firebaseConfig = {
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 
-let home_klik = document.querySelector('.nk a');
 
+  
+let home_klik = document.querySelector('.nk a');
 home_klik.addEventListener('click', function (e) {
     e.preventDefault(e);
     let tanya = confirm("Yakin ingin meninggalkan halaman");
@@ -24,7 +25,6 @@ home_klik.addEventListener('click', function (e) {
 })
 
 let kembali_materi = document.querySelector('.kembali a');
-
 kembali_materi.addEventListener('click', function(e){
     e.preventDefault(e);
     let tanya = confirm("Yakin ingin meninggalkan halaman");
@@ -36,22 +36,22 @@ kembali_materi.addEventListener('click', function(e){
 })
 
 
-// function aktif(){
-//     var id =0;
-//     var task = firebase.database().ref('kontrol/');
-//     var tmp = document.querySelector('body');
+function aktif(){
+    var id =0;
+    var task = firebase.database().ref('kontrol/');
+    var tmp = document.querySelector('body');
 
-//     task.on("child_added", function (data) {
-//         var nilai = data.val();
+    task.on("child_added", function (data) {
+        var nilai = data.val();
 
-//         if ((nilai.Id == 13) && (nilai.Nilai == 1)){
-//             tmp.innerHTML = '<div class="full"> <p> Halaman terkunci </p> </div>';
-//             console.log("yes");
-//         }else{
-//             console.log("no");
-//         }
-//     })
-// }
+        if ((nilai.Id == 15) && (nilai.Nilai == 1)){
+            tmp.innerHTML = '<div class="full"> <p> Halaman terkunci, silahkan kembali ke halaman sebelumnya </p> </div>';
+            console.log("yes");
+        }else{
+            console.log("no");
+        }
+    });
+}
 
 let petunjunya = document.querySelectorAll('.tujuanP');
 let isinya = document.querySelectorAll('.tujuan');
