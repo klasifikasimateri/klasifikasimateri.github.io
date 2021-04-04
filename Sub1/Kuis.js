@@ -12,8 +12,7 @@ var firebaseConfig = {
   firebase.initializeApp(firebaseConfig);
 
 window.onbeforeunload = function(event) {
-    event.preventDefault(event);
-    let tanya = confirm(" Jika anda merefresh, maka semua pekerjaan anda akan terulang!");
+   return event.returnValue = "Are you sure you want to exit ?";
 }
 
 let home_klik = document.querySelector('.nk a');
