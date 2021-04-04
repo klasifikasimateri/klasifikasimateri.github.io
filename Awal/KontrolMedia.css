@@ -144,6 +144,12 @@ a{
     font-size: 18px;
     margin-left: 50px;
 }
+.btnkunci3{
+    background-color: cornflowerblue;
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 30px;
+}
 .btnkunci:hover{
     cursor: pointer;
     background-color: white;
@@ -153,6 +159,10 @@ a{
     background-color: white;
 }
 .btnkunci2:hover{
+    cursor: pointer;
+    background-color: white;
+}
+.btnkunci3:hover{
     cursor: pointer;
     background-color: white;
 }
@@ -174,6 +184,12 @@ a{
     font-size: 18px;
     margin-left: 50px;
 }
+.btntkunci3{
+    background-color: cornflowerblue;
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 50px;
+}
 .btntkunci:hover{
     cursor: pointer;
     background-color: white;
@@ -183,6 +199,10 @@ a{
     background-color: white;
 }
 .btntkunci2:hover{
+    cursor: pointer;
+    background-color: white;
+}
+.btntkunci3:hover{
     cursor: pointer;
     background-color: white;
 }
