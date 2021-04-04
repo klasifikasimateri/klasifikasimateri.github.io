@@ -38,7 +38,6 @@ kembali_materi.addEventListener('click', function(e){
     }
 });
 
-
 function aktif(){
     var id =0;
     var task = firebase.database().ref('kontrol/');
