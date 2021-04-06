@@ -597,7 +597,6 @@ input[type="checkbox"]:checked+span .nav_pilihan:after {
         box-sizing: border-box;
     }
     .tujuan li{
-        position: relative;
         top: -10px;
         line-height: 1.5;
         margin-top: 10px;
