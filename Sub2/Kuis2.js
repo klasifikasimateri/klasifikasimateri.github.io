@@ -12,7 +12,7 @@ var firebaseConfig = {
   firebase.initializeApp(firebaseConfig);
 
 window.onbeforeunload = function(event) {
-    return event.returnValue = "Are you sure you want to exit ?";
+    return event.returnValue = "Apakah anda yakin ?";
 }
 
 let home_klik = document.querySelector('.nk a');
@@ -87,7 +87,7 @@ mulai.addEventListener('click', function (){
         indiator +=1;
     }else if(sekolah.value == "1"){
         sekolah.style.borderColor="black";
-        sekolahmu = "SMP Mantap";
+        sekolahmu = "SMPN 1 Gambut";
     }else if(sekolah.value == "2"){
         sekolah.style.borderColor="black";
         sekolahmu = "SMP Sukses";
@@ -97,10 +97,10 @@ mulai.addEventListener('click', function (){
         indiator+=1;
     }else if(kelas.value == "1"){
         kelas.style.borderColor="black";
-        kelasmu = "7A";
+        kelasmu = "7F";
     }else if(kelas.value == "2"){
         kelas.style.borderColor="black";
-        kelasmu = "7B";
+        kelasmu = "7G";
     }
     // console.log(kelasmu);
     // console.log(sekolahmu);
