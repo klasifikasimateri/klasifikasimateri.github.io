@@ -50,7 +50,7 @@ function aktif(){
             tmp.innerHTML = '<div class="full"> <p> Halaman terkunci, silahkan kembali ke halaman sebelumnya. </p> <br> <button class="back" ><a href="../index.html"> Kembali </a><button> </div>';
             console.log("yes");
         }else{
-            console.log("no");
+            // console.log("no");
         }
     })
 }
@@ -147,7 +147,7 @@ dat.onreadystatechange = function () {
 
             var x = cek[y];
             soalku.push(x);
-            // console.log(x);
+            
                 let soal = dataku[x]['Soal' + x]['pertanyaan'];
                      let a = dataku[x]['Soal' + x]['pilihanA'];
                      let b = dataku[x]['Soal' + x]['pilihanB'];
