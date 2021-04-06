@@ -24,13 +24,13 @@ function readlah() {
     let sekolahfix = '';
 
     if (kelasnya.value == "1") {
-        kelasfix = "7A";
+        kelasfix = "7F";
     } else if (kelasnya.value == "2") {
-        kelasfix = "7B";
+        kelasfix = "7G";
     }
 
     if (sekolah.value == "1") {
-        sekolahfix = "SMP Mantap";
+        sekolahfix = "SMPN 1 Gambut";
     } else if (sekolah.value == "2") {
         sekolahfix = "SMP Sukses";
     }
@@ -87,13 +87,13 @@ function readlah() {
     let sekolahfix = '';
 
     if (kelasnya.value == "1") {
-        kelasfix = "7A";
+        kelasfix = "7F";
     } else if (kelasnya.value == "2") {
-        kelasfix = "7B";
+        kelasfix = "7G";
     }
 
     if (sekolah.value == "1") {
-        sekolahfix = "SMP Mantap";
+        sekolahfix = "SMPN 1 Gambut";
     } else if (sekolah.value == "2") {
         sekolahfix = "SMP Sukses";
     }
@@ -150,13 +150,13 @@ function readlah() {
         let sekolahfix = '';
 
         if (kelasnya.value == "1") {
-            kelasfix = "7A";
+            kelasfix = "7F";
         } else if (kelasnya.value == "2") {
-            kelasfix = "7B";
+            kelasfix = "7G";
         }
 
         if (sekolah.value == "1") {
-            sekolahfix = "SMP Mantap";
+            sekolahfix = "SMPN 1 Gambut";
         } else if (sekolah.value == "2") {
             sekolahfix = "SMP Sukses";
         }
@@ -212,13 +212,13 @@ function readlah() {
         let sekolahfix = '';
 
         if (kelasnya.value == "1") {
-            kelasfix = "7A";
+            kelasfix = "7F";
         } else if (kelasnya.value == "2") {
-            kelasfix = "7B";
+            kelasfix = "7G";
         }
 
         if (sekolah.value == "1") {
-            sekolahfix = "SMP Mantap";
+            sekolahfix = "SMPN 1 Gambut";
         } else if (sekolah.value == "2") {
             sekolahfix = "SMP Sukses";
         }
