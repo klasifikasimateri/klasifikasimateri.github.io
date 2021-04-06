@@ -83,7 +83,7 @@ mulai.addEventListener('click', function (){
         indiator +=1;
     }else if(sekolah.value == "1"){
         sekolah.style.borderColor="black";
-        sekolahmu = "SMP Mantap";
+        sekolahmu = "SMPN 1 Gambut";
     }else if(sekolah.value == "2"){
         sekolah.style.borderColor="black";
         sekolahmu = "SMP Sukses";
@@ -93,10 +93,10 @@ mulai.addEventListener('click', function (){
         indiator+=1;
     }else if(kelas.value == "1"){
         kelas.style.borderColor="black";
-        kelasmu = "7A";
+        kelasmu = "7F";
     }else if(kelas.value == "2"){
         kelas.style.borderColor="black";
-        kelasmu = "7B";
+        kelasmu = "7G";
     }
     if(indiator == 0){
         let awal = document.getElementById("kuis0");
@@ -141,7 +141,7 @@ dat.onreadystatechange = function () {
 
             var x = cek[y];
             soalku.push(x);
-            console.log(x);
+
                 let soal = dataku[x]['Soal' + x]['pertanyaan'];
                      let a = dataku[x]['Soal' + x]['pilihanA'];
                      let b = dataku[x]['Soal' + x]['pilihanB'];
@@ -205,10 +205,10 @@ dat.onreadystatechange = function () {
             let soal_navnya = document.querySelectorAll('.S1Nav');
 
             for (let i = 0; i < soallnya.length; i++) {
-            soallnya[i].addEventListener('click', function () {
-                soal_navnya[i].className = soal_navnya[i].className.replace("putih", " hijau");
-            });
-        }
+                soallnya[i].addEventListener('click', function () {
+                    soal_navnya[i].className = soal_navnya[i].className.replace("putih", " hijau");
+                });
+            }
 
             //Lanjutsoal
             let lanjut = document.querySelectorAll(".nav_lanjut");
