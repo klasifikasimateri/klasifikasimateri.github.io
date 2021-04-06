@@ -652,7 +652,7 @@ input[type="checkbox"]:checked+span .nav_pilihan:after {
     }
     .cek{
         font-size: 18px;
-        width: 70px;
+        width: 100px;
     }
     .ket{
         position: relative;
