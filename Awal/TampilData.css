@@ -237,7 +237,7 @@ tr .ukr3{
     height: 30px;
 }
 
-@media (max-width : 400px){
+@media (max-width : 410px){
     body{
         background-color: rgb(170, 213, 219);
     }
@@ -247,11 +247,11 @@ tr .ukr3{
     }
     .atas{
         width: 100vw;
-        height: 12vh;
+        height: 75px;
         background-color: rgba(90, 90, 136, 0.993);
     }
     .atas h1{
-        margin-top: 8px;
+        margin-top: 5px;
         letter-spacing: 1px;
         font-size: 20px;
         padding: 5px;
@@ -260,6 +260,7 @@ tr .ukr3{
         border: 3px solid white;
         display: inline-block;
         border-radius: 15px;
+        width: 215px;
     }
     .nk{
         position: relative;
@@ -289,7 +290,7 @@ tr .ukr3{
     }
     .NilaiSiswa p{
         font-size: 18px;
-        padding-top: 8px;
+        padding-top: 3px;
         text-align: center;
     }
     a{
@@ -318,7 +319,7 @@ tr .ukr3{
     }
     .jawabanSiswa p{
         font-size: 18px;
-        padding-top: 8px;
+        padding-top: 3px;
         text-align: center;
     }
     .jawabanSiswa:hover{
@@ -328,7 +329,7 @@ tr .ukr3{
     .kontrol{
         display: inline-block;
         position: relative;
-        margin-top: 10px;
+        margin-top: 8px;
         margin-left: 10px;
         width: 35vw;
         height: 6vh;
@@ -337,7 +338,7 @@ tr .ukr3{
     }
     .kontrol p{
         font-size: 18px;
-        padding-top: 8px;
+        padding-top: 3px;
         text-align: center;
     }
     .kontrol:hover{
@@ -348,7 +349,7 @@ tr .ukr3{
         margin-left: 0px;
         padding: 10px;
         width: 93.5vw;
-        height: 20vh;
+        height: auto;
         background-color: whitesmoke;
         border: 2px solid black;
         border-radius: 5px;
@@ -357,22 +358,23 @@ tr .ukr3{
         margin-top: -5px;
         font-size: 18px;
         width: 35vw;
-        height: 6vh;
+        height: 5vh;
     }
     .bawahPil{
         margin-left: -5px;
-        margin-top: 5px;
+        margin-top: 10px;
         width: 96vw;
-        height: 8vh;
+        height: auto;
         background-color: cornflowerblue;
     }
     .sekolah{
         margin-left: 0px;
+        margin-top: 8px;
         display: inline-block;
         position: relative;
-        font-size: 20px;
+        font-size: 18px;
         text-align: center;
-        width: 25vw;
+        width: 50vw;
         height: 6vh;
     }
     #SelectSekolah{
@@ -380,13 +382,13 @@ tr .ukr3{
         width: 25vw;
     }
     .kelas{
-        margin-top: 0px;
+        margin-top: 5px;
         margin-left: 0px;
         display: inline-block;
         position: relative;
         text-align: center;
-        font-size: 20px;
-        width: 30vw;
+        font-size: 18px;
+        width: 47vw;
         height: 6vh;
     }
     #SelectKelas{
@@ -396,16 +398,17 @@ tr .ukr3{
     .pilCari{
         display: inline-block;
         position: relative;
-        margin-left: 0px;
-        top: -5px;
+        margin-left: 15px;
+        padding: 2px;
+        top: -15px;
         width: 15vw;
-        height: 5vh;
+        height: auto;
         background-color: white;
         border-radius: 10px;
     }
     .pilCari p{
         font-size: 18px;
-        padding-top: 5px;
+        padding-top: 1px;
         text-align: center;
     }
     .pilCari:hover{
@@ -415,16 +418,17 @@ tr .ukr3{
     .pilDownload{
         display: inline-block;
         position: relative;
-        margin-left: 0px;
+        margin-left: 5px;
+        padding: 2px;
         width: 22.5vw;
-        top: -5px;
-        height: 5vh;
+        top: -15px;
+        height: auto;
         background-color: white;
         border-radius: 10px;
     }
     .pilDownload p{
         font-size: 18px;
-        padding-top: 5px;
+        padding-top: 1px;
         text-align: center;
     }
     .pilDownload:hover{
@@ -432,9 +436,9 @@ tr .ukr3{
         background-color: rgb(174, 198, 243);
     }
     .Isi1{
-        margin-left: -7px;
+        margin-left: 0px;
         margin-top: -25px;
-        width: 98vw;
+        width: 90vw;
         height: 5vh;
         border: 2px solid black;
         font-size: 18px;
@@ -443,12 +447,11 @@ tr .ukr3{
     .Isi1 th{
         background-color:rgba(68, 68, 110, 0.349) !important;
         border: 2px solid black;
-        font-size: 18px;
     }
     .ukr1 {
         text-align: center;
         width: 200px !important;
-        font-size: 15px !important;
+        font-size: 13px !important;
         padding: 5px !important;
     }
     tr .ukr1{
@@ -458,7 +461,7 @@ tr .ukr3{
     .ukr2 {
         text-align: center;
         width: 100px !important;
-        font-size: 15px !important;
+        font-size: 13px !important;
         padding: 5px !important;
     }
     tr .ukr2{
@@ -468,12 +471,30 @@ tr .ukr3{
     .ukr3 {
         text-align: center;
         width: 50px !important;
-        font-size: 15px !important;
+        font-size: 13px !important;
         padding: 5px !important;
     }
     tr .ukr3{
         background-color: white;
         border: 2px solid black;
     }
-
+    .ukr4 {
+        text-align: center;
+        width: 50px !important;
+        font-size: 13px !important;
+        padding: 5px !important;
+    }
+    tr .ukr4{
+        background-color: white;
+        border: 2px solid black;
+    }
+    .btn{
+        font-size: 10px;
+        background-color: cornflowerblue;
+        font-weight: bold;
+        margin-left: 4px;
+        text-align: center;
+        width: 35px;
+        height: 30px;
+    }
 }
