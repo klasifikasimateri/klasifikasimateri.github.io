@@ -12,30 +12,30 @@ var firebaseConfig = {
   firebase.initializeApp(firebaseConfig);
 
 window.onbeforeunload = function(event) {
-    return event.returnValue = "Apakah anda yakin ?";
+    return event.returnValue = "Semua yang anda kerjakan akan terulang, apakah anda yakin?";
 }
 
-let home_klik = document.querySelector('.nk a');
-home_klik.addEventListener('click', function (e) {
-    e.preventDefault(e);
-    let tanya = confirm("Yakin ingin meninggalkan halaman");
-    if (tanya) {
-        window.location = home_klik.href;
-    } else {
+// let home_klik = document.querySelector('.nk a');
+// home_klik.addEventListener('click', function (e) {
+//     e.preventDefault(e);
+//     let tanya = confirm("Yakin ingin meninggalkan halaman");
+//     if (tanya) {
+//         window.location = home_klik.href;
+//     } else {
 
-    }
-})
+//     }
+// });
 
-let kembali_materi = document.querySelector('.kembali a');
-kembali_materi.addEventListener('click', function(e){
-    e.preventDefault(e);
-    let tanya = confirm("Yakin ingin meninggalkan halaman");
-    if (tanya) {
-        window.location = kembali_materi.href;
-    }else{
+// let kembali_materi = document.querySelector('.kembali a');
+// kembali_materi.addEventListener('click', function(e){
+//     e.preventDefault(e);
+//     let tanya = confirm("Yakin ingin meninggalkan halaman");
+//     if (tanya) {
+//         window.location = kembali_materi.href;
+//     }else{
 
-    }
-})
+//     }
+// });
 
 function aktif(){
     var id =0;
@@ -46,7 +46,7 @@ function aktif(){
         var nilai = data.val();
 
         if ((nilai.Id == 14) && (nilai.Nilai == 1)){
-            tmp.innerHTML = '<div class="full"> <p> Halaman terkunci, silahkan kembali ke halaman sebelumnya </p> </div>';
+            tmp.innerHTML = '<div class="full"> <p> Halaman terkunci, silahkan kembali ke halaman sebelumnya </p> <br> <button class="back" ><a href="Sub2Bagian1.html"> Kembali </a><button> </div>';
             console.log("yes");
         }else{
             console.log("no");
