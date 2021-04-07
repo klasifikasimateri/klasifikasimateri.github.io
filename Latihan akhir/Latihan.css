@@ -431,6 +431,36 @@ body{
         cursor: pointer;
         background-color: white;
     }
+    .full{
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        background-color: teal;
+    }
+    .full p{
+        display: inline-block;
+        font-size: 35px;
+        padding: 1px;
+        margin-top: 200px;
+        color: white;
+    }
+    .full .back{
+        font-size: 20px;
+        margin-top: 25px;
+        width: 100px;
+        height: 50px;
+    }
+    .back a{
+        color: black;
+        text-decoration: none;
+    }
+    .back:hover{
+        background-color: lightblue;
+        cursor: pointer;
+    }
 }
 
 @media(min-width: 1000px){
@@ -886,5 +916,19 @@ body{
         font-size: 50px;
         margin-top: 200px;
         color: white;
+    }
+    .full .back{
+        font-size: 20px;
+        margin-top: 25px;
+        width: 100px;
+        height: 50px;
+    }
+    .back a{
+        color: black;
+        text-decoration: none;
+    }
+    .back:hover{
+        background-color: lightblue;
+        cursor: pointer;
     }
 }
