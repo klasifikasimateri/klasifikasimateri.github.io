@@ -209,23 +209,26 @@ body{
         margin-left: 12px;
         margin-bottom: 10px;
         width: 90vw;
-        height: 52vh;
+        height: auto;
         background-color: rgba(151, 151, 253, 0.712);
     }
     .nomorS{
-        margin-top: 3px;
-        margin-left: 75px;
-        border: 2px solid #006A4E;
-        border-radius: 10px;
+        margin-top: 0px;
+        margin-left: 0px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #006A4E;
+        border-radius: 10px 10px 0px 0px;
         display: inline-block !important;
         text-align: center;
         background-color: white;
-        width: 40vw;
+        width: 90vw;
         height: 5vh;
     }
     .nomorS p{
         display: inline-block !important;
-        padding: 3px;
+        font-size: 20px;
     }
     p .tulis{
         font-size: 20px !important;
@@ -241,11 +244,11 @@ body{
         height: 5vh;
     }
     .S1Nav p{
-        padding: 5px;
+        padding: 4px;
     }
     .S1Nav:hover{
         cursor: pointer;
-        border-radius: 10px;
+        background-color: rgba(151, 151, 253, 0.712);
     }
     .putih{
         background-color: white;
@@ -255,10 +258,10 @@ body{
     }
     .keterangan{
         padding: 8px;
-        margin-top: 20px;
-        margin-left: 5px;
-        width: 48vw;
-        height: 90px;
+        margin-top: 7px;
+        margin-left: 3px;
+        width: 82vw;
+        height: auto;
         background-color: white;
         border: 2px solid rgb(9, 64, 82);
         border-radius: 10px;
@@ -266,12 +269,14 @@ body{
     .keterangan .ket{
         font-size: 15px;
         padding: 3px;
-        margin-top: 0px;
+        margin-top: -2vh;
     }
     .keterangan .put{
         margin-top: 5px;
     }
     .keterangan p{
+        text-align: justify;
+        line-height: 1.5;
         margin-top: 15px;
     }
     .belum{
@@ -291,8 +296,8 @@ body{
     .selesai{
         padding: 10px;
         text-align: center;
-        margin-left: 58vw;
-        margin-top: -75px;
+        margin-left: 26vw;
+        margin-top: 20px;
         border: 3px solid #006A4E;
         border-radius: 15px;
         width: 22vw;
@@ -570,29 +575,32 @@ body{
     .TabNav{
         border: 3px solid #006A4E;
         border-radius: 10px;
-        margin-top: 0px;
         left: 0px;
-        margin-top: -510px;
+        margin-top: -505px;
         position: relative;
         float: right;
         width: 25.5vw;
-        height: 57vh;
+        height: 39.5vh;
         background-color: rgba(151, 151, 253, 0.712);
     }
     .nomorS{
-        margin-top: 10px;
-        margin-left: 65px;
-        border: 2px solid #006A4E;
-        border-radius: 10px;
+        margin-top: 0px;
+        margin-left: 0px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #006A4E;
+        border-radius: 10px 10px 0px 0px;
         display: inline-block;
         text-align: center;
         background-color: white;
-        width: 15vw;
+        width: 25.5vw;
         height: 5vh;
     }
     .nomorS p{
+        font-size: 23px;
         display: inline-block;
-        padding: 7px;
+        padding-top: 5px;
     }
     p .tulis{
         font-size: 20px !important;
@@ -604,12 +612,12 @@ body{
     }
     .S1Nav{
         margin-top: 15px;
-        margin-left: 40px;
+        margin-left: 10px;
         border: 2px solid rgb(9, 64, 82);
         border-radius: 15px !important;
         display: inline-block;
         text-align: center;
-        width: 8vw;
+        width: 5vw;
         height: 5vh;
     }
     .S1Nav p{
@@ -617,7 +625,7 @@ body{
     }
     .S1Nav:hover{
         cursor: pointer;
-        border-radius: 10px;
+        background-color: rgba(151, 151, 253, 0.712);
     }
     .putih{
         background-color: white;
@@ -627,10 +635,10 @@ body{
     }
     .keterangan{
         padding: 10px;
-        margin-top: 80px;
+        margin-top: 25px;
         margin-left: 0px;
         width: 24vw;
-        height: 13vh;
+        height: auto;
         background-color: white;
         border: 3px solid #006A4E;
         border-radius: 10px;
@@ -642,10 +650,12 @@ body{
         padding: 3px;
     }
     .keterangan .put{
-        margin-top: 5px;
+        margin-top: 0px;
     }
     .keterangan p{
-        margin-top: 20px;
+        line-height: 1.5;
+        text-align: justify;
+        margin-top: 15px;
     }
     .belum{
         border: 3px solid #006A4E;
@@ -664,7 +674,7 @@ body{
     .selesai{
         padding: 10px;
         text-align: center;
-        margin-top: -178px;
+        margin-top: 15px;
         margin-left: 120px;
         border: 3px solid #006A4E;
         border-radius: 15px;
