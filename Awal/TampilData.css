@@ -236,6 +236,10 @@ tr .ukr3{
     width: 70px;
     height: 30px;
 }
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+}
 
 @media (max-width : 410px){
     body{
