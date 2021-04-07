@@ -285,15 +285,15 @@ tr .ukr3{
         position: relative;
         top: 0px;
         left: 0px;
-        margin-top: 0px;
-        margin-left: 0px;
-        width: 25vw;
-        height: 6vh;
+        margin-top: 5px;
+        margin-left: -10px;
+        width: 19vw;
+        height: auto;
         background-color: white;
         border-radius: 10px;
     }
     .NilaiSiswa p{
-        font-size: 18px;
+        font-size: 17px;
         padding-top: 3px;
         text-align: center;
     }
@@ -315,14 +315,14 @@ tr .ukr3{
         margin-top: 0px;
         margin-left: 0px;
         top: 0px;
-        left: 5px;
-        width: 35vw;
-        height: 6vh;
+        left: 8px;
+        width: 25vw;
+        height: auto;
         background-color: white;
         border-radius: 10px;
     }
     .jawabanSiswa p{
-        font-size: 18px;
+        font-size: 17px;
         padding-top: 3px;
         text-align: center;
     }
@@ -333,15 +333,16 @@ tr .ukr3{
     .kontrol{
         display: inline-block;
         position: relative;
-        margin-top: 8px;
-        margin-left: 10px;
-        width: 35vw;
-        height: 6vh;
+        margin-top: 0px;
+        margin-left: 0px;
+        left: 15px;
+        width: 20vw;
+        height: auto;
         background-color: white;
         border-radius: 10px;
     }
     .kontrol p{
-        font-size: 18px;
+        font-size: 17px;
         padding-top: 3px;
         text-align: center;
     }
@@ -352,7 +353,7 @@ tr .ukr3{
     .pilihan{
         margin-left: 0px;
         padding: 10px;
-        width: 93.5vw;
+        width: 92.5vw;
         height: auto;
         background-color: whitesmoke;
         border: 2px solid black;
@@ -424,14 +425,14 @@ tr .ukr3{
         position: relative;
         margin-left: 5px;
         padding: 2px;
-        width: 22.5vw;
+        width: 22vw;
         top: -15px;
         height: auto;
         background-color: white;
         border-radius: 10px;
     }
     .pilDownload p{
-        font-size: 18px;
+        font-size: 16px;
         padding-top: 1px;
         text-align: center;
     }
@@ -440,9 +441,9 @@ tr .ukr3{
         background-color: rgb(174, 198, 243);
     }
     .Isi1{
-        margin-left: 0px;
+        margin-left: -4px;
         margin-top: -25px;
-        width: 90vw;
+        width: 85vw;
         height: 5vh;
         border: 2px solid black;
         font-size: 18px;
@@ -455,7 +456,7 @@ tr .ukr3{
     .ukr1 {
         text-align: center;
         width: 200px !important;
-        font-size: 13px !important;
+        font-size: 12px !important;
         padding: 5px !important;
     }
     tr .ukr1{
@@ -465,7 +466,7 @@ tr .ukr3{
     .ukr2 {
         text-align: center;
         width: 100px !important;
-        font-size: 13px !important;
+        font-size: 12px !important;
         padding: 5px !important;
     }
     tr .ukr2{
@@ -475,7 +476,7 @@ tr .ukr3{
     .ukr3 {
         text-align: center;
         width: 50px !important;
-        font-size: 13px !important;
+        font-size: 12px !important;
         padding: 5px !important;
     }
     tr .ukr3{
@@ -485,7 +486,7 @@ tr .ukr3{
     .ukr4 {
         text-align: center;
         width: 50px !important;
-        font-size: 13px !important;
+        font-size: 12px !important;
         padding: 5px !important;
     }
     tr .ukr4{
