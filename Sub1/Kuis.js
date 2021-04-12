@@ -11,31 +11,41 @@ var firebaseConfig = {
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 
-window.onbeforeunload = function(event) {
-    return event.returnValue = "Semua yang anda kerjakan akan terulang, apakah anda yakin?";
-}
+// window.onbeforeunload = function(event) {
+//     return event.returnValue = "Semua yang anda kerjakan akan terulang, apakah anda yakin?";
+// }
 
-// let home_klik = document.querySelector('.nk a');
-// home_klik.addEventListener('click', function (e) {
-//     e.preventDefault(e);
-//     let tanya = confirm("Yakin ingin meninggalkan halaman");
-//     if (tanya) {
-//         window.location = home_klik.href;
-//     } else {
+let home_klik = document.querySelector('.nk a');
+home_klik.addEventListener('click', function (e) {
+    e.preventDefault(e);
+    let tanya = confirm("Yakin ingin meninggalkan halaman");
+    if (tanya) {
+        window.location = home_klik.href;
+        sessionStorage.removeItem('nama');
+        sessionStorage.removeItem('kelas');
+        sessionStorage.removeItem('sekolah');
+            for(var i = 0; i < 10; i++){
+                sessionStorage.removeItem('JawabanU'+i);
+            }
+    } else {
 
-//     }
-// });
+    }
+});
 
-// let kembali_materi = document.querySelector('.kembali a');
-// kembali_materi.addEventListener('click', function(e){
-//     e.preventDefault(e);
-//     let tanya = confirm("Yakin ingin meninggalkan halaman");
-//     if (tanya) {
-//         window.location = kembali_materi.href;
-//     }else{
+let kembali_materi = document.querySelector('.kembali a');
+kembali_materi.addEventListener('click', function(e){
+    e.preventDefault(e);
+    let tanya = confirm("Yakin ingin meninggalkan halaman");
+    if (tanya) {
+        window.location = kembali_materi.href;
+    }else{
 
-//     }
-// });
+    }
+});
+
+var namaS = sessionStorage.getItem('nama');
+var kelasS = sessionStorage.getItem('kelas');
+var sekolahS = sessionStorage.getItem('sekolah');
 
 function aktif(){
     var id =0;
@@ -48,7 +58,22 @@ function aktif(){
         if ((nilai.Id == 13) && (nilai.Nilai == 1)){
             tmp.innerHTML = '<div class="full"> <p> Halaman terkunci, silahkan tekan kembali untuk ke halaman sebelumnya. </p> <br> <button class="back" ><a href="Sub1Bagian1.html"> Kembali </a><button> </div>';
         }else{
-            // console.log("no");
+            if(namaS != null && kelasS != null && sekolahS != null){
+                let awal = document.getElementById("kuis0");
+                awal.classList.remove("hilang");
+                document.getElementById("data").style.display="none";
+                let awal1 = document.getElementById("Kuisku");
+                awal1.classList.remove("hilang");
+                let awal2 = document.getElementById("awalan");
+                awal2.classList.remove("awalan");
+                if(awal2.className.indexOf("Formkuis") == -1){
+                    awal2.className += "Formkuis";
+                }
+        
+                nama = namaS;
+                sekolahmu = sekolahS;
+                kelasmu = kelasS;
+            }
         }
     });
 }
@@ -73,6 +98,7 @@ let soalku = [];
 let indiator = 0;
 let sekolahmu = "";
 let kelasmu = "";
+let namamu = "";
 
 mulai.addEventListener('click', function (){
     if(nama.value == ""){
@@ -80,6 +106,8 @@ mulai.addEventListener('click', function (){
         indiator +=1;
     }else{
         nama.style.borderColor="black";
+        namamu = nama.value;
+        sessionStorage.setItem('nama', namamu);
     }
     if(sekolah.value == "0"){
         sekolah.style.borderColor="red";
@@ -87,6 +115,7 @@ mulai.addEventListener('click', function (){
     }else if(sekolah.value == "1"){
         sekolah.style.borderColor="black";
         sekolahmu = "SMPN 1 Gambut";
+        sessionStorage.setItem('sekolah', sekolahmu);
     }else if(sekolah.value == "2"){
         sekolah.style.borderColor="black";
         sekolahmu = "SMP Sukses";
@@ -97,9 +126,11 @@ mulai.addEventListener('click', function (){
     }else if(kelas.value == "1"){
         kelas.style.borderColor="black";
         kelasmu = "7F";
+        sessionStorage.setItem('kelas', kelasmu);
     }else if(kelas.value == "2"){
         kelas.style.borderColor="black";
         kelasmu = "7G";
+        sessionStorage.setItem('kelas', kelasmu);
     }
 
     if(indiator == 0){
@@ -132,19 +163,53 @@ dat.onreadystatechange = function () {
     if (dat.readyState == 4 && dat.status == 200) {
         let dataku = JSON.parse(this.responseText);
 
-        //random urutan
-        for (var x = 0; x < 100; x++) {
-            // acak angka dengan batas length.data dan minimum 0
-            var random = Math.floor(Math.random() * dataku.length) + 0;
-            cek.push(random);
+        var SoalR = sessionStorage.getItem('SoalR');
+
+        if(SoalR != null){
+            let soal_navnya = document.querySelectorAll('.S1Nav');
+            var SoalS = SoalR.split(',');
+            var pilihanS = [];
+
+            cek = Array.from(new Set(SoalS));
+
+            setTimeout(function(){ 
+                for(var p = 0; p < 10; p++){
+
+                    pilihanS.push(sessionStorage.getItem('JawabanU'+p));
+
+                    if(pilihanS != null){
+                        var pilihanU = ('input[name="soal' + SoalS[p] + '"][value="' + pilihanS[p] + '"]');
+
+                        if(document.querySelector(pilihanU) != null){
+                            document.querySelector(pilihanU).checked = true;
+                            soal_navnya[p].className = soal_navnya[p].className.replace("putih", " hijau");
+                            namamu = nama;
+                        }else{
+
+                        }
+                    }
+                }
+            }, 3000);
+        }else{
+            //random urutan
+            for (var x = 0; x < 100; x++) {
+                // acak angka dengan batas length.data dan minimum 0
+                var random = Math.floor(Math.random() * dataku.length) + 0;
+                cek.push(random);
+            }
+            cek = Array.from(new Set(cek));
         }
-        cek = Array.from(new Set(cek));
 
         //pengambilan 10 data
         for (var y = 0; y < 10; y++) {
 
             var x = cek[y];
             soalku.push(x);
+
+            // season storage
+            if(SoalR == null){
+                sessionStorage.setItem('SoalR', soalku);
+            }
 
                 let soal = dataku[x]['Soal' + x]['pertanyaan'];
                      let a = dataku[x]['Soal' + x]['pilihanA'];
@@ -210,8 +275,19 @@ dat.onreadystatechange = function () {
 
             for (let i = 0; i < soallnya.length; i++) {
             soallnya[i].addEventListener('click', function () {
+                soal_navnya[i].className = soal_navnya[i].className.replace("putih", " hijau");
 
-             soal_navnya[i].className = soal_navnya[i].className.replace("putih", " hijau");
+                let x= cek[i];
+                let pil_user = [];
+                let form = document.querySelector(".soall"+x);
+                let data = new FormData (form);
+                let jwb_user = '';
+                for (const entry of data) {
+                    jwb_user = entry[1];
+                    pil_user.push(jwb_user);
+                    //sessionstorage
+                    sessionStorage.setItem('JawabanU'+i, pil_user);
+                }
 
                 });
             }
@@ -302,12 +378,16 @@ function skor(){
         akhir.className += "hilang";
         let formAkhir = document.getElementById("hasilAkhir");
         formAkhir.classList.remove("hilang");
-        let namamu = document.getElementById("namamu").innerHTML=nama.value;
+        let namaku = document.getElementById("namamu").innerHTML=namamu;
         let sekolahku = document.getElementById("sekolahmu").innerHTML=sekolahmu;
         let kelasku = document.getElementById("kelasmu").innerHTML=kelasmu;
         let nilaimu = document.getElementById("nilaimu").innerHTML=skor1;
         let waktunya = waktu();
         let harinya = hari();
+
+        sessionStorage.removeItem('nama');
+        sessionStorage.removeItem('kelas');
+        sessionStorage.removeItem('sekolah');
 
     for (let i = 0; i < cek.length; i++) {
         for (let j = 0; j < cek.length; j++) {
@@ -316,6 +396,7 @@ function skor(){
                 new_jwb_urut_no.push(cek[j]);
             }
         }
+        sessionStorage.removeItem('JawabanU'+i);
     }
     createTask(sekolahmu, namamu, kelasmu, skor1, waktunya, harinya, new_jwb_urut);
     }
