@@ -11,10 +11,6 @@ var firebaseConfig = {
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 
-// window.onbeforeunload = function(event) {
-//     return event.returnValue = "Semua yang anda kerjakan akan terulang, apakah anda yakin?";
-// }
-
 let home_klik = document.querySelector('.nk a');
 home_klik.addEventListener('click', function (e) {
     e.preventDefault(e);
@@ -384,6 +380,12 @@ function skor(){
         let nilaimu = document.getElementById("nilaimu").innerHTML=skor1;
         let waktunya = waktu();
         let harinya = hari();
+
+        if(skor1 < 70){
+            document.querySelector(".lebih").className += " hilang";
+        }else{
+            document.querySelector(".kurang").className += " hilang";
+        }
 
         sessionStorage.removeItem('nama');
         sessionStorage.removeItem('kelas');
