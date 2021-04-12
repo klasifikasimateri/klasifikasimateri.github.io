@@ -379,9 +379,9 @@ function skor(){
         let waktunya = waktu();
         let harinya = hari();
 
-        if(skor1 < 70){
+        if(skor1 < 70 && document.querySelector(".lebih").className.indexOf("hilang" != -1)){
             document.querySelector(".lebih").className += " hilang";
-        }else{
+        }else if(document.querySelector(".kurang").className.indexOf("hilang" != -1)){
             document.querySelector(".kurang").className += " hilang";
         }
 

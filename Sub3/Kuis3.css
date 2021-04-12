@@ -360,7 +360,7 @@ body{
         margin-top: 40px;
         margin-bottom: 50px;
         width: 80vw;
-        height: 49vh;
+        height: auto;
         border: 3px solid rgba(151, 151, 253, 0.712);
         border-radius: 10px;
         padding: 10px;
@@ -402,6 +402,10 @@ body{
     .lanjut1 a{
         text-decoration: none;
         color: black;
+    }
+    .kurang p{
+        text-align: justify;
+        line-height: 1.5;
     }
     .kembali1:hover{
         cursor: pointer;
@@ -825,7 +829,7 @@ body{
         margin-left: 0px;
         margin-top: 50px;
         width: 50vw;
-        height: 35vh;
+        height: auto;
         border: 3px solid rgba(151, 151, 253, 0.712);
         border-radius: 10px;
         padding: 10px;
@@ -863,6 +867,10 @@ body{
     .lanjut1 a{
         text-decoration: none;
         color: black;
+    }
+    .kurang p{
+        text-align: justify;
+        line-height: 1.5;
     }
     .kembali1:hover{
         cursor: pointer;
