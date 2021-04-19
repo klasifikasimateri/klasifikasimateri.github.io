@@ -24,6 +24,7 @@ home_klik.addEventListener('click', function (e) {
         sessionStorage.removeItem('nama');
         sessionStorage.removeItem('kelas');
         sessionStorage.removeItem('sekolah');
+        sessionStorage.removeItem('SoalR');
             for(var i = 0; i < 10; i++){
                 sessionStorage.removeItem('JawabanU'+i);
             }
@@ -70,7 +71,7 @@ function aktif(){
                     awal2.className += "Formkuis";
                 }
         
-                nama = namaS;
+                namamu = namaS;
                 sekolahmu = sekolahS;
                 kelasmu = kelasS;
             }
@@ -183,7 +184,6 @@ dat.onreadystatechange = function () {
                         if(document.querySelector(pilihanU) != null){
                             document.querySelector(pilihanU).checked = true;
                             soal_navnya[p].className = soal_navnya[p].className.replace("putih", " hijau");
-                            namamu = nama;
                         }else{
 
                         }
@@ -388,6 +388,7 @@ function skor(){
         sessionStorage.removeItem('nama');
         sessionStorage.removeItem('kelas');
         sessionStorage.removeItem('sekolah');
+        sessionStorage.removeItem('SoalR');
 
     for (let i = 0; i < cek.length; i++) {
         for (let j = 0; j < cek.length; j++) {
