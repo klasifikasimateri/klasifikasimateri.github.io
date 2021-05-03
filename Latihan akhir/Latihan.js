@@ -379,6 +379,12 @@ function skor(){
         let waktunya = waktu();
         let harinya = hari();
 
+        if(skor1 < 70){
+            document.querySelector(".lebih").className += " hilang";
+        }else{
+            document.querySelector(".kurang").className += " hilang";
+        }
+
         sessionStorage.removeItem('nama');
         sessionStorage.removeItem('kelas');
         sessionStorage.removeItem('sekolah');
