@@ -344,7 +344,7 @@ function readlah() {
         if ((sekolahfix != '') && (kelasfix != '')) {
             let jwbfixx = [];
     
-            let jwb2 = ["a", "b", "b", "c", "a", "b", "c", "c", "b", "d", "b", "d", "a", "b", "d", "d", "a", "b", "d", "a"];
+            let jwb2 = ["a", "b", "b", "c", "a", "b", "c", "c", "b", "d", "b", "d", "a", "b", "d", "c", "a", "b", "d", "a"];
         
             let hhh = `<tr><td class="nah" colspan="2">Kunci Jawaban </td>`;
             for (let i = 0; i < jwb2.length; i++) {
@@ -379,7 +379,7 @@ function readlah() {
         } else if (sekolahfix != '') {
             let jwbfixx = [];
     
-            let jwb2 = ["a", "b", "b", "c", "a", "b", "c", "c", "b", "d", "b", "d", "a", "b", "d", "d", "a", "b", "d", "a"];
+            let jwb2 = ["a", "b", "b", "c", "a", "b", "c", "c", "b", "d", "b", "d", "a", "b", "d", "c", "a", "b", "d", "a"];
         
             let hhh = `<tr><td class="nah" colspan="2">Kunci Jawaban </td>`;
             for (let i = 0; i < jwb2.length; i++) {
